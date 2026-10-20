@@ -1,0 +1,783 @@
+{
+ "lesson": 15,
+ "title": "Который час",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: часы из блока Б3, П24 который час, П25 во сколько, движок Д6 время вперёд. Слов: 12. Числа до 59 нужны для минут, они были в уроке 10."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "die Uhr",
+     "ru": "часы; час при указании времени",
+     "example": "Es ist acht Uhr."
+    },
+    {
+     "type": "word",
+     "de": "die Stunde",
+     "ru": "час как длительность",
+     "example": "eine Stunde"
+    },
+    {
+     "type": "word",
+     "de": "die Minute",
+     "ru": "минута",
+     "example": "zehn Minuten"
+    },
+    {
+     "type": "word",
+     "de": "halb",
+     "ru": "половина",
+     "example": "halb neun"
+    },
+    {
+     "type": "word",
+     "de": "Viertel",
+     "ru": "четверть",
+     "example": "Viertel nach acht"
+    },
+    {
+     "type": "word",
+     "de": "vor",
+     "ru": "до, без",
+     "example": "Viertel vor neun"
+    },
+    {
+     "type": "word",
+     "de": "nach",
+     "ru": "после",
+     "example": "zehn nach acht"
+    },
+    {
+     "type": "word",
+     "de": "um",
+     "ru": "в (о времени)",
+     "example": "um acht Uhr"
+    },
+    {
+     "type": "word",
+     "de": "früh",
+     "ru": "рано",
+     "example": "Ich arbeite früh."
+    },
+    {
+     "type": "word",
+     "de": "spät",
+     "ru": "поздно",
+     "example": "Es ist spät."
+    },
+    {
+     "type": "word",
+     "de": "später",
+     "ru": "позже",
+     "example": "Bis später!"
+    },
+    {
+     "type": "word",
+     "de": "beginnen: der Kurs beginnt",
+     "ru": "начинаться",
+     "example": "Der Kurs beginnt um neun."
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: часы, час, минута, половина, четверть, до, после, в восемь, рано, поздно, позже, начинаться."
+    },
+    {
+     "type": "note",
+     "text": "Часы, показ и эхо. Halb neun это половина девятого, точно как по-русски."
+    },
+    {
+     "type": "show",
+     "de": "Es ist acht Uhr.",
+     "ru": "8:00"
+    },
+    {
+     "type": "show",
+     "de": "Es ist halb neun.",
+     "ru": "8:30"
+    },
+    {
+     "type": "show",
+     "de": "Es ist Viertel nach acht.",
+     "ru": "8:15"
+    },
+    {
+     "type": "show",
+     "de": "Es ist Viertel vor neun.",
+     "ru": "8:45"
+    },
+    {
+     "type": "show",
+     "de": "Es ist zehn nach acht.",
+     "ru": "8:10"
+    },
+    {
+     "type": "show",
+     "de": "Es ist zehn vor neun.",
+     "ru": "8:50"
+    },
+    {
+     "type": "show",
+     "de": "Es ist acht Uhr dreißig.",
+     "ru": "8:30 официально"
+    },
+    {
+     "type": "show",
+     "de": "Es ist zwanzig Uhr dreißig.",
+     "ru": "20:30 официально"
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг часов, тьютор пишет время, ученица говорит: 9:00, 9:30, 9:15, 9:45, 10:00, 12:30, 7:15, 6:45, 11:00, 13:30 (официально)."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь готовить",
+     "answer": "Ich koche gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь читать",
+     "answer": "Ich lese nicht gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, что она любит делать",
+     "answer": "Was machst du gern?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что находишь город красивым",
+     "answer": "Ich finde die Stadt schön."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, как он находит курс",
+     "answer": "Wie finden Sie den Kurs?"
+    },
+    {
+     "type": "task",
+     "prompt": "Предложи подруге кофе",
+     "answer": "Möchtest du Kaffee?"
+    },
+    {
+     "type": "task",
+     "prompt": "Согласись с удовольствием",
+     "answer": "Ja, gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь Бремен, но город дорогой",
+     "answer": "Ich mag Bremen, aber die Stadt ist teuer."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь мясо",
+     "answer": "Ich mag Fleisch nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он любит футбол",
+     "answer": "Mein Mann mag Fußball."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы живёте вместе",
+     "answer": "Wir wohnen zusammen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про родителей, что они живут в Москве",
+     "answer": "Meine Eltern wohnen in Moskau."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя двое детей",
+     "answer": "Ich habe zwei Kinder."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, кем работаешь",
+     "answer": "Ich arbeite als {профессия}."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, сколько ей лет",
+     "answer": "Wie alt bist du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна работать",
+     "answer": "Ich muss arbeiten."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сегодня не можешь прийти",
+     "answer": "Ich kann heute nicht kommen."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, придёт ли она завтра",
+     "answer": "Kommst du morgen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, когда она придёт",
+     "answer": "Wann kommst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть запись к врачу",
+     "answer": "Ich habe einen Termin."
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 45",
+     "answer": "fünfundvierzig"
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 12",
+     "answer": "zwölf"
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П24. Который час"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Wie spät ist es?",
+     "ru": "Который час?"
+    },
+    {
+     "type": "show",
+     "de": "Es ist acht Uhr.",
+     "ru": "Восемь часов."
+    },
+    {
+     "type": "show",
+     "de": "Es ist halb neun.",
+     "ru": "Половина девятого."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: время. Вопрос дословно «как поздно это»; ответ всегда начинается с Es ist."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Wie ___ ist es?",
+     "answer": "Wie spät ist es?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Es ist acht ___.",
+     "answer": "Es ist acht Uhr."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Es ist ___ neun. (8:30)",
+     "answer": "Es ist halb neun."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Es ist Viertel ___ acht. (8:15)",
+     "answer": "Es ist Viertel nach acht."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, который час",
+     "answer": "Wie spät ist es?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: восемь часов",
+     "answer": "Es ist acht Uhr."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: половина девятого",
+     "answer": "Es ist halb neun."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: четверть девятого",
+     "answer": "Es ist Viertel nach acht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: без четверти девять",
+     "answer": "Es ist Viertel vor neun."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: десять минут девятого",
+     "answer": "Es ist zehn nach acht."
+    },
+    {
+     "type": "carousel",
+     "prompt": "10:00",
+     "answer": "Es ist zehn Uhr."
+    },
+    {
+     "type": "carousel",
+     "prompt": "10:30",
+     "answer": "Es ist halb elf."
+    },
+    {
+     "type": "carousel",
+     "prompt": "10:15",
+     "answer": "Es ist Viertel nach zehn."
+    },
+    {
+     "type": "carousel",
+     "prompt": "10:45",
+     "answer": "Es ist Viertel vor elf."
+    },
+    {
+     "type": "carousel",
+     "prompt": "12:00",
+     "answer": "Es ist zwölf Uhr."
+    },
+    {
+     "type": "carousel",
+     "prompt": "7:30",
+     "answer": "Es ist halb acht."
+    },
+    {
+     "type": "carousel",
+     "prompt": "9:10",
+     "answer": "Es ist zehn nach neun."
+    },
+    {
+     "type": "carousel",
+     "prompt": "9:50",
+     "answer": "Es ist zehn vor zehn."
+    },
+    {
+     "type": "carousel",
+     "prompt": "15:30 официально",
+     "answer": "Es ist fünfzehn Uhr dreißig."
+    },
+    {
+     "type": "carousel",
+     "prompt": "6:00",
+     "answer": "Es ist sechs Uhr."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси прохожего, который час: сначала «извините»",
+     "answer": "Entschuldigung, wie spät ist es?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Es ist acht Uhr. Скажи, что уже поздно: «это поздно»",
+     "answer": "Es ist spät."
+    },
+    {
+     "type": "transform",
+     "prompt": "Скажи «до скорого»",
+     "answer": "Bis später!"
+    },
+    {
+     "type": "reverse",
+     "de": "Es ist halb sieben."
+    },
+    {
+     "type": "reverse",
+     "de": "Es ist Viertel vor zwölf."
+    },
+    {
+     "type": "reverse",
+     "de": "Wie spät ist es?"
+    },
+    {
+     "type": "heading",
+     "text": "П25 и движок Д6. Во сколько, и время вперёд"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Um wie viel Uhr beginnt der Kurs?",
+     "ru": "Во сколько начинается курс?"
+    },
+    {
+     "type": "show",
+     "de": "Um neun Uhr.",
+     "ru": "В девять."
+    },
+    {
+     "type": "show",
+     "de": "Um acht Uhr arbeite ich.",
+     "ru": "В восемь я работаю."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: um плюс время. Третье предложение важнее всех: если время стоит впереди, глагол всё равно на втором месте, а ich уходит за глагол. Не «Um acht Uhr ich arbeite»."
+    },
+    {
+     "type": "label",
+     "text": "Показ движка, тьютор читает пары"
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich arbeite um acht Uhr.",
+     "to": "Um acht Uhr arbeite ich."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich habe heute Zeit.",
+     "to": "Heute habe ich Zeit."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich komme morgen.",
+     "to": "Morgen komme ich."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich gehe jetzt nach Hause.",
+     "to": "Jetzt gehe ich nach Hause."
+    },
+    {
+     "type": "label",
+     "text": "С опорой, предложение показано"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich arbeite um neun Uhr. Начни со времени",
+     "answer": "Um neun Uhr arbeite ich."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich habe morgen Zeit. Начни с morgen",
+     "answer": "Morgen habe ich Zeit."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich trinke um sieben Uhr Kaffee. Начни со времени",
+     "answer": "Um sieben Uhr trinke ich Kaffee."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich lerne heute Deutsch. Начни с heute",
+     "answer": "Heute lerne ich Deutsch."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich muss jetzt gehen. Начни с jetzt",
+     "answer": "Jetzt muss ich gehen."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich möchte um zwölf Uhr essen. Начни со времени",
+     "answer": "Um zwölf Uhr möchte ich essen."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, во сколько начинается курс",
+     "answer": "Um wie viel Uhr beginnt der Kurs?"
+    },
+    {
+     "type": "task",
+     "prompt": "Ответь: в девять",
+     "answer": "Um neun Uhr."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в восемь ты работаешь, начиная со времени",
+     "answer": "Um acht Uhr arbeite ich."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сегодня у тебя есть время, начиная с «сегодня»",
+     "answer": "Heute habe ich Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что завтра ты придёшь, начиная с «завтра»",
+     "answer": "Morgen komme ich."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в семь ты пьёшь кофе",
+     "answer": "Um sieben Uhr trinke ich Kaffee."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в восемь работаю",
+     "answer": "Um acht Uhr arbeite ich."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сегодня есть время",
+     "answer": "Heute habe ich Zeit."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в шесть иду домой",
+     "answer": "Um sechs Uhr gehe ich nach Hause."
+    },
+    {
+     "type": "carousel",
+     "prompt": "завтра учу немецкий",
+     "answer": "Morgen lerne ich Deutsch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в двенадцать ем",
+     "answer": "Um zwölf Uhr esse ich."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сейчас должна идти",
+     "answer": "Jetzt muss ich gehen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в десять есть запись",
+     "answer": "Um zehn Uhr habe ich einen Termin."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в семь пью кофе",
+     "answer": "Um sieben Uhr trinke ich Kaffee."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сегодня не могу",
+     "answer": "Heute kann ich nicht."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в девять начинается курс",
+     "answer": "Um neun Uhr beginnt der Kurs."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси подругу, во сколько она работает",
+     "answer": "Um wie viel Uhr arbeitest du?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Um acht Uhr arbeite ich. Скажи про мужа",
+     "answer": "Um acht Uhr arbeitet mein Mann."
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси взрослого, во сколько начинается курс",
+     "answer": "Um wie viel Uhr beginnt der Kurs?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich habe um zehn Uhr einen Termin. Спроси подругу",
+     "answer": "Hast du um zehn Uhr einen Termin?"
+    },
+    {
+     "type": "reverse",
+     "de": "Um sieben Uhr arbeite ich."
+    },
+    {
+     "type": "reverse",
+     "de": "Morgen habe ich keine Zeit."
+    },
+    {
+     "type": "reverse",
+     "de": "Um wie viel Uhr kommst du?"
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Спроси, который час, и скажи, что должна идти",
+     "answer": "Wie spät ist es? Ich muss gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: половина восьмого, ты устала",
+     "answer": "Es ist halb acht. Ich bin müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в девять у тебя запись к врачу",
+     "answer": "Um neun Uhr habe ich einen Termin."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, во сколько она придёт",
+     "answer": "Um wie viel Uhr kommst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сегодня у тебя нет времени, но завтра есть",
+     "answer": "Heute habe ich keine Zeit, aber morgen habe ich Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что курс начинается в шесть и ты работаешь до пяти: только первое",
+     "answer": "Der Kurs beginnt um sechs Uhr."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он работает в семь",
+     "answer": "Mein Mann arbeitet um sieben Uhr."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: без четверти десять, и уже поздно",
+     "answer": "Es ist Viertel vor zehn. Es ist spät."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в двенадцать ты любишь есть: «в двенадцать я ем с удовольствием»",
+     "answer": "Um zwölf Uhr esse ich gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, есть ли у него время в десять",
+     "answer": "Haben Sie um zehn Uhr Zeit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сейчас ты идёшь домой, начиная с «сейчас»",
+     "answer": "Jetzt gehe ich nach Hause."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «до скорого» и попрощайся",
+     "answer": "Bis später! Tschüss!"
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: запись к врачу по телефону, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор играет регистратуру. Sprechstunde, passt на понимание."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Регистратура",
+     "text": "Praxis Doktor Müller, guten Tag."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "поздоровайся, скажи, что тебе нужна запись",
+     "answer": "Guten Tag. Ich brauche einen Termin."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Регистратура",
+     "text": "Wann haben Sie Zeit? Heute oder morgen?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "завтра у тебя есть время, начни с «завтра»",
+     "answer": "Morgen habe ich Zeit."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Регистратура",
+     "text": "Morgen um zehn Uhr?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "в десять ты работаешь; спроси: в двенадцать?",
+     "answer": "Um zehn Uhr arbeite ich. Um zwölf Uhr?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Регистратура",
+     "text": "Zwölf Uhr passt. Wie heißen Sie?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "назови имя и фамилию",
+     "answer": "Ich heiße {имя фамилия}."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Регистратура",
+     "text": "Gut, morgen um zwölf Uhr. Die Sprechstunde beginnt um acht."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "переспроси: во сколько?",
+     "answer": "Wie bitte? Um wie viel Uhr?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Регистратура",
+     "text": "Ihr Termin ist um zwölf Uhr."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "поблагодари и попрощайся",
+     "answer": "Danke schön. Auf Wiedersehen!"
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Wie spät ist es? Es ist acht Uhr. Es ist halb neun. Es ist Viertel vor neun.\nUm wie viel Uhr beginnt der Kurs? Um neun Uhr.\nUm acht Uhr arbeite ich. Heute habe ich Zeit. Morgen komme ich."
+    }
+   ]
+  }
+ ]
+}

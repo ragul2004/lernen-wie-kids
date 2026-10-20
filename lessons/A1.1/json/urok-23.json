@@ -1,0 +1,454 @@
+{
+ "lesson": 23,
+ "title": "Сплошная проверка",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Ничего нового. Восемьдесят заданий подряд по всему слою A1.1 с возвратами в A1.0: каждый паттерн П16–П41 не меньше одного раза, главные по два, четыре движка, формулы, слова. Темп быстрый, без объяснений: тьютор отмечает, что не получилось, и в конце разбирает по паттернам."
+    }
+   ]
+  },
+  {
+   "title": "1. Паттерны, 40 заданий",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, кем работаешь",
+     "answer": "Ich arbeite als {профессия}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты учительница по профессии",
+     "answer": "Ich bin Lehrerin von Beruf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи свой возраст",
+     "answer": "Ich bin {возраст} Jahre alt."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сыну двенадцать",
+     "answer": "Mein Sohn ist zwölf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть брат",
+     "answer": "Ich habe einen Bruder."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты замужем",
+     "answer": "Ich bin verheiratet."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь родителей",
+     "answer": "Das sind meine Eltern."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь маму",
+     "answer": "Das ist meine Mutter."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он работает в Сименсе",
+     "answer": "Mein Mann arbeitet bei Siemens."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про подругу, что она живёт в Гамбурге",
+     "answer": "Meine Freundin wohnt in Hamburg."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь кофе",
+     "answer": "Ich mag Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь рыбу",
+     "answer": "Ich mag Fisch nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь готовить",
+     "answer": "Ich koche gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь читать",
+     "answer": "Ich lese nicht gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что находишь город красивым",
+     "answer": "Ich finde die Stadt schön."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, который час",
+     "answer": "Wie spät ist es?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: половина девятого",
+     "answer": "Es ist halb neun."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, во сколько начинается курс",
+     "answer": "Um wie viel Uhr beginnt der Kurs?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в выходные у тебя есть время, начиная с выходных",
+     "answer": "Am Wochenende habe ich Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что работаешь с девяти до шести",
+     "answer": "Ich arbeite von neun bis sechs."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что встаёшь в семь",
+     "answer": "Ich stehe um sieben Uhr auf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вечером смотришь телевизор",
+     "answer": "Am Abend sehe ich fern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что часто готовишь",
+     "answer": "Ich koche oft."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что никогда не пьёшь пиво",
+     "answer": "Ich trinke nie Bier."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: сначала завтракаешь, потом идёшь на работу",
+     "answer": "Zuerst frühstücke ich, dann gehe ich zur Arbeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь Бремен, но город дорогой",
+     "answer": "Ich mag Bremen, aber die Stadt ist teuer."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, как дела",
+     "answer": "Wie geht es dir?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя не очень",
+     "answer": "Mir geht es nicht so gut."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе холодно",
+     "answer": "Mir ist kalt."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты голодна",
+     "answer": "Ich habe Hunger."
+    },
+    {
+     "type": "task",
+     "prompt": "Предложи подруге кофе",
+     "answer": "Möchtest du Kaffee?"
+    },
+    {
+     "type": "task",
+     "prompt": "Закажи вежливо чай",
+     "answer": "Ich hätte gern einen Tee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что берёшь салат",
+     "answer": "Ich nehme den Salat."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси счёт",
+     "answer": "Die Rechnung, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, есть ли здесь кафе",
+     "answer": "Gibt es hier ein Café?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ищешь вокзал",
+     "answer": "Ich suche den Bahnhof."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, как пройти к почте",
+     "answer": "Wie komme ich zur Post?"
+    },
+    {
+     "type": "task",
+     "prompt": "Позови подругу в кино",
+     "answer": "Kommst du mit ins Kino?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, какой у него номер телефона",
+     "answer": "Wie ist Ihre Telefonnummer?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, как это пишется",
+     "answer": "Wie schreibt man das?"
+    }
+   ]
+  },
+  {
+   "title": "2. Движки, 16 заданий",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи про сестру, что она студентка",
+     "answer": "Meine Schwester ist Studentin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы живёте в Бремене",
+     "answer": "Wir wohnen in Bremen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про детей, что они спят",
+     "answer": "Meine Kinder schlafen."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, откуда её муж",
+     "answer": "Woher kommt dein Mann?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про маму, что она не говорит по-немецки",
+     "answer": "Meine Mutter spricht kein Deutsch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в восемь ты работаешь, начиная со времени",
+     "answer": "Um acht Uhr arbeite ich."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сегодня у тебя нет времени, начиная с «сегодня»",
+     "answer": "Heute habe ich keine Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что утром пьёшь кофе",
+     "answer": "Am Morgen trinke ich Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: после этого делаешь покупки",
+     "answer": "Danach kaufe ich ein."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна встать в шесть",
+     "answer": "Ich muss um sechs Uhr aufstehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, когда она встаёт",
+     "answer": "Wann stehst du auf?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что звонишь маме",
+     "answer": "Ich rufe meine Mutter an."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не можешь пойти вместе",
+     "answer": "Ich kann nicht mitkommen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь кофе",
+     "answer": "Ich möchte einen Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что пирога нет",
+     "answer": "Es gibt keinen Kuchen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ищешь парковку",
+     "answer": "Ich suche einen Parkplatz."
+    }
+   ]
+  },
+  {
+   "title": "3. Формулы и ситуации, 10 заданий",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, кто он по профессии",
+     "answer": "Was sind Sie von Beruf?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, что она любит делать",
+     "answer": "Was machst du gern?"
+    },
+    {
+     "type": "task",
+     "prompt": "Согласись с удовольствием",
+     "answer": "Ja, gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Ответь на «как дела»: спасибо, хорошо, а у Вас?",
+     "answer": "Danke, gut. Und Ihnen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи официанту: мне воду, пожалуйста",
+     "answer": "Für mich ein Wasser, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это вкусно",
+     "answer": "Das ist lecker."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, далеко ли это",
+     "answer": "Ist das weit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси сказать по буквам",
+     "answer": "Buchstabieren Sie bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь на Гётештрассе 5",
+     "answer": "Ich wohne in der Goethestraße fünf."
+    },
+    {
+     "type": "task",
+     "prompt": "Обратись к прохожему и спроси, который час",
+     "answer": "Entschuldigung, wie spät ist es?"
+    }
+   ]
+  },
+  {
+   "title": "4. Слова, 14 заданий, слово с артиклем",
+   "cards": [
+    {
+     "type": "word_task",
+     "prompt": "родители",
+     "answer": "die Eltern"
+    },
+    {
+     "type": "word_task",
+     "prompt": "сестра",
+     "answer": "die Schwester"
+    },
+    {
+     "type": "word_task",
+     "prompt": "фирма",
+     "answer": "die Firma"
+    },
+    {
+     "type": "word_task",
+     "prompt": "выходные",
+     "answer": "das Wochenende"
+    },
+    {
+     "type": "word_task",
+     "prompt": "среда",
+     "answer": "der Mittwoch"
+    },
+    {
+     "type": "word_task",
+     "prompt": "завтрак",
+     "answer": "das Frühstück"
+    },
+    {
+     "type": "word_task",
+     "prompt": "счёт",
+     "answer": "die Rechnung"
+    },
+    {
+     "type": "word_task",
+     "prompt": "аптека",
+     "answer": "die Apotheke"
+    },
+    {
+     "type": "word_task",
+     "prompt": "остановка",
+     "answer": "die Haltestelle"
+    },
+    {
+     "type": "word_task",
+     "prompt": "фамилия",
+     "answer": "der Nachname"
+    },
+    {
+     "type": "word_task",
+     "prompt": "иногда",
+     "answer": "manchmal"
+    },
+    {
+     "type": "word_task",
+     "prompt": "дешёвый",
+     "answer": "billig"
+    },
+    {
+     "type": "word_task",
+     "prompt": "сорок четыре",
+     "answer": "vierundvierzig"
+    },
+    {
+     "type": "word_task",
+     "prompt": "без четверти десять",
+     "answer": "Viertel vor zehn"
+    }
+   ]
+  },
+  {
+   "title": "5. Разбор, 10 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Все отмеченные номера повторить по два раза. Если красных больше четырёх на один паттерн, вернуться к его карусели из соответствующего урока. Если красных меньше восьми всего, ученица готова к воротам."
+    }
+   ]
+  },
+  {
+   "title": "6. Итог",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Читать вслух вместе: итоги уроков 10–22, по три строки на урок."
+    }
+   ]
+  }
+ ]
+}

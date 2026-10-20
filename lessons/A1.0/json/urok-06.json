@@ -1,0 +1,645 @@
+{
+ "lesson": 6,
+ "title": "Нет",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: движок Д4, отрицание nicht и kein ко всему выученному; П15 не знаю, не понимаю. Слов: 11."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "wissen: ich weiß",
+     "ru": "знать",
+     "example": "Ich weiß nicht."
+    },
+    {
+     "type": "word",
+     "de": "verstehen: ich verstehe",
+     "ru": "понимать",
+     "example": "Ich verstehe das nicht."
+    },
+    {
+     "type": "word",
+     "de": "der Arzt, die Ärztin",
+     "ru": "врач",
+     "example": "Ich brauche einen Arzt."
+    },
+    {
+     "type": "word",
+     "de": "schlecht",
+     "ru": "плохо, плохой",
+     "example": "Das ist schlecht."
+    },
+    {
+     "type": "word",
+     "de": "neu",
+     "ru": "новый",
+     "example": "Ich bin neu hier."
+    },
+    {
+     "type": "word",
+     "de": "richtig",
+     "ru": "правильно",
+     "example": "Das ist richtig."
+    },
+    {
+     "type": "word",
+     "de": "teuer",
+     "ru": "дорого",
+     "example": "Das ist teuer."
+    },
+    {
+     "type": "word",
+     "de": "dort",
+     "ru": "там",
+     "example": "Der Arzt ist dort."
+    },
+    {
+     "type": "word",
+     "de": "da",
+     "ru": "тут, там",
+     "example": "Ich bin da."
+    },
+    {
+     "type": "word",
+     "de": "noch",
+     "ru": "ещё",
+     "example": "Noch einmal."
+    },
+    {
+     "type": "word",
+     "de": "sehr",
+     "ru": "очень",
+     "example": "Ich bin sehr müde."
+    },
+    {
+     "type": "word",
+     "de": "nicht",
+     "ru": "не",
+     "example": "Ich kann nicht."
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: знать, понимать, врач, плохо, новый, правильно, дорого, там, ещё, очень."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что можешь говорить по-немецки",
+     "answer": "Ich kann Deutsch sprechen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна работать",
+     "answer": "Ich muss arbeiten."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, можно ли здесь сесть",
+     "answer": "Kann ich hier sitzen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси подругу помочь",
+     "answer": "Kannst du mir helfen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси преподавателя повторить",
+     "answer": "Können Sie das wiederholen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе надо сейчас идти",
+     "answer": "Ich muss jetzt gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сегодня не можешь прийти",
+     "answer": "Ich kann heute nicht kommen."
+    },
+    {
+     "type": "task",
+     "prompt": "Карусель трёх модальных: учить немецкий",
+     "answer": "Ich möchte Deutsch lernen. Ich kann Deutsch lernen. Ich muss Deutsch lernen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь кофе",
+     "answer": "Ich möchte einen Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна запись",
+     "answer": "Ich brauche einen Termin."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, чего он хочет",
+     "answer": "Was möchten Sie?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, есть ли у неё дети",
+     "answer": "Hast du Kinder?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, говорит ли он по-русски",
+     "answer": "Sprechen Sie Russisch?"
+    },
+    {
+     "type": "task",
+     "prompt": "Представь дочь",
+     "answer": "Das ist meine Tochter."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет времени",
+     "answer": "Ich habe keine Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты устала",
+     "answer": "Ich bin müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, где живёшь",
+     "answer": "Ich wohne in {город}."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, что значит «Wohnung»",
+     "answer": "Was bedeutet „Wohnung“?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, должна ли она работать",
+     "answer": "Musst du arbeiten?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть курс",
+     "answer": "Ich habe einen Kurs."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна купить воду",
+     "answer": "Ich muss Wasser kaufen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «к сожалению, нет»",
+     "answer": "Leider nicht."
+    }
+   ]
+  },
+  {
+   "title": "3. Новое: движок Д4, отрицание, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "Показ"
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich bin müde.",
+     "to": "Ich bin nicht müde."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich habe Zeit.",
+     "to": "Ich habe keine Zeit."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich möchte schlafen.",
+     "to": "Ich möchte nicht schlafen."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich spreche Englisch.",
+     "to": "Ich spreche kein Englisch."
+    },
+    {
+     "type": "note",
+     "text": "Что двигается: nicht в конец простого предложения или перед действием; перед существительным вместо ein встаёт kein; языки тоже с kein."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо: обе версии каждой пары."
+    },
+    {
+     "type": "heading",
+     "text": "С опорой"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich bin krank. Скажи, что нет",
+     "answer": "Ich bin nicht krank."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich habe Geld. Скажи, что нет",
+     "answer": "Ich habe kein Geld."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich möchte essen. Скажи, что нет",
+     "answer": "Ich möchte nicht essen."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich wohne in Berlin. Скажи, что нет",
+     "answer": "Ich wohne nicht in Berlin."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich habe ein Auto. Скажи, что нет",
+     "answer": "Ich habe kein Auto."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich brauche Hilfe. Скажи, что нет",
+     "answer": "Ich brauche keine Hilfe."
+    },
+    {
+     "type": "heading",
+     "text": "Смешанно"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты не устала",
+     "answer": "Ich bin nicht müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет телефона",
+     "answer": "Ich habe kein Handy."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не хочешь кофе",
+     "answer": "Ich möchte keinen Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не говоришь по-английски",
+     "answer": "Ich spreche kein Englisch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не хочешь спать",
+     "answer": "Ich möchte nicht schlafen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты не из Германии",
+     "answer": "Ich komme nicht aus Deutschland."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не должна сегодня работать",
+     "answer": "Ich muss heute nicht arbeiten."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это не проблема",
+     "answer": "Das ist kein Problem."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь не здесь",
+     "answer": "Ich wohne nicht hier."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе не нужны деньги",
+     "answer": "Ich brauche kein Geld."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это не твой муж",
+     "answer": "Das ist nicht mein Mann."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не можешь это",
+     "answer": "Ich kann das nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет вопросов: одного вопроса",
+     "answer": "Ich habe keine Frage."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не хочешь идти домой",
+     "answer": "Ich möchte nicht nach Hause gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это не правильно",
+     "answer": "Das ist nicht richtig."
+    },
+    {
+     "type": "note",
+     "text": "keinen Kaffee в задании 3 это форма мужского рода, чанк как einen Kaffee."
+    },
+    {
+     "type": "heading",
+     "text": "Без опоры, ответы на вопросы"
+    },
+    {
+     "type": "note",
+     "text": "Тьютор задаёт вопрос, ученица отвечает отрицательно."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Bist du müde?",
+     "answer": "Nein, ich bin nicht müde."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Hast du Zeit?",
+     "answer": "Nein, ich habe keine Zeit."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Möchtest du einen Tee?",
+     "answer": "Nein, ich möchte keinen Tee."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Sprichst du Englisch?",
+     "answer": "Nein, ich spreche kein Englisch."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Kommst du aus Polen?",
+     "answer": "Nein, ich komme nicht aus Polen."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Musst du arbeiten?",
+     "answer": "Nein, ich muss nicht arbeiten."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Brauchst du Hilfe?",
+     "answer": "Nein, ich brauche keine Hilfe."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Ist das dein Mann?",
+     "answer": "Nein, das ist nicht mein Mann."
+    },
+    {
+     "type": "note",
+     "text": "Вопрос 8 содержит dein: на понимание."
+    },
+    {
+     "type": "heading",
+     "text": "П15. Не знаю, не понимаю"
+    },
+    {
+     "type": "label",
+     "text": "Показ и эхо"
+    },
+    {
+     "type": "show",
+     "de": "Ich weiß nicht.",
+     "ru": "Я не знаю."
+    },
+    {
+     "type": "show",
+     "de": "Ich weiß es nicht.",
+     "ru": "Я этого не знаю."
+    },
+    {
+     "type": "show",
+     "de": "Ich verstehe das nicht.",
+     "ru": "Я этого не понимаю."
+    },
+    {
+     "type": "show",
+     "de": "Ich verstehe die Frage nicht.",
+     "ru": "Я не понимаю вопрос."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не знаешь",
+     "answer": "Ich weiß nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не понимаешь этого",
+     "answer": "Ich verstehe das nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не понимаешь вопрос",
+     "answer": "Ich verstehe die Frage nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Тебя спросили, где врач. Скажи, что не знаешь",
+     "answer": "Ich weiß nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что этого не знаешь",
+     "answer": "Ich weiß es nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, знает ли она это",
+     "answer": "Weißt du das?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich weiß es nicht."
+    },
+    {
+     "type": "reverse",
+     "de": "Verstehst du das?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich verstehe die Frage nicht."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что это дорого и ты не хочешь это",
+     "answer": "Das ist teuer. Ich möchte das nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты новенькая здесь и не понимаешь",
+     "answer": "Ich bin neu hier. Ich verstehe nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что врач там",
+     "answer": "Der Arzt ist dort."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужен врач, а не помощь: два предложения",
+     "answer": "Ich brauche einen Arzt. Ich brauche keine Hilfe."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты очень устала и не можешь работать",
+     "answer": "Ich bin sehr müde. Ich kann nicht arbeiten."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это правильно",
+     "answer": "Das ist richtig."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это плохо и ты не знаешь, что делать: только «это плохо, я не знаю»",
+     "answer": "Das ist schlecht. Ich weiß nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, понимает ли она это",
+     "answer": "Verstehst du das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не хочешь чай, хочешь воду",
+     "answer": "Ich möchte keinen Tee. Ich möchte Wasser."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ещё не закончила",
+     "answer": "Ich bin noch nicht fertig."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет машины и ты не можешь прийти",
+     "answer": "Ich habe kein Auto. Ich kann nicht kommen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не знаешь, где это: только «я не знаю»",
+     "answer": "Ich weiß nicht."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: нет, спасибо, 7 минут",
+   "cards": [
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Möchtest du Kaffee?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "нет, спасибо; не хочешь кофе, хочешь воду",
+     "answer": "Nein, danke. Ich möchte keinen Kaffee. Ich möchte Wasser."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Brauchst du Hilfe?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "нет, помощь не нужна",
+     "answer": "Nein, ich brauche keine Hilfe."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "(быстро и длинно) …?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что не понимаешь этого",
+     "answer": "Ich verstehe das nicht."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Wo ist der Arzt?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что не знаешь",
+     "answer": "Ich weiß nicht."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Bist du krank?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "нет, не больна; очень устала",
+     "answer": "Nein, ich bin nicht krank. Ich bin sehr müde."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Musst du heute arbeiten?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "нет, сегодня не должна",
+     "answer": "Nein, ich muss heute nicht arbeiten."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Okay. Tschüss!"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "попрощайся",
+     "answer": "Tschüss."
+    },
+    {
+     "type": "note",
+     "text": "Wo ist der Arzt только на понимание: П12 в уроке 7."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Ich bin nicht müde. Ich habe keine Zeit. Ich möchte nicht schlafen. Ich spreche kein Englisch.\nIch weiß nicht. Ich verstehe das nicht."
+    }
+   ]
+  }
+ ]
+}

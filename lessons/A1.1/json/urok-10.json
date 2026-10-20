@@ -1,0 +1,803 @@
+{
+ "lesson": 10,
+ "title": "Профессия и возраст",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П16 профессия, П17 возраст, числа 21–99 из Б3. Слов: 16. Трансформации: вопросы Д3 к новым паттернам. Первый урок слоя A1.1, поэтому разогрев берёт понемногу из всех уроков A1.0."
+    }
+   ]
+  },
+  {
+   "title": "0. Перед началом",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Записать два новых факта: профессия по-немецки, как она звучит после «Ich arbeite als …», и возраст словом. Профессии на выбор: der Koch / die Köchin, der Fahrer / die Fahrerin, der Ingenieur / die Ingenieurin, der Krankenpfleger / die Krankenschwester, der Arzt / die Ärztin, der Verkäufer / die Verkäuferin, der Lehrer / die Lehrerin, der Entwickler / die Entwicklerin."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "der Beruf; von Beruf",
+     "ru": "профессия; по профессии",
+     "example": "Was sind Sie von Beruf?"
+    },
+    {
+     "type": "word",
+     "de": "arbeiten als",
+     "ru": "работать кем-то",
+     "example": "Ich arbeite als Entwicklerin."
+    },
+    {
+     "type": "word",
+     "de": "arbeiten bei",
+     "ru": "работать в фирме",
+     "example": "Ich arbeite bei Siemens."
+    },
+    {
+     "type": "word",
+     "de": "die Firma",
+     "ru": "фирма",
+     "example": "Die Firma ist in Bremen."
+    },
+    {
+     "type": "word",
+     "de": "das Büro; im Büro",
+     "ru": "офис; в офисе",
+     "example": "Ich arbeite im Büro."
+    },
+    {
+     "type": "word",
+     "de": "der Chef, die Chefin",
+     "ru": "начальник, начальница",
+     "example": "Das ist mein Chef."
+    },
+    {
+     "type": "word",
+     "de": "der Lehrer, die Lehrerin",
+     "ru": "учитель, учительница",
+     "example": "Ich bin Lehrerin von Beruf."
+    },
+    {
+     "type": "word",
+     "de": "der Entwickler, die Entwicklerin",
+     "ru": "разработчик, разработчица",
+     "example": "Ich arbeite als Entwickler."
+    },
+    {
+     "type": "word",
+     "de": "der Verkäufer, die Verkäuferin",
+     "ru": "продавец, продавщица",
+     "example": "Ich bin Verkäuferin."
+    },
+    {
+     "type": "word",
+     "de": "der Student, die Studentin",
+     "ru": "студент, студентка",
+     "example": "Ich bin Studentin."
+    },
+    {
+     "type": "word",
+     "de": "studieren",
+     "ru": "учиться в вузе",
+     "example": "Ich studiere in Bremen."
+    },
+    {
+     "type": "word",
+     "de": "arbeitslos",
+     "ru": "без работы",
+     "example": "Ich bin arbeitslos."
+    },
+    {
+     "type": "word",
+     "de": "der Job",
+     "ru": "работа, место работы",
+     "example": "Ich habe einen Job."
+    },
+    {
+     "type": "word",
+     "de": "die Schule; in der Schule",
+     "ru": "школа; в школе",
+     "example": "Mein Sohn ist in der Schule."
+    },
+    {
+     "type": "word",
+     "de": "das Jahr, die Jahre",
+     "ru": "год, годы",
+     "example": "Ich bin dreißig Jahre alt."
+    },
+    {
+     "type": "word",
+     "de": "alt; jung",
+     "ru": "старый; молодой",
+     "example": "Wie alt bist du?"
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: профессия, по профессии, фирма, офис, начальник, учительница, продавщица, студентка, без работы, год, старый, молодой."
+    },
+    {
+     "type": "note",
+     "text": "Числа 21–99, показ и эхо. Правило одно: сначала единицы, потом und, потом десяток. Vier-und-vierzig."
+    },
+    {
+     "type": "show",
+     "de": "einundzwanzig, zweiundzwanzig, dreiundzwanzig",
+     "ru": "21, 22, 23"
+    },
+    {
+     "type": "show",
+     "de": "vierundzwanzig, fünfundzwanzig, sechsundzwanzig",
+     "ru": "24, 25, 26"
+    },
+    {
+     "type": "show",
+     "de": "siebenundzwanzig, achtundzwanzig, neunundzwanzig",
+     "ru": "27, 28, 29"
+    },
+    {
+     "type": "show",
+     "de": "einunddreißig, zweiundvierzig, dreiundfünfzig",
+     "ru": "31, 42, 53"
+    },
+    {
+     "type": "show",
+     "de": "vierundsechzig, fünfundsiebzig, sechsundachtzig",
+     "ru": "64, 75, 86"
+    },
+    {
+     "type": "show",
+     "de": "siebenundneunzig, neunundneunzig",
+     "ru": "97, 99"
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг чисел, тьютор по-русски, ученица по-немецки: 21, 35, 44, 52, 67, 28, 73, 91, 46, 39. Потом свой возраст."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Назовись",
+     "answer": "Ich heiße {имя}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, откуда ты и где теперь живёшь",
+     "answer": "Ich komme aus {страна}. Ich wohne jetzt in {город}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что говоришь по-русски и немного по-немецки",
+     "answer": "Ich spreche Russisch und ein bisschen Deutsch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть вопрос",
+     "answer": "Ich habe eine Frage."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь мужа",
+     "answer": "Das ist mein Mann."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, откуда она",
+     "answer": "Woher kommst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, где он живёт",
+     "answer": "Wo wohnen Sie?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь учить немецкий",
+     "answer": "Ich möchte Deutsch lernen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна запись",
+     "answer": "Ich brauche einen Termin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сегодня не можешь прийти",
+     "answer": "Ich kann heute nicht kommen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна работать",
+     "answer": "Ich muss arbeiten."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси взрослого помочь",
+     "answer": "Können Sie mir helfen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет времени",
+     "answer": "Ich habe keine Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не понимаешь",
+     "answer": "Ich verstehe nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, где вокзал",
+     "answer": "Wo ist der Bahnhof?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, сколько это стоит",
+     "answer": "Was kostet das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это стоит двенадцать евро",
+     "answer": "Das kostet zwölf Euro."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не знаешь",
+     "answer": "Ich weiß nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, хочет ли она кофе",
+     "answer": "Möchtest du einen Kaffee?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть работа",
+     "answer": "Ich habe Arbeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 17",
+     "answer": "siebzehn"
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 40",
+     "answer": "vierzig"
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П16. Профессия"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich arbeite als Entwicklerin.",
+     "ru": "Я работаю разработчицей."
+    },
+    {
+     "type": "show",
+     "de": "Ich bin Lehrerin von Beruf.",
+     "ru": "Я учительница по профессии."
+    },
+    {
+     "type": "show",
+     "de": "Ich arbeite bei Siemens.",
+     "ru": "Я работаю в Сименсе."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: три способа сказать одно. Als плюс профессия, von Beruf в конце, bei плюс фирма. Без артикля: не eine Lehrerin, а просто Lehrerin."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich arbeite ___ Entwicklerin.",
+     "answer": "Ich arbeite als Entwicklerin."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich bin Lehrerin ___ ___.",
+     "answer": "Ich bin Lehrerin von Beruf."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich arbeite ___ Siemens.",
+     "answer": "Ich arbeite bei Siemens."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ Studentin.",
+     "answer": "Ich bin Studentin."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что работаешь разработчицей",
+     "answer": "Ich arbeite als Entwicklerin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты учительница по профессии",
+     "answer": "Ich bin Lehrerin von Beruf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что работаешь в Сименсе",
+     "answer": "Ich arbeite bei Siemens."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты студентка",
+     "answer": "Ich bin Studentin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты без работы",
+     "answer": "Ich bin arbeitslos."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что работаешь в офисе",
+     "answer": "Ich arbeite im Büro."
+    },
+    {
+     "type": "carousel",
+     "prompt": "продавщицей",
+     "answer": "Ich arbeite als Verkäuferin."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в Сименсе",
+     "answer": "Ich arbeite bei Siemens."
+    },
+    {
+     "type": "carousel",
+     "prompt": "студентка",
+     "answer": "Ich bin Studentin."
+    },
+    {
+     "type": "carousel",
+     "prompt": "учительница по профессии",
+     "answer": "Ich bin Lehrerin von Beruf."
+    },
+    {
+     "type": "carousel",
+     "prompt": "без работы",
+     "answer": "Ich bin arbeitslos."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в офисе",
+     "answer": "Ich arbeite im Büro."
+    },
+    {
+     "type": "carousel",
+     "prompt": "разработчицей",
+     "answer": "Ich arbeite als Entwicklerin."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ты сама",
+     "answer": "Ich arbeite als {профессия}."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в Бремене (studieren)",
+     "answer": "Ich studiere in Bremen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ты сама",
+     "answer": "Ich arbeite als {профессия}."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации, вопросы Д3"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси взрослого, кто он по профессии",
+     "answer": "Was sind Sie von Beruf?"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси подругу, кем она работает: «что ты делаешь по работе»",
+     "answer": "Was machst du beruflich?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich arbeite bei Siemens. Спроси взрослого",
+     "answer": "Arbeiten Sie bei Siemens?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich bin Studentin. Спроси подругу",
+     "answer": "Bist du Studentin?"
+    },
+    {
+     "type": "note",
+     "text": "Was machst du beruflich? запоминается целиком, beruflich отдельно не разбирается."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich arbeite als Verkäufer."
+    },
+    {
+     "type": "reverse",
+     "de": "Was sind Sie von Beruf?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich bin arbeitslos."
+    },
+    {
+     "type": "heading",
+     "text": "П17. Возраст"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich bin vierundvierzig Jahre alt.",
+     "ru": "Мне сорок четыре года."
+    },
+    {
+     "type": "show",
+     "de": "Mein Sohn ist zehn.",
+     "ru": "Моему сыну десять."
+    },
+    {
+     "type": "show",
+     "de": "Wie alt bist du?",
+     "ru": "Сколько тебе лет?"
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: число. По-немецки не «мне», а «я есть … лет старая»: Ich bin … Jahre alt. Jahre alt можно опустить: Mein Sohn ist zehn."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ dreißig Jahre alt.",
+     "answer": "Ich bin dreißig Jahre alt."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich bin dreißig ___ ___.",
+     "answer": "Ich bin dreißig Jahre alt."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Mein Sohn ___ zehn.",
+     "answer": "Mein Sohn ist zehn."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Wie ___ bist du?",
+     "answer": "Wie alt bist du?"
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе тридцать",
+     "answer": "Ich bin dreißig Jahre alt."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе сорок четыре",
+     "answer": "Ich bin vierundvierzig Jahre alt."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сыну десять",
+     "answer": "Mein Sohn ist zehn."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что дочери пять",
+     "answer": "Meine Tochter ist fünf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что мужу пятьдесят",
+     "answer": "Mein Mann ist fünfzig."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи свой возраст",
+     "answer": "Ich bin {возраст} Jahre alt."
+    },
+    {
+     "type": "carousel",
+     "prompt": "тебе 25",
+     "answer": "Ich bin fünfundzwanzig Jahre alt."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сыну 12",
+     "answer": "Mein Sohn ist zwölf."
+    },
+    {
+     "type": "carousel",
+     "prompt": "тебе 38",
+     "answer": "Ich bin achtunddreißig Jahre alt."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мужу 41",
+     "answer": "Mein Mann ist einundvierzig."
+    },
+    {
+     "type": "carousel",
+     "prompt": "дочери 3",
+     "answer": "Meine Tochter ist drei."
+    },
+    {
+     "type": "carousel",
+     "prompt": "тебе 29",
+     "answer": "Ich bin neunundzwanzig Jahre alt."
+    },
+    {
+     "type": "carousel",
+     "prompt": "подруге (meine Freundin) 33",
+     "answer": "Meine Freundin ist dreiunddreißig."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ты сама",
+     "answer": "Ich bin {возраст} Jahre alt."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мужу 46",
+     "answer": "Mein Mann ist sechsundvierzig."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ты сама",
+     "answer": "Ich bin {возраст} Jahre alt."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации, вопросы Д3"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси подругу, сколько ей лет",
+     "answer": "Wie alt bist du?"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси взрослого, сколько ему лет",
+     "answer": "Wie alt sind Sie?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich bin dreißig Jahre alt. Спроси подругу",
+     "answer": "Bist du dreißig Jahre alt?"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси подругу, сколько лет её сыну: «как стар твой сын»",
+     "answer": "Wie alt ist dein Sohn?"
+    },
+    {
+     "type": "note",
+     "text": "Dein как чанк: dein Sohn, deine Tochter. Отдельно не разбирается."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich bin zweiundfünfzig Jahre alt."
+    },
+    {
+     "type": "reverse",
+     "de": "Wie alt sind Sie?"
+    },
+    {
+     "type": "reverse",
+     "de": "Meine Tochter ist sieben."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Назовись и скажи, кем работаешь",
+     "answer": "Ich heiße {имя}. Ich arbeite als {профессия}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе тридцать и ты из своей страны",
+     "answer": "Ich bin dreißig Jahre alt. Ich komme aus {страна}."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, кем она работает",
+     "answer": "Was machst du beruflich?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты без работы и ищешь: «мне нужна работа»",
+     "answer": "Ich bin arbeitslos. Ich brauche einen Job."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь начальника",
+     "answer": "Das ist mein Chef."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что работаешь в офисе и сегодня устала",
+     "answer": "Ich arbeite im Büro. Ich bin heute müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, сколько ему лет",
+     "answer": "Wie alt sind Sie?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты студентка и учишь немецкий",
+     "answer": "Ich bin Studentin. Ich lerne Deutsch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что мужу сорок и он работает в Сименсе: «мой муж работает» пока не умеем, скажи только возраст",
+     "answer": "Mein Mann ist vierzig."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна работать, но хочешь спать",
+     "answer": "Ich muss arbeiten. Ich möchte schlafen."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, работает ли она в Сименсе",
+     "answer": "Arbeitest du bei Siemens?"
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 44, 67, 38",
+     "answer": "vierundvierzig, siebenundsechzig, achtunddreißig"
+    },
+    {
+     "type": "note",
+     "text": "Arbeitest с лишним e: arbeiten, du arbeitest. Сказать один раз и не разбирать."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: новая коллега, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор играет коллегу на курсе, ученица знакомится."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Hallo! Ich bin Martin. Und du?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "назовись",
+     "answer": "Ich heiße {имя}."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Was machst du beruflich?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, кем работаешь",
+     "answer": "Ich arbeite als {профессия}."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Interessant! Ich bin Lehrer von Beruf."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, где он работает: «где работаешь ты»",
+     "answer": "Wo arbeitest du?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Ich arbeite hier, in {город}. Wie alt bist du?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи возраст",
+     "answer": "Ich bin {возраст} Jahre alt."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Ich bin vierzig."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, есть ли у него дети",
+     "answer": "Hast du Kinder?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Ja, einen Sohn. Er ist zwölf."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, кто у тебя есть",
+     "answer": "Ich habe {семья}."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Schön. Bis morgen!"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "попрощайся",
+     "answer": "Tschüss, bis morgen!"
+    },
+    {
+     "type": "note",
+     "text": "Interessant только на понимание, слово будет в уроке 14. Er ist zwölf тоже на понимание: лица начнутся в уроке 12."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Ich arbeite als {профессия}. Ich arbeite bei … Ich bin … von Beruf.\nIch bin {возраст} Jahre alt. Mein Sohn ist zehn.\nWas sind Sie von Beruf? Was machst du beruflich? Wie alt bist du?"
+    }
+   ]
+  }
+ ]
+}

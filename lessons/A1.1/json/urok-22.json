@@ -1,0 +1,823 @@
+{
+ "lesson": 22,
+ "title": "Анкета и буквы",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П40 контакты и анкета, П41 как это пишется, алфавит и числа до 1000 из блока Б3. Слов: 16. Последний урок с новым в слое A1.1; дальше проверка и ворота. Перед уроком записать факт {адрес}, например Goethestraße 5."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 12 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "der Vorname",
+     "ru": "имя",
+     "example": "Mein Vorname ist Anna."
+    },
+    {
+     "type": "word",
+     "de": "der Nachname",
+     "ru": "фамилия",
+     "example": "Mein Nachname ist Petrova."
+    },
+    {
+     "type": "word",
+     "de": "die Adresse",
+     "ru": "адрес",
+     "example": "Wie ist Ihre Adresse?"
+    },
+    {
+     "type": "word",
+     "de": "die Hausnummer",
+     "ru": "номер дома",
+     "example": "Hausnummer fünf"
+    },
+    {
+     "type": "word",
+     "de": "die Postleitzahl",
+     "ru": "почтовый индекс",
+     "example": "Die Postleitzahl ist 28195."
+    },
+    {
+     "type": "word",
+     "de": "der Ort",
+     "ru": "населённый пункт",
+     "example": "Ort: Bremen"
+    },
+    {
+     "type": "word",
+     "de": "das Geburtsdatum",
+     "ru": "дата рождения",
+     "example": "Geburtsdatum: 3.5.1982"
+    },
+    {
+     "type": "word",
+     "de": "geboren: ich bin … geboren",
+     "ru": "родилась",
+     "example": "Ich bin 1982 geboren."
+    },
+    {
+     "type": "word",
+     "de": "das Formular",
+     "ru": "бланк, анкета",
+     "example": "Bitte das Formular ausfüllen."
+    },
+    {
+     "type": "word",
+     "de": "die Unterschrift",
+     "ru": "подпись",
+     "example": "Unterschrift hier, bitte."
+    },
+    {
+     "type": "word",
+     "de": "die Telefonnummer; die Nummer",
+     "ru": "номер телефона; номер",
+     "example": "Wie ist deine Telefonnummer?"
+    },
+    {
+     "type": "word",
+     "de": "die E-Mail",
+     "ru": "электронная почта",
+     "example": "Meine E-Mail ist …"
+    },
+    {
+     "type": "word",
+     "de": "schreiben: man schreibt",
+     "ru": "писать",
+     "example": "Wie schreibt man das?"
+    },
+    {
+     "type": "word",
+     "de": "der Schlüssel",
+     "ru": "ключ",
+     "example": "Ich suche den Schlüssel."
+    },
+    {
+     "type": "word",
+     "de": "die Tasche",
+     "ru": "сумка",
+     "example": "Meine Tasche ist dort."
+    },
+    {
+     "type": "word",
+     "de": "die Karte",
+     "ru": "карта, карточка",
+     "example": "Ich bezahle mit Karte."
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: имя, фамилия, адрес, номер дома, индекс, дата рождения, бланк, подпись, номер телефона, писать, ключ, сумка, карта."
+    },
+    {
+     "type": "label",
+     "text": "Алфавит, показ и эхо, по строке"
+    },
+    {
+     "type": "show",
+     "de": "a, be, ce, de, e, ef, ge",
+     "ru": "A B C D E F G"
+    },
+    {
+     "type": "show",
+     "de": "ha, i, jot, ka, el, em, en",
+     "ru": "H I J K L M N"
+    },
+    {
+     "type": "show",
+     "de": "o, pe, ku, er, es, te, u",
+     "ru": "O P Q R S T U"
+    },
+    {
+     "type": "show",
+     "de": "fau, we, iks, üpsilon, tset",
+     "ru": "V W X Y Z"
+    },
+    {
+     "type": "show",
+     "de": "a-umlaut, o-umlaut, u-umlaut, es-tset",
+     "ru": "Ä Ö Ü ß"
+    },
+    {
+     "type": "label",
+     "text": "Числа до 1000, показ и эхо"
+    },
+    {
+     "type": "show",
+     "de": "hundert, zweihundert, dreihundert",
+     "ru": "100, 200, 300"
+    },
+    {
+     "type": "show",
+     "de": "hundertfünfzig, zweihundertfünfzig",
+     "ru": "150, 250"
+    },
+    {
+     "type": "show",
+     "de": "tausend",
+     "ru": "1000"
+    },
+    {
+     "type": "show",
+     "de": "neunzehnhundertzweiundachtzig, zweitausendzehn",
+     "ru": "1982, 2010"
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: продиктовать по буквам своё имя и фамилию; сказать 100, 300, 250, 1000, свой год рождения. Индекс и телефон говорят по цифрам: zwei-acht-eins-neun-fünf."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи прохожему, что ищешь вокзал",
+     "answer": "Entschuldigung, ich suche den Bahnhof."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, как пройти к почте",
+     "answer": "Wie komme ich zur Post?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, далеко ли это",
+     "answer": "Ist das weit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это рядом",
+     "answer": "Das ist in der Nähe."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не находишь остановку",
+     "answer": "Ich finde die Haltestelle nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, есть ли здесь аптека",
+     "answer": "Gibt es hier eine Apotheke?"
+    },
+    {
+     "type": "task",
+     "prompt": "Закажи вежливо кофе",
+     "answer": "Ich hätte gern einen Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси счёт",
+     "answer": "Die Rechnung, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что берёшь рыбу",
+     "answer": "Ich nehme den Fisch."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, как дела",
+     "answer": "Wie geht es dir?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты голодна",
+     "answer": "Ich habe Hunger."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: сначала работаешь, потом идёшь домой",
+     "answer": "Zuerst arbeite ich, dann gehe ich nach Hause."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что встаёшь в семь",
+     "answer": "Ich stehe um sieben Uhr auf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в выходные у тебя есть время, начиная с выходных",
+     "answer": "Am Wochenende habe ich Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: без четверти восемь",
+     "answer": "Es ist Viertel vor acht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, кем работаешь",
+     "answer": "Ich arbeite als {профессия}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи свой возраст",
+     "answer": "Ich bin {возраст} Jahre alt."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты замужем и у тебя двое детей",
+     "answer": "Ich bin verheiratet. Ich habe zwei Kinder."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси сказать по буквам",
+     "answer": "Können Sie das buchstabieren?"
+    },
+    {
+     "type": "task",
+     "prompt": "Назовись полностью",
+     "answer": "Ich heiße {имя фамилия}."
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 99",
+     "answer": "neunundneunzig"
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: аптека",
+     "answer": "die Apotheke"
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П40. Контакты и анкета"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Wie ist Ihre Telefonnummer?",
+     "ru": "Какой у Вас номер телефона?"
+    },
+    {
+     "type": "show",
+     "de": "Meine Nummer ist null eins sieben eins, zwei drei vier fünf.",
+     "ru": "Мой номер 0171 2345."
+    },
+    {
+     "type": "show",
+     "de": "Ich wohne in der Goethestraße fünf.",
+     "ru": "Я живу на Гётештрассе 5."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: вопрос через Wie ist, не Was ist. Номер говорят по цифрам, парами или по одной. Адрес: in der плюс улица плюс номер, in der как чанк."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Wie ___ Ihre Telefonnummer?",
+     "answer": "Wie ist Ihre Telefonnummer?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Meine ___ ist null eins sieben eins.",
+     "answer": "Meine Nummer ist null eins sieben eins."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich wohne ___ ___ Goethestraße fünf.",
+     "answer": "Ich wohne in der Goethestraße fünf."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Wie ist ___ Adresse? (твой)",
+     "answer": "Wie ist deine Adresse?"
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, какой у него номер телефона",
+     "answer": "Wie ist Ihre Telefonnummer?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что твой номер 0171 2345, по цифрам",
+     "answer": "Meine Nummer ist null eins sieben eins, zwei drei vier fünf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь на Гётештрассе 5",
+     "answer": "Ich wohne in der Goethestraße fünf."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, какой у неё адрес",
+     "answer": "Wie ist deine Adresse?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, какая у него электронная почта",
+     "answer": "Wie ist Ihre E-Mail?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи свой адрес",
+     "answer": "Ich wohne in der {адрес}."
+    },
+    {
+     "type": "carousel",
+     "prompt": "номер телефона, взрослому",
+     "answer": "Wie ist Ihre Telefonnummer?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "адрес, подруге",
+     "answer": "Wie ist deine Adresse?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "электронная почта, взрослому",
+     "answer": "Wie ist Ihre E-Mail?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "живу на Гётештрассе 5",
+     "answer": "Ich wohne in der Goethestraße fünf."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мой номер 0170 9988",
+     "answer": "Meine Nummer ist null eins sieben null, neun neun acht acht."
+    },
+    {
+     "type": "carousel",
+     "prompt": "имя, взрослому (как Вас зовут)",
+     "answer": "Wie heißen Sie?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "твой адрес",
+     "answer": "Wie ist deine Adresse?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "индекс 28195 (по цифрам)",
+     "answer": "Die Postleitzahl ist zwei acht eins neun fünf."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ты сама: адрес",
+     "answer": "Ich wohne in der {адрес}."
+    },
+    {
+     "type": "carousel",
+     "prompt": "моя фамилия Петрова",
+     "answer": "Mein Nachname ist Petrova."
+    },
+    {
+     "type": "label",
+     "text": "Анкета, тьютор читает поле, ученица отвечает про себя"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Vorname?",
+     "answer": "{имя}"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Nachname?",
+     "answer": "(фамилия)"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Straße und Hausnummer?",
+     "answer": "{адрес}"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Postleitzahl und Ort?",
+     "answer": "(индекс по цифрам), {город}"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Geburtsdatum?",
+     "answer": "(день, месяц по-немецки, год: например drei, Mai, neunzehnhundertzweiundachtzig)"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Telefonnummer?",
+     "answer": "Meine Nummer ist …"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "E-Mail?",
+     "answer": "Meine E-Mail ist …"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Land?",
+     "answer": "{страна}"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Unterschrift?",
+     "answer": "(подписать)"
+    },
+    {
+     "type": "reverse",
+     "de": "Wie ist deine Telefonnummer?"
+    },
+    {
+     "type": "reverse",
+     "de": "Meine Adresse ist Goethestraße fünf."
+    },
+    {
+     "type": "reverse",
+     "de": "Wie ist Ihre E-Mail?"
+    },
+    {
+     "type": "heading",
+     "text": "П41. Как это пишется"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Wie schreibt man das?",
+     "ru": "Как это пишется?"
+    },
+    {
+     "type": "show",
+     "de": "Buchstabieren Sie bitte.",
+     "ru": "Скажите по буквам, пожалуйста."
+    },
+    {
+     "type": "show",
+     "de": "Das schreibt man M-Ü-L-L-E-R.",
+     "ru": "Это пишется М-Ю-Л-Л-Е-Р."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: man это «люди вообще», как в Wie sagt man. Ответ по буквам алфавита."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, как это пишется",
+     "answer": "Wie schreibt man das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси сказать по буквам",
+     "answer": "Buchstabieren Sie bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Продиктуй фамилию Müller по буквам",
+     "answer": "Das schreibt man M-Ü-L-L-E-R."
+    },
+    {
+     "type": "task",
+     "prompt": "Продиктуй имя Anna",
+     "answer": "A-N-N-A."
+    },
+    {
+     "type": "task",
+     "prompt": "Продиктуй город Bremen",
+     "answer": "B-R-E-M-E-N."
+    },
+    {
+     "type": "task",
+     "prompt": "Продиктуй своё имя по буквам",
+     "answer": "(своё имя по буквам)"
+    },
+    {
+     "type": "carousel",
+     "prompt": "Berlin",
+     "answer": "B-E-R-L-I-N"
+    },
+    {
+     "type": "carousel",
+     "prompt": "Post",
+     "answer": "P-O-S-T"
+    },
+    {
+     "type": "carousel",
+     "prompt": "Hamburg",
+     "answer": "H-A-M-B-U-R-G"
+    },
+    {
+     "type": "carousel",
+     "prompt": "Kaffee",
+     "answer": "K-A-F-F-E-E"
+    },
+    {
+     "type": "carousel",
+     "prompt": "Schmidt",
+     "answer": "S-C-H-M-I-D-T"
+    },
+    {
+     "type": "carousel",
+     "prompt": "Wagner",
+     "answer": "W-A-G-N-E-R"
+    },
+    {
+     "type": "carousel",
+     "prompt": "Straße",
+     "answer": "S-T-R-A-ß-E"
+    },
+    {
+     "type": "carousel",
+     "prompt": "Meyer",
+     "answer": "M-E-Y-E-R"
+    },
+    {
+     "type": "carousel",
+     "prompt": "своя фамилия",
+     "answer": "(своя фамилия по буквам)"
+    },
+    {
+     "type": "carousel",
+     "prompt": "Goethe",
+     "answer": "G-O-E-T-H-E."
+    },
+    {
+     "type": "note",
+     "text": "Понимание, тьютор диктует по буквам, ученица записывает и читает слово:"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "K-Ö-L-N",
+     "answer": "Köln"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "F-I-S-C-H-E-R",
+     "answer": "Fischer"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "M-A-R-K-T",
+     "answer": "Markt"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "J-U-L-I-A",
+     "answer": "Julia"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Z-E-N-T-R-U-M",
+     "answer": "Zentrum"
+    },
+    {
+     "type": "reverse",
+     "de": "Wie schreibt man das?"
+    },
+    {
+     "type": "reverse",
+     "de": "Buchstabieren Sie bitte."
+    },
+    {
+     "type": "reverse",
+     "de": "Das schreibt man mit zwei L."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Назовись полностью и продиктуй фамилию по буквам",
+     "answer": "Ich heiße {имя фамилия}. (фамилия по буквам)"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, какой у него номер, и попроси повторить",
+     "answer": "Wie ist Ihre Telefonnummer? Noch einmal, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи свой адрес и город",
+     "answer": "Ich wohne in der {адрес}, in {город}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ищешь ключ и сумку: два предложения",
+     "answer": "Ich suche den Schlüssel. Ich suche meine Tasche."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что платишь картой",
+     "answer": "Ich bezahle mit Karte."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, как это пишется, и скажи, что не понимаешь",
+     "answer": "Wie schreibt man das? Ich verstehe nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужен бланк",
+     "answer": "Ich brauche ein Formular."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что родилась в 1982 году",
+     "answer": "Ich bin neunzehnhundertzweiundachtzig geboren."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, какая у неё электронная почта",
+     "answer": "Wie ist deine E-Mail?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь на Гётештрассе, но не знаешь индекс",
+     "answer": "Ich wohne in der Goethestraße, aber ich weiß die Postleitzahl nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 250 и 1000",
+     "answer": "zweihundertfünfzig und tausend"
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси подписать здесь: «подпись здесь, пожалуйста»",
+     "answer": "Unterschrift hier, bitte."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: запись в библиотеку, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор играет сотрудника, который заполняет анкету. Bibliothek, Ausweis на понимание."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Guten Tag. Sie möchten einen Ausweis? Dann brauche ich Ihre Daten. Vorname?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "назови имя",
+     "answer": "{имя}."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Nachname?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "назови и продиктуй по буквам",
+     "answer": "(фамилия). Das schreibt man (по буквам)."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Danke. Wie ist Ihre Adresse?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "назови улицу и номер дома",
+     "answer": "Ich wohne in der {адрес}."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Postleitzahl?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "назови индекс по цифрам",
+     "answer": "(индекс по цифрам)."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Und Ihre Telefonnummer?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "назови номер по цифрам",
+     "answer": "Meine Nummer ist (по цифрам)."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Wie bitte? Noch einmal, langsam."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "повтори медленнее",
+     "answer": "(номер ещё раз)."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Geburtsdatum?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "день, месяц, год",
+     "answer": "(день), (месяц), (год)."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Gut. Unterschrift hier, bitte."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "переспроси: здесь?",
+     "answer": "Hier?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Ja, genau. Fertig! Der Ausweis kostet zehn Euro."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что платишь картой; поблагодари",
+     "answer": "Ich bezahle mit Karte. Danke schön!"
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Wie ist Ihre Telefonnummer? Meine Nummer ist … Ich wohne in der {адрес}.\nWie schreibt man das? Buchstabieren Sie bitte. Das schreibt man M-Ü-L-L-E-R.\nVorname, Nachname, Adresse, Postleitzahl, Geburtsdatum, Unterschrift."
+    }
+   ]
+  }
+ ]
+}

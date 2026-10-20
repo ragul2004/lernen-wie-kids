@@ -1,0 +1,739 @@
+{
+ "lesson": 12,
+ "title": "Про других",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: движок Д5, лица. Всё, что ученица умеет говорить про себя, переносится на «он», «она», «мы», «они» и «вы». Плюс П20 про третьего: мой муж работает, моя подруга живёт. Слов: 10. Как в уроке 3, новое здесь операция, а не паттерн: показ пар, трансформации с опорой, потом без."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "er",
+     "ru": "он",
+     "example": "Er wohnt in Bremen."
+    },
+    {
+     "type": "word",
+     "de": "sie",
+     "ru": "она",
+     "example": "Sie arbeitet als Ärztin."
+    },
+    {
+     "type": "word",
+     "de": "wir",
+     "ru": "мы",
+     "example": "Wir kommen aus Russland."
+    },
+    {
+     "type": "word",
+     "de": "ihr",
+     "ru": "вы (несколько на «ты»)",
+     "example": "Seid ihr müde?"
+    },
+    {
+     "type": "word",
+     "de": "sie; Sie",
+     "ru": "они; Вы",
+     "example": "Sie wohnen in Berlin."
+    },
+    {
+     "type": "word",
+     "de": "zusammen",
+     "ru": "вместе",
+     "example": "Wir wohnen zusammen."
+    },
+    {
+     "type": "word",
+     "de": "allein",
+     "ru": "один, одна",
+     "example": "Ich wohne allein."
+    },
+    {
+     "type": "word",
+     "de": "besuchen",
+     "ru": "навещать",
+     "example": "Ich besuche meine Eltern."
+    },
+    {
+     "type": "word",
+     "de": "warten",
+     "ru": "ждать",
+     "example": "Ich warte hier."
+    },
+    {
+     "type": "word",
+     "de": "die Freunde",
+     "ru": "друзья",
+     "example": "Das sind meine Freunde."
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: он, она, мы, они, вместе, одна, навещать, ждать, друзья."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть брат",
+     "answer": "Ich habe einen Bruder."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты замужем",
+     "answer": "Ich bin verheiratet."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь родителей",
+     "answer": "Das sind meine Eltern."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь маму",
+     "answer": "Das ist meine Mutter."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, есть ли у неё братья и сёстры",
+     "answer": "Hast du Geschwister?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, кем работаешь",
+     "answer": "Ich arbeite als {профессия}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи свой возраст",
+     "answer": "Ich bin {возраст} Jahre alt."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, кем она работает",
+     "answer": "Was machst du beruflich?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет братьев и сестёр",
+     "answer": "Ich habe keine Geschwister."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сыну десять",
+     "answer": "Mein Sohn ist zehn."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь в своём городе",
+     "answer": "Ich wohne in {город}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что говоришь по-английски",
+     "answer": "Ich spreche Englisch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что устала",
+     "answer": "Ich bin müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь кофе",
+     "answer": "Ich möchte einen Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна работать",
+     "answer": "Ich muss arbeiten."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что можешь говорить по-немецки",
+     "answer": "Ich kann Deutsch sprechen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть время",
+     "answer": "Ich habe Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не знаешь",
+     "answer": "Ich weiß nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, где она живёт",
+     "answer": "Wo wohnst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, есть ли у него дети",
+     "answer": "Haben Sie Kinder?"
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 71",
+     "answer": "einundsiebzig"
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: начальник",
+     "answer": "der Chef"
+    }
+   ]
+  },
+  {
+   "title": "3. Новое: движок Д5, лица, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "Показ"
+    },
+    {
+     "type": "note",
+     "text": "Тьютор читает пары, ученица слушает. Что двигается: вместо ich встаёт er, sie, wir, и глагол меняет хвост. Er и sie: хвост -t. Wir и sie «они»: как инфинитив. Несколько глаголов меняют гласную внутри: spricht, isst, schläft, hilft. Sein и haben просто запоминаются: er ist, er hat, wir sind, wir haben."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich wohne in Bremen.",
+     "to": "Er wohnt in Bremen."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich arbeite als Lehrerin.",
+     "to": "Sie arbeitet als Lehrerin."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich komme aus Polen.",
+     "to": "Wir kommen aus Polen."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich habe zwei Kinder.",
+     "to": "Sie hat zwei Kinder."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich bin müde.",
+     "to": "Er ist müde."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich spreche Deutsch.",
+     "to": "Sie spricht Deutsch."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich möchte Kaffee.",
+     "to": "Er möchte Kaffee."
+    },
+    {
+     "type": "show_pair",
+     "from": "Wohnst du in Bremen?",
+     "to": "Wohnt sie in Bremen?"
+    },
+    {
+     "type": "echo",
+     "text": "Эхо: обе версии каждой пары."
+    },
+    {
+     "type": "label",
+     "text": "Таблица форм для тьютора, на экране не показывать"
+    },
+    {
+     "type": "note",
+     "tutorOnly": true,
+     "text": "Формы: kommen: er / sie kommt, wir kommen, ihr kommt, sie / Sie kommen; wohnen: er / sie wohnt, wir wohnen, ihr wohnt, sie / Sie wohnen; arbeiten: er / sie arbeitet, wir arbeiten, ihr arbeitet, sie / Sie arbeiten; sein: er / sie ist, wir sind, ihr seid, sie / Sie sind; haben: er / sie hat, wir haben, ihr habt, sie / Sie haben; sprechen: er / sie spricht, wir sprechen, ihr sprecht, sie / Sie sprechen; essen: er / sie isst, wir essen, ihr esst, sie / Sie essen; schlafen: er / sie schläft, wir schlafen, ihr schlaft, sie / Sie schlafen; helfen: er / sie hilft, wir helfen, ihr helft, sie / Sie helfen; wissen: er / sie weiß, wir wissen, ihr wisst, sie / Sie wissen; möchten: er / sie möchte, wir möchten, ihr möchtet, sie / Sie möchten; können: er / sie kann, wir können, ihr könnt, sie / Sie können; müssen: er / sie muss, wir müssen, ihr müsst, sie / Sie müssen"
+    },
+    {
+     "type": "heading",
+     "text": "С опорой, предложение показано"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich wohne in Berlin. Скажи про него",
+     "answer": "Er wohnt in Berlin."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich arbeite bei Siemens. Скажи про неё",
+     "answer": "Sie arbeitet bei Siemens."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich habe einen Sohn. Скажи про него",
+     "answer": "Er hat einen Sohn."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich bin verheiratet. Скажи про неё",
+     "answer": "Sie ist verheiratet."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich komme aus Russland. Скажи про нас",
+     "answer": "Wir kommen aus Russland."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich spreche Englisch. Скажи про него",
+     "answer": "Er spricht Englisch."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich möchte einen Tee. Скажи про неё",
+     "answer": "Sie möchte einen Tee."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich muss arbeiten. Скажи про нас",
+     "answer": "Wir müssen arbeiten."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich schlafe. Скажи про него",
+     "answer": "Er schläft."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich bin müde. Скажи про них",
+     "answer": "Sie sind müde."
+    },
+    {
+     "type": "heading",
+     "text": "П20. Про третьего: мой муж, моя подруга"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Mein Mann arbeitet bei Siemens.",
+     "ru": "Мой муж работает в Сименсе."
+    },
+    {
+     "type": "show",
+     "de": "Meine Freundin wohnt in Hamburg.",
+     "ru": "Моя подруга живёт в Гамбурге."
+    },
+    {
+     "type": "show",
+     "de": "Meine Eltern wohnen in Moskau.",
+     "ru": "Мои родители живут в Москве."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: вместо er стоит, кто именно: mein Mann, meine Freundin. Родителей много, поэтому wohnen, как wir."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что муж работает в Сименсе",
+     "answer": "Mein Mann arbeitet bei Siemens."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что подруга живёт в Гамбурге",
+     "answer": "Meine Freundin wohnt in Hamburg."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что родители живут в Москве",
+     "answer": "Meine Eltern wohnen in Moskau."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что мама учительница",
+     "answer": "Meine Mutter ist Lehrerin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сын учит немецкий",
+     "answer": "Mein Sohn lernt Deutsch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что брат говорит по-английски",
+     "answer": "Mein Bruder spricht Englisch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "муж работает в офисе",
+     "answer": "Mein Mann arbeitet im Büro."
+    },
+    {
+     "type": "carousel",
+     "prompt": "подруга из Польши",
+     "answer": "Meine Freundin kommt aus Polen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "родители живут в Москве",
+     "answer": "Meine Eltern wohnen in Moskau."
+    },
+    {
+     "type": "carousel",
+     "prompt": "дочь спит",
+     "answer": "Meine Tochter schläft."
+    },
+    {
+     "type": "carousel",
+     "prompt": "брат хочет кофе",
+     "answer": "Mein Bruder möchte einen Kaffee."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мама в Москве",
+     "answer": "Meine Mutter ist in Moskau."
+    },
+    {
+     "type": "carousel",
+     "prompt": "дети говорят по-русски",
+     "answer": "Meine Kinder sprechen Russisch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сестра студентка",
+     "answer": "Meine Schwester ist Studentin."
+    },
+    {
+     "type": "carousel",
+     "prompt": "муж устал",
+     "answer": "Mein Mann ist müde."
+    },
+    {
+     "type": "carousel",
+     "prompt": "подруга может помочь",
+     "answer": "Meine Freundin kann helfen."
+    },
+    {
+     "type": "heading",
+     "text": "Смешанно, про него, про неё, про нас, про них"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы с мужем живёте в Бремене",
+     "answer": "Wir wohnen in Bremen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про подругу, что она замужем",
+     "answer": "Sie ist verheiratet."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про Мартина, что он учитель",
+     "answer": "Martin ist Lehrer."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы устали",
+     "answer": "Wir sind müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про маму, что она не говорит по-немецки",
+     "answer": "Meine Mutter spricht kein Deutsch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про детей, что они спят",
+     "answer": "Meine Kinder schlafen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы хотите кофе",
+     "answer": "Wir möchten Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про сына, что он не может прийти",
+     "answer": "Mein Sohn kann nicht kommen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы живёте вместе",
+     "answer": "Wir wohnen zusammen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про брата, что он живёт один",
+     "answer": "Mein Bruder wohnt allein."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы должны сейчас идти",
+     "answer": "Wir müssen jetzt gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про подругу, что ей тридцать",
+     "answer": "Meine Freundin ist dreißig."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про родителей, что они не понимают",
+     "answer": "Meine Eltern verstehen nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы ждём здесь",
+     "answer": "Wir warten hier."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что навещаешь родителей",
+     "answer": "Ich besuche meine Eltern."
+    },
+    {
+     "type": "heading",
+     "text": "Вопросы про третьего"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, где живёт её брат",
+     "answer": "Wo wohnt dein Bruder?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, откуда её муж",
+     "answer": "Woher kommt dein Mann?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси про женщину на фото: она замужем?",
+     "answer": "Ist sie verheiratet?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси про мужчину: он говорит по-немецки?",
+     "answer": "Spricht er Deutsch?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси группу на «вы»: вы устали?",
+     "answer": "Seid ihr müde?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, сколько лет её маме",
+     "answer": "Wie alt ist deine Mutter?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси про детей: они спят?",
+     "answer": "Schlafen sie?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, кем работает её муж: «что делает твой муж по работе»",
+     "answer": "Was macht dein Mann beruflich?"
+    },
+    {
+     "type": "heading",
+     "text": "Обратно"
+    },
+    {
+     "type": "reverse",
+     "de": "Er arbeitet als Koch."
+    },
+    {
+     "type": "reverse",
+     "de": "Wir haben keine Zeit."
+    },
+    {
+     "type": "reverse",
+     "de": "Meine Schwester wohnt in Berlin."
+    },
+    {
+     "type": "reverse",
+     "de": "Wohnt er allein?"
+    },
+    {
+     "type": "reverse",
+     "de": "Sie sind müde."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Представь мужа и скажи, что он работает в Сименсе",
+     "answer": "Das ist mein Mann. Er arbeitet bei Siemens."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь подругу и скажи, что она из Польши",
+     "answer": "Das ist meine Freundin. Sie kommt aus Polen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть брат и он живёт в Москве",
+     "answer": "Ich habe einen Bruder. Er wohnt in Moskau."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы с мужем хотите учить немецкий",
+     "answer": "Wir möchten Deutsch lernen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что мама больна и тебе нужен врач",
+     "answer": "Meine Mutter ist krank. Ich brauche einen Arzt."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, работает ли её муж",
+     "answer": "Arbeitet dein Mann?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что дети устали и хотят спать",
+     "answer": "Meine Kinder sind müde. Sie möchten schlafen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сестра студентка и ей двадцать",
+     "answer": "Meine Schwester ist Studentin. Sie ist zwanzig."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы не можете прийти сегодня",
+     "answer": "Wir können heute nicht kommen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что родители не говорят по-немецки, но говорят по-английски: «und»",
+     "answer": "Meine Eltern sprechen kein Deutsch und ein bisschen Englisch."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, кто это, и скажи, что это твой начальник и он из Гамбурга",
+     "answer": "Wer ist das? Das ist mein Chef. Er kommt aus Hamburg."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ждёшь подругу: «я жду здесь»",
+     "answer": "Ich warte hier."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: рассказ про подругу, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор играет соседку по курсу, которая расспрашивает про подругу ученицы на фото. Факты подруги для ответов: Lena, aus Polen, wohnt in Hamburg, Ärztin, verheiratet, zwei Kinder."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Wer ist das?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "представь подругу Лену",
+     "answer": "Das ist meine Freundin Lena."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Woher kommt sie?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что она из Польши",
+     "answer": "Sie kommt aus Polen."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Und wo wohnt sie?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что она живёт в Гамбурге",
+     "answer": "Sie wohnt in Hamburg."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Was macht sie beruflich?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что она врач",
+     "answer": "Sie ist Ärztin. Sie arbeitet als Ärztin."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Ist sie verheiratet?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, и у неё двое детей",
+     "answer": "Ja, sie ist verheiratet. Sie hat zwei Kinder."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Spricht sie Deutsch?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, она хорошо говорит по-немецки",
+     "answer": "Ja, sie spricht gut Deutsch."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Und ihr? Wohnt ihr zusammen?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "нет, вы живёте не вместе; она в Гамбурге",
+     "answer": "Nein, wir wohnen nicht zusammen. Sie wohnt in Hamburg."
+    },
+    {
+     "type": "note",
+     "text": "Ihr в вопросе соседки на понимание. Потом то же самое про мужа или брата ученицы, без экрана."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Er wohnt in Bremen. Sie arbeitet als Ärztin. Wir kommen aus Russland.\nMein Mann arbeitet bei Siemens. Meine Eltern wohnen in Moskau.\nWoher kommt dein Mann? Ist sie verheiratet? Seid ihr müde?"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "layers": [
+  {
+   "id": "A1.0",
+   "title": "Минимальный рабочий язык",
+   "lessons": [
+    {
+     "n": 1,
+     "file": "lessons/A1.0/json/urok-01.json",
+     "title": "Кто я, откуда, где живу",
+     "cards": 195,
+     "answers": 110
+    },
+    {
+     "n": 2,
+     "file": "lessons/A1.0/json/urok-02.json",
+     "title": "Как я, что у меня есть, кто это",
+     "cards": 166,
+     "answers": 103
+    },
+    {
+     "n": 3,
+     "file": "lessons/A1.0/json/urok-03.json",
+     "title": "Вопросы",
+     "cards": 119,
+     "answers": 72
+    },
+    {
+     "n": 4,
+     "file": "lessons/A1.0/json/urok-04.json",
+     "title": "Хочу и мне нужно",
+     "cards": 134,
+     "answers": 87
+    },
+    {
+     "n": 5,
+     "file": "lessons/A1.0/json/urok-05.json",
+     "title": "Могу, должна, можно?",
+     "cards": 167,
+     "answers": 107
+    },
+    {
+     "n": 6,
+     "file": "lessons/A1.0/json/urok-06.json",
+     "title": "Нет",
+     "cards": 121,
+     "answers": 76
+    },
+    {
+     "n": 7,
+     "file": "lessons/A1.0/json/urok-07.json",
+     "title": "Где и сколько стоит",
+     "cards": 137,
+     "answers": 86
+    },
+    {
+     "n": 8,
+     "file": "lessons/A1.0/json/urok-08.json",
+     "title": "Сплошная проверка",
+     "cards": 63,
+     "answers": 60
+    },
+    {
+     "n": 9,
+     "file": "lessons/A1.0/json/urok-09.json",
+     "title": "Ворота",
+     "cards": 89,
+     "answers": 72
+    }
+   ]
+  },
+  {
+   "id": "A1.1",
+   "title": "Я, моя жизнь, мой день",
+   "lessons": [
+    {
+     "n": 10,
+     "file": "lessons/A1.1/json/urok-10.json",
+     "title": "Профессия и возраст",
+     "cards": 153,
+     "answers": 89
+    },
+    {
+     "n": 11,
+     "file": "lessons/A1.1/json/urok-11.json",
+     "title": "Семья",
+     "cards": 139,
+     "answers": 88
+    },
+    {
+     "n": 12,
+     "file": "lessons/A1.1/json/urok-12.json",
+     "title": "Про других",
+     "cards": 141,
+     "answers": 90
+    },
+    {
+     "n": 13,
+     "file": "lessons/A1.1/json/urok-13.json",
+     "title": "Нравится",
+     "cards": 116,
+     "answers": 74
+    },
+    {
+     "n": 14,
+     "file": "lessons/A1.1/json/urok-14.json",
+     "title": "Люблю делать, мнение",
+     "cards": 160,
+     "answers": 97
+    },
+    {
+     "n": 15,
+     "file": "lessons/A1.1/json/urok-15.json",
+     "title": "Который час",
+     "cards": 150,
+     "answers": 89
+    },
+    {
+     "n": 16,
+     "file": "lessons/A1.1/json/urok-16.json",
+     "title": "Дни и когда",
+     "cards": 142,
+     "answers": 89
+    },
+    {
+     "n": 17,
+     "file": "lessons/A1.1/json/urok-17.json",
+     "title": "Мой день",
+     "cards": 138,
+     "answers": 80
+    },
+    {
+     "n": 18,
+     "file": "lessons/A1.1/json/urok-18.json",
+     "title": "Мой день по порядку",
+     "cards": 151,
+     "answers": 91
+    },
+    {
+     "n": 19,
+     "file": "lessons/A1.1/json/urok-19.json",
+     "title": "Самочувствие",
+     "cards": 163,
+     "answers": 103
+    },
+    {
+     "n": 20,
+     "file": "lessons/A1.1/json/urok-20.json",
+     "title": "В кафе",
+     "cards": 161,
+     "answers": 92
+    },
+    {
+     "n": 21,
+     "file": "lessons/A1.1/json/urok-21.json",
+     "title": "Город и дорога",
+     "cards": 149,
+     "answers": 91
+    },
+    {
+     "n": 22,
+     "file": "lessons/A1.1/json/urok-22.json",
+     "title": "Анкета и буквы",
+     "cards": 157,
+     "answers": 93
+    },
+    {
+     "n": 23,
+     "file": "lessons/A1.1/json/urok-23.json",
+     "title": "Сплошная проверка",
+     "cards": 83,
+     "answers": 80
+    },
+    {
+     "n": 24,
+     "file": "lessons/A1.1/json/urok-24.json",
+     "title": "Ворота A1.1",
+     "cards": 113,
+     "answers": 93
+    }
+   ]
+  }
+ ]
+}

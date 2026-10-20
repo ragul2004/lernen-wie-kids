@@ -1,0 +1,707 @@
+{
+ "lesson": 4,
+ "title": "Хочу и мне нужно",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П7 желание с модальной рамкой Д2 внутри, П8 потребность. Слов: 12. Трансформации: вопросы Д3 к новым паттернам."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "möchten: ich möchte",
+     "ru": "хотеть, хотела бы",
+     "example": "Ich möchte Kaffee."
+    },
+    {
+     "type": "word",
+     "de": "brauchen: ich brauche",
+     "ru": "нуждаться",
+     "example": "Ich brauche Hilfe."
+    },
+    {
+     "type": "word",
+     "de": "der Kaffee",
+     "ru": "кофе",
+     "example": "einen Kaffee, bitte"
+    },
+    {
+     "type": "word",
+     "de": "der Tee",
+     "ru": "чай",
+     "example": "einen Tee, bitte"
+    },
+    {
+     "type": "word",
+     "de": "das Wasser",
+     "ru": "вода",
+     "example": "Wasser, bitte"
+    },
+    {
+     "type": "word",
+     "de": "die Hilfe",
+     "ru": "помощь",
+     "example": "Ich brauche Hilfe."
+    },
+    {
+     "type": "word",
+     "de": "der Termin",
+     "ru": "запись, встреча по времени",
+     "example": "Ich habe einen Termin."
+    },
+    {
+     "type": "word",
+     "de": "schlafen",
+     "ru": "спать",
+     "example": "Ich möchte schlafen."
+    },
+    {
+     "type": "word",
+     "de": "essen",
+     "ru": "есть, кушать",
+     "example": "Ich möchte essen."
+    },
+    {
+     "type": "word",
+     "de": "trinken",
+     "ru": "пить",
+     "example": "Ich möchte Wasser trinken."
+    },
+    {
+     "type": "word",
+     "de": "lernen",
+     "ru": "учить, учиться",
+     "example": "Ich möchte Deutsch lernen."
+    },
+    {
+     "type": "word",
+     "de": "gehen",
+     "ru": "идти",
+     "example": "Ich möchte nach Hause gehen."
+    },
+    {
+     "type": "word",
+     "de": "nach Hause; zu Hause",
+     "ru": "домой; дома",
+     "example": "nach Hause gehen; zu Hause"
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: кофе, чай, вода, помощь, запись к врачу, спать, есть, пить, учить, идти домой."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, как её зовут",
+     "answer": "Wie heißt du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, откуда он",
+     "answer": "Woher kommen Sie?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, где она живёт",
+     "answer": "Wo wohnst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, есть ли у неё дети",
+     "answer": "Hast du Kinder?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, говорит ли он по-английски",
+     "answer": "Sprechen Sie Englisch?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, устала ли она",
+     "answer": "Bist du müde?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, придёт ли она завтра",
+     "answer": "Kommst du morgen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, что значит слово «Termin»",
+     "answer": "Was bedeutet „Termin“?"
+    },
+    {
+     "type": "task",
+     "prompt": "Представь коллегу",
+     "answer": "Das ist meine Kollegin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет телефона",
+     "answer": "Ich habe kein Handy."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сегодня ты устала",
+     "answer": "Ich bin heute müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть работа",
+     "answer": "Ich habe Arbeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть вопрос",
+     "answer": "Ich habe eine Frage."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, кто это",
+     "answer": "Wer ist das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты закончила",
+     "answer": "Ich bin fertig."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, откуда ты и где живёшь",
+     "answer": "Ich komme aus {страна}. Ich wohne in {город}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что немного говоришь по-немецки",
+     "answer": "Ich spreche ein bisschen Deutsch."
+    },
+    {
+     "type": "task",
+     "prompt": "Тебе нужна секунда",
+     "answer": "Moment, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси сказать по буквам",
+     "answer": "Können Sie das buchstabieren?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет времени",
+     "answer": "Ich habe keine Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, есть ли у него время",
+     "answer": "Haben Sie Zeit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Представь дочь",
+     "answer": "Das ist meine Tochter."
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П7. Желание, и внутри него рамка Д2"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich möchte einen Kaffee.",
+     "ru": "Я хочу кофе."
+    },
+    {
+     "type": "show",
+     "de": "Ich möchte schlafen.",
+     "ru": "Я хочу спать."
+    },
+    {
+     "type": "show",
+     "de": "Ich möchte Deutsch lernen.",
+     "ru": "Я хочу учить немецкий."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: после möchte стоит либо вещь, либо действие. Действие уезжает в самый конец: Ich möchte Deutsch lernen, не Ich möchte lernen Deutsch. Это рамка, она же будет с kann и muss."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ einen Kaffee.",
+     "answer": "Ich möchte einen Kaffee."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich möchte ___. (спать)",
+     "answer": "Ich möchte schlafen."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich möchte Deutsch ___.",
+     "answer": "Ich möchte Deutsch lernen."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich möchte nach Hause ___.",
+     "answer": "Ich möchte nach Hause gehen."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь кофе",
+     "answer": "Ich möchte einen Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь спать",
+     "answer": "Ich möchte schlafen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь учить немецкий",
+     "answer": "Ich möchte Deutsch lernen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь пойти домой",
+     "answer": "Ich möchte nach Hause gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь чай",
+     "answer": "Ich möchte einen Tee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь есть",
+     "answer": "Ich möchte essen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "кофе",
+     "answer": "Ich möchte einen Kaffee."
+    },
+    {
+     "type": "carousel",
+     "prompt": "спать",
+     "answer": "Ich möchte schlafen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "чай",
+     "answer": "Ich möchte einen Tee."
+    },
+    {
+     "type": "carousel",
+     "prompt": "домой",
+     "answer": "Ich möchte nach Hause gehen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "учить немецкий",
+     "answer": "Ich möchte Deutsch lernen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "есть",
+     "answer": "Ich möchte essen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "воду",
+     "answer": "Ich möchte Wasser."
+    },
+    {
+     "type": "carousel",
+     "prompt": "пить воду",
+     "answer": "Ich möchte Wasser trinken."
+    },
+    {
+     "type": "carousel",
+     "prompt": "спать",
+     "answer": "Ich möchte schlafen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "чай",
+     "answer": "Ich möchte einen Tee."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации, вопросы Д3"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich möchte einen Kaffee. Спроси подругу",
+     "answer": "Möchtest du einen Kaffee?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich möchte schlafen. Спроси подругу",
+     "answer": "Möchtest du schlafen?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich möchte einen Tee. Спроси взрослого",
+     "answer": "Möchten Sie einen Tee?"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси взрослого, чего он хочет",
+     "answer": "Was möchten Sie?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich möchte Wasser."
+    },
+    {
+     "type": "reverse",
+     "de": "Möchtest du essen?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich möchte Deutsch lernen."
+    },
+    {
+     "type": "heading",
+     "text": "П8. Потребность"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich brauche Hilfe.",
+     "ru": "Мне нужна помощь."
+    },
+    {
+     "type": "show",
+     "de": "Ich brauche Wasser.",
+     "ru": "Мне нужна вода."
+    },
+    {
+     "type": "show",
+     "de": "Ich brauche einen Termin.",
+     "ru": "Мне нужна запись к врачу."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: то, что нужно; форма einen как в П7."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ Hilfe.",
+     "answer": "Ich brauche Hilfe."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich brauche ___. (воду)",
+     "answer": "Ich brauche Wasser."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich brauche ___ Termin.",
+     "answer": "Ich brauche einen Termin."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich brauche ___. (время)",
+     "answer": "Ich brauche Zeit."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна помощь",
+     "answer": "Ich brauche Hilfe."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна вода",
+     "answer": "Ich brauche Wasser."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна запись",
+     "answer": "Ich brauche einen Termin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужно время",
+     "answer": "Ich brauche Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужны деньги",
+     "answer": "Ich brauche Geld."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужен телефон",
+     "answer": "Ich brauche ein Handy."
+    },
+    {
+     "type": "carousel",
+     "prompt": "помощь",
+     "answer": "Ich brauche Hilfe."
+    },
+    {
+     "type": "carousel",
+     "prompt": "вода",
+     "answer": "Ich brauche Wasser."
+    },
+    {
+     "type": "carousel",
+     "prompt": "запись",
+     "answer": "Ich brauche einen Termin."
+    },
+    {
+     "type": "carousel",
+     "prompt": "время",
+     "answer": "Ich brauche Zeit."
+    },
+    {
+     "type": "carousel",
+     "prompt": "деньги",
+     "answer": "Ich brauche Geld."
+    },
+    {
+     "type": "carousel",
+     "prompt": "телефон",
+     "answer": "Ich brauche ein Handy."
+    },
+    {
+     "type": "carousel",
+     "prompt": "кофе",
+     "answer": "Ich brauche einen Kaffee."
+    },
+    {
+     "type": "carousel",
+     "prompt": "помощь",
+     "answer": "Ich brauche Hilfe."
+    },
+    {
+     "type": "carousel",
+     "prompt": "машина",
+     "answer": "Ich brauche ein Auto."
+    },
+    {
+     "type": "carousel",
+     "prompt": "вода",
+     "answer": "Ich brauche Wasser."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich brauche Hilfe. Спроси подругу",
+     "answer": "Brauchst du Hilfe?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich brauche Wasser. Спроси взрослого",
+     "answer": "Brauchen Sie Wasser?"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси подругу, что ей нужно",
+     "answer": "Was brauchst du?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich brauche einen Termin."
+    },
+    {
+     "type": "reverse",
+     "de": "Brauchen Sie Hilfe?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich brauche Zeit."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть запись",
+     "answer": "Ich habe einen Termin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь кофе, и попроси: пожалуйста",
+     "answer": "Ich möchte einen Kaffee, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, хочет ли она чай",
+     "answer": "Möchtest du einen Tee?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что устала и хочешь спать",
+     "answer": "Ich bin müde. Ich möchte schlafen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна помощь, и что ты не понимаешь",
+     "answer": "Ich brauche Hilfe. Ich verstehe nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь пойти домой, потому что больна: два предложения",
+     "answer": "Ich bin krank. Ich möchte nach Hause gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, чего он хочет",
+     "answer": "Was möchten Sie?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет времени и тебе нужна запись",
+     "answer": "Ich habe keine Zeit. Ich brauche einen Termin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь учить немецкий и что живёшь в своём городе",
+     "answer": "Ich möchte Deutsch lernen. Ich wohne in {город}."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, нужны ли ей деньги",
+     "answer": "Brauchst du Geld?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь пить воду",
+     "answer": "Ich möchte Wasser trinken."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь мужа и скажи, что он хочет кофе: только «это мой муж», потом сама скажи «я хочу кофе»",
+     "answer": "Das ist mein Mann. Ich möchte einen Kaffee."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: в кафе, 7 минут",
+   "cards": [
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Guten Tag! Was möchten Sie?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что хочешь кофе",
+     "answer": "Ich möchte einen Kaffee, bitte."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Und Wasser?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, пожалуйста",
+     "answer": "Ja, bitte. Ich möchte Wasser."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Möchten Sie Zucker?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "ты не поняла слово; спроси, что оно значит",
+     "answer": "Was bedeutet „Zucker“?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Zucker ist … (показывает)"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "нет, спасибо",
+     "answer": "Nein, danke."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Bitte schön."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "тебе нужна помощь: стакан упал",
+     "answer": "Entschuldigung, ich brauche Hilfe."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Kein Problem!"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "поблагодари и попрощайся",
+     "answer": "Danke schön. Auf Wiedersehen."
+    },
+    {
+     "type": "note",
+     "text": "Zucker только на понимание. Цена в этой сцене не звучит: числа будут в уроке 7."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Ich möchte einen Kaffee. Ich möchte schlafen. Ich möchte Deutsch lernen.\nIch brauche Hilfe. Ich brauche einen Termin.\nMöchtest du …? Was möchten Sie?"
+    }
+   ]
+  }
+ ]
+}

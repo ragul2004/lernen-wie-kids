@@ -1,0 +1,726 @@
+{
+ "lesson": 17,
+ "title": "Мой день",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: движок Д7, отделяемые глаголы, и П27 мой день. Слов: 14. Главное в уроке одно движение: приставка отрывается и уезжает в самый конец, а с möchte, muss и kann приклеивается обратно. Трансформации: модальная рамка Д2, вопросы Д3, лица Д5."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 12 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "aufstehen: ich stehe auf",
+     "ru": "вставать",
+     "example": "Ich stehe um sieben Uhr auf."
+    },
+    {
+     "type": "word",
+     "de": "frühstücken; das Frühstück",
+     "ru": "завтракать; завтрак",
+     "example": "Ich frühstücke um acht."
+    },
+    {
+     "type": "word",
+     "de": "anfangen: ich fange an",
+     "ru": "начинать",
+     "example": "Ich fange um neun Uhr an."
+    },
+    {
+     "type": "word",
+     "de": "aufhören: ich höre auf",
+     "ru": "заканчивать",
+     "example": "Ich höre um sechs Uhr auf."
+    },
+    {
+     "type": "word",
+     "de": "einkaufen: ich kaufe ein",
+     "ru": "делать покупки",
+     "example": "Ich kaufe am Samstag ein."
+    },
+    {
+     "type": "word",
+     "de": "fernsehen: ich sehe fern",
+     "ru": "смотреть телевизор",
+     "example": "Am Abend sehe ich fern."
+    },
+    {
+     "type": "word",
+     "de": "anrufen: ich rufe an",
+     "ru": "звонить",
+     "example": "Ich rufe meine Mutter an."
+    },
+    {
+     "type": "word",
+     "de": "mitkommen: ich komme mit",
+     "ru": "идти вместе",
+     "example": "Kommst du mit?"
+    },
+    {
+     "type": "word",
+     "de": "das Mittagessen",
+     "ru": "обед",
+     "example": "Um zwölf Uhr ist Mittagessen."
+    },
+    {
+     "type": "word",
+     "de": "das Abendessen",
+     "ru": "ужин",
+     "example": "Um sieben Uhr ist Abendessen."
+    },
+    {
+     "type": "word",
+     "de": "zur Arbeit",
+     "ru": "на работу",
+     "example": "Ich gehe zur Arbeit."
+    },
+    {
+     "type": "word",
+     "de": "fahren: ich fahre, er fährt",
+     "ru": "ехать",
+     "example": "Ich fahre zur Arbeit."
+    },
+    {
+     "type": "word",
+     "de": "schlafen gehen",
+     "ru": "идти спать",
+     "example": "Ich gehe um elf schlafen."
+    },
+    {
+     "type": "word",
+     "de": "dann",
+     "ru": "потом",
+     "example": "Dann gehe ich schlafen."
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: вставать, завтракать, начинать, заканчивать, делать покупки, смотреть телевизор, звонить, идти вместе, обед, ужин, на работу, ехать."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, когда она придёт",
+     "answer": "Wann kommst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в выходные у тебя есть время, начиная с выходных",
+     "answer": "Am Wochenende habe ich Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что работаешь с девяти до шести",
+     "answer": "Ich arbeite von neun bis sechs."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что утром пьёшь кофе",
+     "answer": "Am Morgen trinke ich Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вечером готовишь",
+     "answer": "Am Abend koche ich."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, есть ли у неё время в субботу",
+     "answer": "Hast du am Samstag Zeit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: половина восьмого",
+     "answer": "Es ist halb acht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в восемь ты работаешь, начиная со времени",
+     "answer": "Um acht Uhr arbeite ich."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, во сколько начинается курс",
+     "answer": "Um wie viel Uhr beginnt der Kurs?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь готовить",
+     "answer": "Ich koche gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что находишь фильм скучным",
+     "answer": "Ich finde den Film langweilig."
+    },
+    {
+     "type": "task",
+     "prompt": "Предложи подруге кофе",
+     "answer": "Möchtest du Kaffee?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь музыку, но не любишь танцевать",
+     "answer": "Ich mag Musik, aber ich tanze nicht gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он любит футбол",
+     "answer": "Mein Mann mag Fußball."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы живёте в Бремене",
+     "answer": "Wir wohnen in Bremen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про сына, что ему десять и он учит немецкий",
+     "answer": "Mein Sohn ist zehn. Er lernt Deutsch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты замужем",
+     "answer": "Ich bin verheiratet."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, кем работаешь",
+     "answer": "Ich arbeite als {профессия}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна сейчас идти",
+     "answer": "Ich muss jetzt gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь спать",
+     "answer": "Ich möchte schlafen."
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: среда",
+     "answer": "der Mittwoch"
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: выходные",
+     "answer": "das Wochenende"
+    }
+   ]
+  },
+  {
+   "title": "3. Новое: движок Д7, отделяемые глаголы, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich stehe um sieben Uhr auf.",
+     "ru": "Я встаю в семь."
+    },
+    {
+     "type": "show",
+     "de": "Ich fange um neun Uhr an.",
+     "ru": "Я начинаю в девять."
+    },
+    {
+     "type": "show",
+     "de": "Am Abend sehe ich fern.",
+     "ru": "Вечером я смотрю телевизор."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: у глагола aufstehen приставка auf отрывается и уезжает в самый конец. Между stehe и auf помещается всё остальное. Ударение в слове на приставке: AUFstehen."
+    },
+    {
+     "type": "label",
+     "text": "Показ движка с модальными, тьютор читает пары"
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich stehe um sieben Uhr auf.",
+     "to": "Ich muss um sieben Uhr aufstehen."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich kaufe am Samstag ein.",
+     "to": "Ich möchte am Samstag einkaufen."
+    },
+    {
+     "type": "show_pair",
+     "from": "Ich sehe fern.",
+     "to": "Ich kann nicht fernsehen."
+    },
+    {
+     "type": "show_pair",
+     "from": "Kommst du mit?",
+     "to": "Kannst du mitkommen?"
+    },
+    {
+     "type": "echo",
+     "text": "Эхо: обе версии каждой пары. Что меняется: с muss, möchte, kann приставка приклеивается обратно, и целый глагол уезжает в конец, как в рамке Д2."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich stehe um sieben Uhr ___.",
+     "answer": "Ich stehe um sieben Uhr auf."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ um neun Uhr an.",
+     "answer": "Ich fange um neun Uhr an."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Am Abend sehe ich ___.",
+     "answer": "Am Abend sehe ich fern."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich muss um sieben Uhr ___. (встать)",
+     "answer": "Ich muss um sieben Uhr aufstehen."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich kaufe am Samstag ___.",
+     "answer": "Ich kaufe am Samstag ein."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что встаёшь в семь",
+     "answer": "Ich stehe um sieben Uhr auf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что начинаешь в девять",
+     "answer": "Ich fange um neun Uhr an."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вечером смотришь телевизор",
+     "answer": "Am Abend sehe ich fern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в субботу делаешь покупки",
+     "answer": "Ich kaufe am Samstag ein."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что заканчиваешь в шесть",
+     "answer": "Ich höre um sechs Uhr auf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что звонишь маме",
+     "answer": "Ich rufe meine Mutter an."
+    },
+    {
+     "type": "carousel",
+     "prompt": "встаю в семь",
+     "answer": "Ich stehe um sieben Uhr auf."
+    },
+    {
+     "type": "carousel",
+     "prompt": "начинаю в девять",
+     "answer": "Ich fange um neun Uhr an."
+    },
+    {
+     "type": "carousel",
+     "prompt": "заканчиваю в пять",
+     "answer": "Ich höre um fünf Uhr auf."
+    },
+    {
+     "type": "carousel",
+     "prompt": "вечером смотрю телевизор",
+     "answer": "Am Abend sehe ich fern."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в субботу покупки",
+     "answer": "Am Samstag kaufe ich ein."
+    },
+    {
+     "type": "carousel",
+     "prompt": "звоню подруге",
+     "answer": "Ich rufe meine Freundin an."
+    },
+    {
+     "type": "carousel",
+     "prompt": "встаю в шесть",
+     "answer": "Ich stehe um sechs Uhr auf."
+    },
+    {
+     "type": "carousel",
+     "prompt": "иду вместе",
+     "answer": "Ich komme mit."
+    },
+    {
+     "type": "carousel",
+     "prompt": "начинаю в восемь",
+     "answer": "Ich fange um acht Uhr an."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в воскресенье смотрю телевизор",
+     "answer": "Am Sonntag sehe ich fern."
+    },
+    {
+     "type": "label",
+     "text": "С опорой, склей с модальным"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich stehe um sechs Uhr auf. Добавь «должна»",
+     "answer": "Ich muss um sechs Uhr aufstehen."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich kaufe heute ein. Добавь «хочу»",
+     "answer": "Ich möchte heute einkaufen."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich sehe fern. Добавь «не могу»",
+     "answer": "Ich kann nicht fernsehen."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich rufe meine Mutter an. Добавь «должна»",
+     "answer": "Ich muss meine Mutter anrufen."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich fange um neun Uhr an. Добавь «должна»",
+     "answer": "Ich muss um neun Uhr anfangen."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich komme mit. Добавь «хочу»",
+     "answer": "Ich möchte mitkommen."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich stehe um sieben Uhr auf. Спроси подругу",
+     "answer": "Stehst du um sieben Uhr auf?"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси подругу, когда она встаёт",
+     "answer": "Wann stehst du auf?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich stehe um sechs Uhr auf. Скажи про мужа",
+     "answer": "Mein Mann steht um sechs Uhr auf."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich sehe am Abend fern. Спроси взрослого",
+     "answer": "Sehen Sie am Abend fern?"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси подругу, во сколько она начинает",
+     "answer": "Um wie viel Uhr fängst du an?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich kaufe am Samstag ein. Скажи, что нет",
+     "answer": "Ich kaufe am Samstag nicht ein."
+    },
+    {
+     "type": "note",
+     "text": "Fängst, как sprichst: гласная меняется у du и er, сказать один раз."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich stehe um acht Uhr auf."
+    },
+    {
+     "type": "reverse",
+     "de": "Kommst du mit?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich muss meine Mutter anrufen."
+    },
+    {
+     "type": "heading",
+     "text": "П27. Мой день"
+    },
+    {
+     "type": "note",
+     "text": "Показ, тьютор читает весь день подряд, ученица слушает, потом повторяет за ним по предложению:"
+    },
+    {
+     "type": "show",
+     "de": "Ich stehe um sieben Uhr auf.",
+     "ru": "Я встаю в семь."
+    },
+    {
+     "type": "show",
+     "de": "Ich frühstücke und fahre zur Arbeit.",
+     "ru": "Я завтракаю и еду на работу."
+    },
+    {
+     "type": "show",
+     "de": "Ich fange um neun Uhr an.",
+     "ru": "Я начинаю в девять."
+    },
+    {
+     "type": "show",
+     "de": "Um zwölf Uhr esse ich.",
+     "ru": "В двенадцать я ем."
+    },
+    {
+     "type": "show",
+     "de": "Ich höre um sechs Uhr auf.",
+     "ru": "Я заканчиваю в шесть."
+    },
+    {
+     "type": "show",
+     "de": "Am Abend koche ich und sehe fern.",
+     "ru": "Вечером я готовлю и смотрю телевизор."
+    },
+    {
+     "type": "show",
+     "de": "Ich gehe um elf Uhr schlafen.",
+     "ru": "Я иду спать в одиннадцать."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо по предложению. Что меняется: это твой день из семи предложений, он весь из известных кусков."
+    },
+    {
+     "type": "label",
+     "text": "Целиком, свой день, ученица подставляет своё время"
+    },
+    {
+     "type": "task",
+     "prompt": "Во сколько встаёшь",
+     "answer": "Ich stehe um … Uhr auf."
+    },
+    {
+     "type": "task",
+     "prompt": "Завтракаешь и едешь на работу",
+     "answer": "Ich frühstücke und fahre zur Arbeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Во сколько начинаешь",
+     "answer": "Ich fange um … Uhr an."
+    },
+    {
+     "type": "task",
+     "prompt": "Во сколько ешь",
+     "answer": "Um … Uhr esse ich."
+    },
+    {
+     "type": "task",
+     "prompt": "Во сколько заканчиваешь",
+     "answer": "Ich höre um … Uhr auf."
+    },
+    {
+     "type": "task",
+     "prompt": "Что делаешь вечером",
+     "answer": "Am Abend koche ich und sehe fern."
+    },
+    {
+     "type": "task",
+     "prompt": "Во сколько идёшь спать",
+     "answer": "Ich gehe um … Uhr schlafen."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich fahre um acht Uhr zur Arbeit."
+    },
+    {
+     "type": "reverse",
+     "de": "Um sechs Uhr höre ich auf."
+    },
+    {
+     "type": "reverse",
+     "de": "Mein Mann geht um zwölf Uhr schlafen."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что встаёшь в шесть и устаёшь: два предложения",
+     "answer": "Ich stehe um sechs Uhr auf. Ich bin müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, идёт ли она вместе",
+     "answer": "Kommst du mit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна делать покупки, но у тебя нет времени",
+     "answer": "Ich muss einkaufen, aber ich habe keine Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он встаёт в семь и едет на работу",
+     "answer": "Mein Mann steht um sieben Uhr auf und fährt zur Arbeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вечером ты любишь смотреть телевизор: «вечером я смотрю телевизор с удовольствием»",
+     "answer": "Am Abend sehe ich gern fern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что звонишь маме в выходные, начиная с выходных",
+     "answer": "Am Wochenende rufe ich meine Mutter an."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, во сколько он начинает",
+     "answer": "Um wie viel Uhr fangen Sie an?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не можешь пойти вместе: должна работать",
+     "answer": "Ich kann nicht mitkommen. Ich muss arbeiten."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в субботу не встаёшь рано: «в субботу я встаю поздно»",
+     "answer": "Am Samstag stehe ich spät auf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что дети идут спать в девять",
+     "answer": "Meine Kinder gehen um neun Uhr schlafen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь посмотреть телевизор, но должна готовить",
+     "answer": "Ich möchte fernsehen, aber ich muss kochen."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, когда она заканчивает",
+     "answer": "Wann hörst du auf?"
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: звонок подруги, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор играет подругу, которая звонит вечером."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Hallo! Was machst du?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "ты готовишь, потом смотришь телевизор",
+     "answer": "Ich koche. Dann sehe ich fern."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Ich gehe morgen einkaufen. Kommst du mit?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, во сколько",
+     "answer": "Um wie viel Uhr?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Um zehn Uhr."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "в десять ты работаешь; ты начинаешь в девять",
+     "answer": "Um zehn Uhr arbeite ich. Ich fange um neun Uhr an."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Und wann hörst du auf?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "в пять",
+     "answer": "Ich höre um fünf Uhr auf."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Dann gehen wir um sechs Uhr einkaufen?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, с удовольствием; ты идёшь вместе",
+     "answer": "Ja, gern. Ich komme mit."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Super! Ich rufe dich um sechs an."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "хорошо, до завтра",
+     "answer": "Okay, bis morgen!"
+    },
+    {
+     "type": "note",
+     "text": "Dich, super на понимание."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Ich stehe um sieben Uhr auf. Ich fange um neun Uhr an. Am Abend sehe ich fern.\nIch muss um sieben Uhr aufstehen. Kannst du mitkommen? Ich rufe meine Mutter an.\nWann stehst du auf? Mein Mann steht um sechs Uhr auf."
+    }
+   ]
+  }
+ ]
+}

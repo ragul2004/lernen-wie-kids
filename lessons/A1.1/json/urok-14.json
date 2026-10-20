@@ -1,0 +1,829 @@
+{
+ "lesson": 14,
+ "title": "Люблю делать, мнение",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П22 gern, что люблю делать; П23 finden, простое мнение; П30 aber и oder; П34 предложить и ответить Ja, gern / Nein, danke. Слов: 15. Трансформации: вопросы Д3, лица Д5."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "gern",
+     "ru": "охотно, с удовольствием",
+     "example": "Ich koche gern."
+    },
+    {
+     "type": "word",
+     "de": "kochen",
+     "ru": "готовить",
+     "example": "Ich koche gern."
+    },
+    {
+     "type": "word",
+     "de": "lesen: ich lese, er liest",
+     "ru": "читать",
+     "example": "Ich lese gern."
+    },
+    {
+     "type": "word",
+     "de": "spielen",
+     "ru": "играть",
+     "example": "Ich spiele gern Fußball."
+    },
+    {
+     "type": "word",
+     "de": "hören",
+     "ru": "слушать",
+     "example": "Ich höre gern Musik."
+    },
+    {
+     "type": "word",
+     "de": "schwimmen",
+     "ru": "плавать",
+     "example": "Ich schwimme gern."
+    },
+    {
+     "type": "word",
+     "de": "tanzen",
+     "ru": "танцевать",
+     "example": "Ich tanze nicht gern."
+    },
+    {
+     "type": "word",
+     "de": "reisen",
+     "ru": "путешествовать",
+     "example": "Ich reise gern."
+    },
+    {
+     "type": "word",
+     "de": "finden: ich finde",
+     "ru": "находить; считать",
+     "example": "Ich finde das gut."
+    },
+    {
+     "type": "word",
+     "de": "schön; interessant",
+     "ru": "красивый; интересный",
+     "example": "Ich finde Bremen schön."
+    },
+    {
+     "type": "word",
+     "de": "langweilig; wichtig",
+     "ru": "скучный; важный",
+     "example": "Ich finde das langweilig."
+    },
+    {
+     "type": "word",
+     "de": "groß; klein",
+     "ru": "большой; маленький",
+     "example": "Die Wohnung ist klein."
+    },
+    {
+     "type": "word",
+     "de": "billig",
+     "ru": "дешёвый",
+     "example": "Das ist billig."
+    },
+    {
+     "type": "word",
+     "de": "aber",
+     "ru": "но",
+     "example": "Ich mag Bremen, aber die Stadt ist teuer."
+    },
+    {
+     "type": "word",
+     "de": "oder",
+     "ru": "или",
+     "example": "Kaffee oder Tee?"
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: охотно, готовить, читать, играть, слушать, плавать, танцевать, путешествовать, красивый, интересный, скучный, большой, маленький, дешёвый, но, или."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь кофе",
+     "answer": "Ich mag Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь рыбу",
+     "answer": "Ich mag Fisch nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, любит ли она музыку",
+     "answer": "Magst du Musik?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он любит футбол",
+     "answer": "Mein Mann mag Fußball."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, любит ли он кино",
+     "answer": "Mögen Sie Kino?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь фрукты и овощи",
+     "answer": "Ich mag Obst und Gemüse."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про подругу, что она живёт в Гамбурге",
+     "answer": "Meine Freundin wohnt in Hamburg."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы хотите кофе",
+     "answer": "Wir möchten Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, откуда её муж",
+     "answer": "Woher kommt dein Mann?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть брат и сестра",
+     "answer": "Ich habe einen Bruder und eine Schwester."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты в разводе",
+     "answer": "Ich bin geschieden."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь детей",
+     "answer": "Das sind meine Kinder."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи свой возраст",
+     "answer": "Ich bin {возраст} Jahre alt."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что работаешь в офисе",
+     "answer": "Ich arbeite im Büro."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь учить немецкий",
+     "answer": "Ich möchte Deutsch lernen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна купить хлеб",
+     "answer": "Ich muss Brot kaufen."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси подругу помочь",
+     "answer": "Kannst du mir helfen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это дорого",
+     "answer": "Das ist teuer."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, где супермаркет",
+     "answer": "Wo ist der Supermarkt?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это стоит двадцать пять евро",
+     "answer": "Das kostet fünfundzwanzig Euro."
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: сыр",
+     "answer": "der Käse"
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: книга",
+     "answer": "das Buch"
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П22. Люблю делать: gern"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich koche gern.",
+     "ru": "Я люблю готовить."
+    },
+    {
+     "type": "show",
+     "de": "Ich trinke gern Tee.",
+     "ru": "Я люблю пить чай."
+    },
+    {
+     "type": "show",
+     "de": "Ich lese nicht gern.",
+     "ru": "Я не люблю читать."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: глагол на втором месте как всегда, gern сразу после него; что именно, потом: Ich trinke gern Tee. Не люблю: nicht gern. У gern нет русского слова, это «с удовольствием»."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich koche ___.",
+     "answer": "Ich koche gern."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ gern Tee.",
+     "answer": "Ich trinke gern Tee."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich lese ___ ___.",
+     "answer": "Ich lese nicht gern."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ gern Musik. (слушаю)",
+     "answer": "Ich höre gern Musik."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь готовить",
+     "answer": "Ich koche gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь пить чай",
+     "answer": "Ich trinke gern Tee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь читать",
+     "answer": "Ich lese nicht gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь слушать музыку",
+     "answer": "Ich höre gern Musik."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь плавать",
+     "answer": "Ich schwimme gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь танцевать",
+     "answer": "Ich tanze nicht gern."
+    },
+    {
+     "type": "carousel",
+     "prompt": "готовить",
+     "answer": "Ich koche gern."
+    },
+    {
+     "type": "carousel",
+     "prompt": "путешествовать",
+     "answer": "Ich reise gern."
+    },
+    {
+     "type": "carousel",
+     "prompt": "не танцевать",
+     "answer": "Ich tanze nicht gern."
+    },
+    {
+     "type": "carousel",
+     "prompt": "играть в футбол",
+     "answer": "Ich spiele gern Fußball."
+    },
+    {
+     "type": "carousel",
+     "prompt": "читать",
+     "answer": "Ich lese gern."
+    },
+    {
+     "type": "carousel",
+     "prompt": "не готовить",
+     "answer": "Ich koche nicht gern."
+    },
+    {
+     "type": "carousel",
+     "prompt": "слушать музыку",
+     "answer": "Ich höre gern Musik."
+    },
+    {
+     "type": "carousel",
+     "prompt": "плавать",
+     "answer": "Ich schwimme gern."
+    },
+    {
+     "type": "carousel",
+     "prompt": "учить немецкий",
+     "answer": "Ich lerne gern Deutsch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "не работать",
+     "answer": "Ich arbeite nicht gern."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich koche gern. Спроси подругу",
+     "answer": "Kochst du gern?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich lese gern. Скажи про мужа",
+     "answer": "Mein Mann liest gern."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich reise gern. Спроси взрослого",
+     "answer": "Reisen Sie gern?"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси подругу, что она любит делать",
+     "answer": "Was machst du gern?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich spiele gern Fußball. Скажи про сына",
+     "answer": "Mein Sohn spielt gern Fußball."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich schwimme gern."
+    },
+    {
+     "type": "reverse",
+     "de": "Was machst du gern?"
+    },
+    {
+     "type": "reverse",
+     "de": "Meine Tochter tanzt gern."
+    },
+    {
+     "type": "heading",
+     "text": "П23. Мнение: ich finde"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich finde das gut.",
+     "ru": "По-моему, это хорошо."
+    },
+    {
+     "type": "show",
+     "de": "Ich finde Bremen schön.",
+     "ru": "По-моему, Бремен красивый."
+    },
+    {
+     "type": "show",
+     "de": "Ich finde das Buch langweilig.",
+     "ru": "По-моему, книга скучная."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: о чём мнение, потом какое оно, прилагательное в самом конце без окончаний."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ das gut.",
+     "answer": "Ich finde das gut."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich finde Bremen ___. (красивый)",
+     "answer": "Ich finde Bremen schön."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich finde das Buch ___. (скучный)",
+     "answer": "Ich finde das Buch langweilig."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich finde die Wohnung ___. (маленький)",
+     "answer": "Ich finde die Wohnung klein."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что считаешь это хорошим",
+     "answer": "Ich finde das gut."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что находишь Бремен красивым",
+     "answer": "Ich finde Bremen schön."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что книга, по-твоему, скучная",
+     "answer": "Ich finde das Buch langweilig."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что квартира, по-твоему, маленькая",
+     "answer": "Ich finde die Wohnung klein."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что курс, по-твоему, интересный",
+     "answer": "Ich finde den Kurs interessant."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это, по-твоему, дорого",
+     "answer": "Ich finde das teuer."
+    },
+    {
+     "type": "note",
+     "text": "Den Kurs как чанк, движок Д8 будет в уроке 20."
+    },
+    {
+     "type": "carousel",
+     "prompt": "это хорошо",
+     "answer": "Ich finde das gut."
+    },
+    {
+     "type": "carousel",
+     "prompt": "город красивый",
+     "answer": "Ich finde die Stadt schön."
+    },
+    {
+     "type": "carousel",
+     "prompt": "фильм скучный",
+     "answer": "Ich finde den Film langweilig."
+    },
+    {
+     "type": "carousel",
+     "prompt": "это важно",
+     "answer": "Ich finde das wichtig."
+    },
+    {
+     "type": "carousel",
+     "prompt": "это дёшево",
+     "answer": "Ich finde das billig."
+    },
+    {
+     "type": "carousel",
+     "prompt": "это не хорошо",
+     "answer": "Ich finde das nicht gut."
+    },
+    {
+     "type": "carousel",
+     "prompt": "музыка интересная",
+     "answer": "Ich finde die Musik interessant."
+    },
+    {
+     "type": "carousel",
+     "prompt": "квартира большая",
+     "answer": "Ich finde die Wohnung groß."
+    },
+    {
+     "type": "carousel",
+     "prompt": "это дорого",
+     "answer": "Ich finde das teuer."
+    },
+    {
+     "type": "carousel",
+     "prompt": "курс хороший",
+     "answer": "Ich finde den Kurs gut."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich finde das gut. Спроси подругу: «как находишь ты это»",
+     "answer": "Wie findest du das?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich finde Bremen schön. Скажи про мужа",
+     "answer": "Mein Mann findet Bremen schön."
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси взрослого, как он находит курс",
+     "answer": "Wie finden Sie den Kurs?"
+    },
+    {
+     "type": "note",
+     "text": "Findest с лишним e, как arbeitest."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich finde das langweilig."
+    },
+    {
+     "type": "reverse",
+     "de": "Wie findest du die Stadt?"
+    },
+    {
+     "type": "reverse",
+     "de": "Wir finden das wichtig."
+    },
+    {
+     "type": "heading",
+     "text": "П30 и П34. Aber, oder; предложить и ответить"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich mag Bremen, aber die Stadt ist teuer.",
+     "ru": "Я люблю Бремен, но город дорогой."
+    },
+    {
+     "type": "show",
+     "de": "Kaffee oder Tee?",
+     "ru": "Кофе или чай?"
+    },
+    {
+     "type": "show",
+     "de": "Möchtest du Kuchen? — Ja, gern. / Nein, danke.",
+     "ru": "Хочешь пирог? — Да, с удовольствием. / Нет, спасибо."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: aber и oder ничего не двигают, порядок слов после них тот же. Ответ на предложение: Ja, gern или Nein, danke, без предложения целиком."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь Бремен, но город дорогой",
+     "answer": "Ich mag Bremen, aber die Stadt ist teuer."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси: кофе или чай?",
+     "answer": "Kaffee oder Tee?"
+    },
+    {
+     "type": "task",
+     "prompt": "Предложи подруге пирог",
+     "answer": "Möchtest du Kuchen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Согласись с удовольствием",
+     "answer": "Ja, gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Откажись вежливо",
+     "answer": "Nein, danke."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь читать, но у тебя нет времени",
+     "answer": "Ich lese gern, aber ich habe keine Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу: рыба или мясо?",
+     "answer": "Fisch oder Fleisch?"
+    },
+    {
+     "type": "task",
+     "prompt": "Предложи взрослому кофе",
+     "answer": "Möchten Sie Kaffee?"
+    },
+    {
+     "type": "reverse",
+     "de": "Möchtest du Tee?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ja, gern."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich koche gern, aber ich habe keine Zeit."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь готовить и любишь мясо",
+     "answer": "Ich koche gern. Ich mag Fleisch."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, любит ли она плавать",
+     "answer": "Schwimmst du gern?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что находишь курс интересным, но дорогим",
+     "answer": "Ich finde den Kurs interessant, aber teuer."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он любит играть в футбол",
+     "answer": "Mein Mann spielt gern Fußball."
+    },
+    {
+     "type": "task",
+     "prompt": "Предложи подруге чай и спроси: с молоком?",
+     "answer": "Möchtest du Tee? Mit Milch?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь танцевать, но любишь музыку",
+     "answer": "Ich tanze nicht gern, aber ich mag Musik."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, как он находит город",
+     "answer": "Wie finden Sie die Stadt?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что квартира маленькая, но дешёвая",
+     "answer": "Die Wohnung ist klein, aber billig."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что дети любят играть",
+     "answer": "Meine Kinder spielen gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу: кино или книга?",
+     "answer": "Kino oder Buch?"
+    },
+    {
+     "type": "task",
+     "prompt": "Откажись от пирога и скажи, что не любишь пирог",
+     "answer": "Nein, danke. Ich mag Kuchen nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что находишь это важным и хочешь учить немецкий",
+     "answer": "Ich finde das wichtig. Ich möchte Deutsch lernen."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: разговор о хобби, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор играет коллегу в перерыве."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Was machst du gern?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи два своих занятия",
+     "answer": "Ich koche gern und ich lese gern."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Ich koche auch gern! Und Sport? Schwimmst du gern?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "ответь про себя",
+     "answer": "Ja, ich schwimme gern. / Nein, ich schwimme nicht gern."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Wie findest du den Deutschkurs?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "интересный, но дорогой",
+     "answer": "Ich finde den Kurs interessant, aber teuer."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Ja, das stimmt. Möchtest du einen Kaffee?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "согласись с удовольствием",
+     "answer": "Ja, gern."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Mit Milch oder ohne?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "с молоком",
+     "answer": "Mit Milch, bitte."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Magst du Musik?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, ты любишь слушать музыку",
+     "answer": "Ja, ich höre gern Musik."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Und dein Mann?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "он любит футбол, но не музыку",
+     "answer": "Er mag Fußball, aber er mag Musik nicht."
+    },
+    {
+     "type": "note",
+     "text": "Das stimmt, ohne, Deutschkurs на понимание."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Ich koche gern. Ich trinke gern Tee. Ich lese nicht gern. Was machst du gern?\nIch finde das gut. Ich finde Bremen schön. Wie findest du das?\nIch mag Bremen, aber die Stadt ist teuer. Kaffee oder Tee? Ja, gern. Nein, danke."
+    }
+   ]
+  }
+ ]
+}

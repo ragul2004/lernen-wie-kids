@@ -1,0 +1,865 @@
+{
+ "lesson": 2,
+ "title": "Как я, что у меня есть, кто это",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П5 состояние, П6 иметь и не иметь, П13 что это и кто это. Слов: 12. kein только как чанк с тремя словами."
+    }
+   ]
+  },
+  {
+   "title": "0. Перед началом",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Добавить факты: семья, кто есть: муж, сын, дочь, дети."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "haben: ich habe",
+     "ru": "иметь",
+     "example": "Ich habe Zeit."
+    },
+    {
+     "type": "word",
+     "de": "müde",
+     "ru": "усталая",
+     "example": "Ich bin müde."
+    },
+    {
+     "type": "word",
+     "de": "krank",
+     "ru": "больная",
+     "example": "Ich bin krank."
+    },
+    {
+     "type": "word",
+     "de": "fertig",
+     "ru": "готова, закончила",
+     "example": "Ich bin fertig."
+    },
+    {
+     "type": "word",
+     "de": "die Zeit",
+     "ru": "время",
+     "example": "Ich habe Zeit."
+    },
+    {
+     "type": "word",
+     "de": "das Geld",
+     "ru": "деньги",
+     "example": "Ich habe Geld."
+    },
+    {
+     "type": "word",
+     "de": "die Frage",
+     "ru": "вопрос",
+     "example": "Ich habe eine Frage."
+    },
+    {
+     "type": "word",
+     "de": "das Problem",
+     "ru": "проблема",
+     "example": "Ich habe ein Problem."
+    },
+    {
+     "type": "word",
+     "de": "die Frau",
+     "ru": "женщина, жена",
+     "example": "Das ist Frau Weber."
+    },
+    {
+     "type": "word",
+     "de": "der Mann",
+     "ru": "мужчина, муж",
+     "example": "Das ist mein Mann."
+    },
+    {
+     "type": "word",
+     "de": "das Kind",
+     "ru": "ребёнок",
+     "example": "Das ist mein Kind."
+    },
+    {
+     "type": "word",
+     "de": "der Sohn",
+     "ru": "сын",
+     "example": "Das ist mein Sohn."
+    },
+    {
+     "type": "word",
+     "de": "mein, meine",
+     "ru": "мой, моя",
+     "example": "mein Sohn, meine Frage"
+    },
+    {
+     "type": "word",
+     "de": "ein, eine; kein, keine",
+     "ru": "один, одна; никакой, никакая",
+     "example": "eine Frage; keine Zeit"
+    },
+    {
+     "type": "word",
+     "de": "was, wer, das",
+     "ru": "что, кто, это",
+     "example": "Was ist das? Wer ist das?"
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: время, деньги, вопрос, проблема, муж, сын, ребёнок, усталая, больная, закончила."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, как тебя зовут",
+     "answer": "Ich heiße {имя}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, откуда ты",
+     "answer": "Ich komme aus {страна}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, где теперь живёшь",
+     "answer": "Ich wohne jetzt in {город}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что немного говоришь по-немецки",
+     "answer": "Ich spreche ein bisschen Deutsch."
+    },
+    {
+     "type": "task",
+     "prompt": "Тебе говорят слишком быстро",
+     "answer": "Langsamer, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Ты не расслышала",
+     "answer": "Wie bitte?"
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси повторить",
+     "answer": "Noch einmal, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не понимаешь",
+     "answer": "Ich verstehe nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Поздоровайся днём",
+     "answer": "Guten Tag."
+    },
+    {
+     "type": "task",
+     "prompt": "Представься коротко как Анна",
+     "answer": "Ich bin Anna."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты из Берлина",
+     "answer": "Ich komme aus Berlin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь в Гамбурге",
+     "answer": "Ich wohne in Hamburg."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что говоришь по-русски и по-английски",
+     "answer": "Ich spreche Russisch und Englisch."
+    },
+    {
+     "type": "task",
+     "prompt": "Поблагодари",
+     "answer": "Danke schön."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь здесь",
+     "answer": "Ich wohne hier."
+    },
+    {
+     "type": "task",
+     "prompt": "Извинись, чтобы обратиться",
+     "answer": "Entschuldigung."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «ничего страшного»",
+     "answer": "Kein Problem."
+    },
+    {
+     "type": "task",
+     "prompt": "Попрощайся до завтра",
+     "answer": "Bis morgen."
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: город",
+     "answer": "die Stadt"
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: страна",
+     "answer": "das Land"
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: сейчас",
+     "answer": "jetzt"
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: немного",
+     "answer": "ein bisschen"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что теперь живёшь здесь",
+     "answer": "Ich wohne jetzt hier."
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П5. Состояние"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich bin müde.",
+     "ru": "Я устала."
+    },
+    {
+     "type": "show",
+     "de": "Ich bin krank.",
+     "ru": "Я больна."
+    },
+    {
+     "type": "show",
+     "de": "Ich bin fertig.",
+     "ru": "Я закончила."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: слово после bin."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ müde.",
+     "answer": "Ich bin müde."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich bin ___. (больна)",
+     "answer": "Ich bin krank."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich bin ___. (закончила)",
+     "answer": "Ich bin fertig."
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ bin müde.",
+     "answer": "Ich bin müde."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты устала",
+     "answer": "Ich bin müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты больна",
+     "answer": "Ich bin krank."
+    },
+    {
+     "type": "task",
+     "prompt": "Ты доделала дело. Скажи, что закончила",
+     "answer": "Ich bin fertig."
+    },
+    {
+     "type": "task",
+     "prompt": "Тебя спросили, как ты. Скажи, что устала",
+     "answer": "Ich bin müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты не на работе, потому что больна: просто «я больна»",
+     "answer": "Ich bin krank."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «готово, я закончила»",
+     "answer": "Ich bin fertig."
+    },
+    {
+     "type": "carousel",
+     "prompt": "устала",
+     "answer": "Ich bin müde."
+    },
+    {
+     "type": "carousel",
+     "prompt": "больна",
+     "answer": "Ich bin krank."
+    },
+    {
+     "type": "carousel",
+     "prompt": "закончила",
+     "answer": "Ich bin fertig."
+    },
+    {
+     "type": "carousel",
+     "prompt": "усталая",
+     "answer": "Ich bin müde."
+    },
+    {
+     "type": "carousel",
+     "prompt": "больна",
+     "answer": "Ich bin krank."
+    },
+    {
+     "type": "carousel",
+     "prompt": "готова",
+     "answer": "Ich bin fertig."
+    },
+    {
+     "type": "carousel",
+     "prompt": "устала",
+     "answer": "Ich bin müde."
+    },
+    {
+     "type": "carousel",
+     "prompt": "закончила",
+     "answer": "Ich bin fertig."
+    },
+    {
+     "type": "carousel",
+     "prompt": "больна",
+     "answer": "Ich bin krank."
+    },
+    {
+     "type": "carousel",
+     "prompt": "устала",
+     "answer": "Ich bin müde."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich bin fertig."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich bin krank."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich bin müde."
+    },
+    {
+     "type": "heading",
+     "text": "П6. Иметь и не иметь"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich habe eine Frage.",
+     "ru": "У меня есть вопрос."
+    },
+    {
+     "type": "show",
+     "de": "Ich habe Zeit.",
+     "ru": "У меня есть время."
+    },
+    {
+     "type": "show",
+     "de": "Ich habe keine Zeit.",
+     "ru": "У меня нет времени."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: то, что есть; kein вместо ein, когда нет. Пока три чанка: keine Zeit, kein Geld, kein Problem."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ eine Frage.",
+     "answer": "Ich habe eine Frage."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich habe ___ Zeit. (нет)",
+     "answer": "Ich habe keine Zeit."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich habe ___ Problem. (одну, есть)",
+     "answer": "Ich habe ein Problem."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich habe ___ Geld. (нет)",
+     "answer": "Ich habe kein Geld."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть вопрос",
+     "answer": "Ich habe eine Frage."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет времени",
+     "answer": "Ich habe keine Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя проблема",
+     "answer": "Ich habe ein Problem."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет денег",
+     "answer": "Ich habe kein Geld."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть время",
+     "answer": "Ich habe Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть сын",
+     "answer": "Ich habe einen Sohn."
+    },
+    {
+     "type": "carousel",
+     "prompt": "вопрос",
+     "answer": "Ich habe eine Frage."
+    },
+    {
+     "type": "carousel",
+     "prompt": "нет времени",
+     "answer": "Ich habe keine Zeit."
+    },
+    {
+     "type": "carousel",
+     "prompt": "проблема",
+     "answer": "Ich habe ein Problem."
+    },
+    {
+     "type": "carousel",
+     "prompt": "нет денег",
+     "answer": "Ich habe kein Geld."
+    },
+    {
+     "type": "carousel",
+     "prompt": "время",
+     "answer": "Ich habe Zeit."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сын",
+     "answer": "Ich habe einen Sohn."
+    },
+    {
+     "type": "carousel",
+     "prompt": "нет проблем",
+     "answer": "Ich habe kein Problem."
+    },
+    {
+     "type": "carousel",
+     "prompt": "деньги",
+     "answer": "Ich habe Geld."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ребёнок",
+     "answer": "Ich habe ein Kind."
+    },
+    {
+     "type": "carousel",
+     "prompt": "нет времени",
+     "answer": "Ich habe keine Zeit."
+    },
+    {
+     "type": "note",
+     "text": "Форма einen Sohn пока чанк."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich habe kein Geld."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich habe ein Kind."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich habe keine Frage."
+    },
+    {
+     "type": "heading",
+     "text": "П13. Что это, кто это"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Was ist das?",
+     "ru": "Что это?"
+    },
+    {
+     "type": "show",
+     "de": "Wer ist das?",
+     "ru": "Кто это?"
+    },
+    {
+     "type": "show",
+     "de": "Das ist mein Mann.",
+     "ru": "Это мой муж."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: после Das ist стоит человек или вещь; mein для мужского и среднего рода, meine для женского."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ ist das? (что)",
+     "answer": "Was ist das?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ ist das? (кто)",
+     "answer": "Wer ist das?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Das ist ___ Sohn.",
+     "answer": "Das ist mein Sohn."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Das ist ___ Problem. (одна, есть)",
+     "answer": "Das ist ein Problem."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, что это",
+     "answer": "Was ist das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, кто это",
+     "answer": "Wer ist das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Представь мужа",
+     "answer": "Das ist mein Mann."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь сына",
+     "answer": "Das ist mein Sohn."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это проблема",
+     "answer": "Das ist ein Problem."
+    },
+    {
+     "type": "task",
+     "prompt": "Покажи на вещь и скажи «это моё дитя»: представь ребёнка",
+     "answer": "Das ist mein Kind."
+    },
+    {
+     "type": "carousel",
+     "prompt": "что это?",
+     "answer": "Was ist das?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "кто это?",
+     "answer": "Wer ist das?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "мой муж",
+     "answer": "Das ist mein Mann."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мой сын",
+     "answer": "Das ist mein Sohn."
+    },
+    {
+     "type": "carousel",
+     "prompt": "проблема",
+     "answer": "Das ist ein Problem."
+    },
+    {
+     "type": "carousel",
+     "prompt": "вопрос",
+     "answer": "Das ist eine Frage."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мой ребёнок",
+     "answer": "Das ist mein Kind."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Анна",
+     "answer": "Das ist Anna."
+    },
+    {
+     "type": "carousel",
+     "prompt": "что это?",
+     "answer": "Was ist das?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "фрау Вебер",
+     "answer": "Das ist Frau Weber."
+    },
+    {
+     "type": "reverse",
+     "de": "Das ist meine Frau."
+    },
+    {
+     "type": "reverse",
+     "de": "Wer ist das?"
+    },
+    {
+     "type": "reverse",
+     "de": "Das ist ein Kind."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Представься и скажи, что устала",
+     "answer": "Ich heiße {имя}. Ich bin müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть вопрос, и попроси говорить медленнее",
+     "answer": "Ich habe eine Frage. Langsamer, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь сына и скажи, что вы из России",
+     "answer": "Das ist mein Sohn. Wir kommen aus Russland."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет времени, и извинись",
+     "answer": "Ich habe keine Zeit. Es tut mir leid."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, что это, и скажи, что не понимаешь",
+     "answer": "Was ist das? Ich verstehe nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты больна и что у тебя проблема",
+     "answer": "Ich bin krank. Ich habe ein Problem."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, кто это",
+     "answer": "Wer ist das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что закончила, и поблагодари",
+     "answer": "Ich bin fertig. Danke."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет денег",
+     "answer": "Ich habe kein Geld."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «это Анна, она из Берлина»: два предложения от её имени не нужны, скажи только «это Анна»",
+     "answer": "Das ist Anna."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть ребёнок и ты живёшь в своём городе",
+     "answer": "Ich habe ein Kind. Ich wohne in {город}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «ничего страшного» и что у тебя есть время",
+     "answer": "Kein Problem. Ich habe Zeit."
+    },
+    {
+     "type": "note",
+     "text": "В задании 3 форма Wir kommen звучит впервые: это чанк, тьютор даёт её сам."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: у друзей, 7 минут",
+   "cards": [
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Hallo! Wer ist das?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "представь мужа",
+     "answer": "Das ist mein Mann."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Und das?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "представь сына",
+     "answer": "Das ist mein Sohn."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Hallo! Bist du müde?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, устала",
+     "answer": "Ja, ich bin müde."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Hast du ein Problem?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "нет, никакой проблемы; у тебя есть вопрос",
+     "answer": "Nein, kein Problem. Ich habe eine Frage."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Ja?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "покажи на вещь и спроси, что это",
+     "answer": "Was ist das?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Das ist … (объясняет по-русски)"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи «хорошо, спасибо»",
+     "answer": "Okay, danke."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Möchtest du Kaffee?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "ты не поняла; попроси повторить",
+     "answer": "Wie bitte? Noch einmal, bitte."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Kaffee?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, пожалуйста",
+     "answer": "Ja, bitte."
+    },
+    {
+     "type": "note",
+     "text": "Реплики Bist du, Hast du, Möchtest du звучат на понимание: вопросы будут в уроке 3, möchten в уроке 4."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Ich bin müde. Ich bin fertig.\nIch habe eine Frage. Ich habe keine Zeit.\nDas ist mein Mann. Das ist mein Sohn. Was ist das? Wer ist das?"
+    }
+   ]
+  }
+ ]
+}

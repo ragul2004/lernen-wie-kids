@@ -1,0 +1,840 @@
+{
+ "lesson": 19,
+ "title": "Самочувствие",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П31 как дела, П32 мне холодно, П33 голод, жажда, желание. Слов: 12. Три паттерна, в которых по-немецки говорят не «я», а «мне» или «у меня»: Mir geht es gut, Mir ist kalt, Ich habe Hunger. Трансформации: вопросы Д3, отрицание Д4, лица Д5."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "Wie geht es dir?",
+     "ru": "Как дела? (ты)",
+     "example": "Hallo! Wie geht es dir?"
+    },
+    {
+     "type": "word",
+     "de": "Wie geht es Ihnen?",
+     "ru": "Как дела? (Вы)",
+     "example": "Guten Tag! Wie geht es Ihnen?"
+    },
+    {
+     "type": "word",
+     "de": "mir geht es …",
+     "ru": "мне …",
+     "example": "Mir geht es gut."
+    },
+    {
+     "type": "word",
+     "de": "nicht so gut",
+     "ru": "не очень",
+     "example": "Mir geht es nicht so gut."
+    },
+    {
+     "type": "word",
+     "de": "Und dir? Und Ihnen?",
+     "ru": "А у тебя? А у Вас?",
+     "example": "Danke, gut. Und dir?"
+    },
+    {
+     "type": "word",
+     "de": "kalt",
+     "ru": "холодно, холодный",
+     "example": "Mir ist kalt."
+    },
+    {
+     "type": "word",
+     "de": "warm",
+     "ru": "тепло, тёплый",
+     "example": "Mir ist warm."
+    },
+    {
+     "type": "word",
+     "de": "schlecht",
+     "ru": "плохо",
+     "example": "Mir ist schlecht."
+    },
+    {
+     "type": "word",
+     "de": "der Hunger",
+     "ru": "голод",
+     "example": "Ich habe Hunger."
+    },
+    {
+     "type": "word",
+     "de": "der Durst",
+     "ru": "жажда",
+     "example": "Ich habe Durst."
+    },
+    {
+     "type": "word",
+     "de": "die Lust",
+     "ru": "желание, охота",
+     "example": "Ich habe Lust."
+    },
+    {
+     "type": "word",
+     "de": "keine Lust",
+     "ru": "нет желания",
+     "example": "Ich habe keine Lust."
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: как дела, мне хорошо, не очень, а у тебя, холодно, тепло, плохо, голод, жажда, желание, нет желания."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что часто готовишь",
+     "answer": "Ich koche oft."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что никогда не пьёшь пиво",
+     "answer": "Ich trinke nie Bier."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: сначала завтракаешь, потом идёшь на работу",
+     "answer": "Zuerst frühstücke ich, dann gehe ich zur Arbeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: после этого делаешь покупки",
+     "answer": "Danach kaufe ich ein."
+    },
+    {
+     "type": "task",
+     "prompt": "Позови подругу в кино",
+     "answer": "Kommst du mit ins Kino?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что идёшь с ней",
+     "answer": "Ich komme mit."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, как часто она готовит",
+     "answer": "Wie oft kochst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что встаёшь в семь",
+     "answer": "Ich stehe um sieben Uhr auf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна позвонить маме",
+     "answer": "Ich muss meine Mutter anrufen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вечером смотришь телевизор",
+     "answer": "Am Abend sehe ich fern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в выходные у тебя есть время, начиная с выходных",
+     "answer": "Am Wochenende habe ich Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что работаешь с понедельника до пятницы",
+     "answer": "Ich arbeite von Montag bis Freitag."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: половина одиннадцатого",
+     "answer": "Es ist halb elf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь плавать",
+     "answer": "Ich schwimme gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что находишь город красивым",
+     "answer": "Ich finde die Stadt schön."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь чай, но не кофе",
+     "answer": "Ich mag Tee, aber ich mag Kaffee nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про сестру, что она студентка",
+     "answer": "Meine Schwester ist Studentin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты устала",
+     "answer": "Ich bin müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты больна",
+     "answer": "Ich bin krank."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь есть",
+     "answer": "Ich möchte essen."
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: иногда",
+     "answer": "manchmal"
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: встречать",
+     "answer": "treffen"
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П31. Как дела"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Wie geht es dir? — Danke, gut. Und dir?",
+     "ru": "Как дела? — Спасибо, хорошо. А у тебя?"
+    },
+    {
+     "type": "show",
+     "de": "Wie geht es Ihnen?",
+     "ru": "Как Вы поживаете?"
+    },
+    {
+     "type": "show",
+     "de": "Mir geht es nicht so gut.",
+     "ru": "У меня не очень."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: dir для подруги, Ihnen для взрослого. Ответ начинается с mir: «мне идёт хорошо». Коротко можно Danke, gut."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Wie geht es ___? (тебе)",
+     "answer": "Wie geht es dir?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Wie geht es ___? (Вам)",
+     "answer": "Wie geht es Ihnen?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ geht es gut.",
+     "answer": "Mir geht es gut."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Mir geht es nicht ___ gut.",
+     "answer": "Mir geht es nicht so gut."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, как дела",
+     "answer": "Wie geht es dir?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, как дела",
+     "answer": "Wie geht es Ihnen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Ответь: спасибо, хорошо, а у тебя?",
+     "answer": "Danke, gut. Und dir?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя всё хорошо",
+     "answer": "Mir geht es gut."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя не очень",
+     "answer": "Mir geht es nicht so gut."
+    },
+    {
+     "type": "task",
+     "prompt": "Ответь взрослому: спасибо, хорошо, а у Вас?",
+     "answer": "Danke, gut. Und Ihnen?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "как дела, подруге",
+     "answer": "Wie geht es dir?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "как дела, взрослому",
+     "answer": "Wie geht es Ihnen?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "мне хорошо",
+     "answer": "Mir geht es gut."
+    },
+    {
+     "type": "carousel",
+     "prompt": "не очень",
+     "answer": "Mir geht es nicht so gut."
+    },
+    {
+     "type": "carousel",
+     "prompt": "а у тебя?",
+     "answer": "Und dir?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "а у Вас?",
+     "answer": "Und Ihnen?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "спасибо, хорошо",
+     "answer": "Danke, gut."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мне очень хорошо",
+     "answer": "Mir geht es sehr gut."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мне плохо (nicht gut)",
+     "answer": "Mir geht es nicht gut."
+    },
+    {
+     "type": "carousel",
+     "prompt": "как дела, подруге",
+     "answer": "Wie geht es dir?"
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси подругу, как дела у её мужа: «как идёт ему»",
+     "answer": "Wie geht es deinem Mann?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Mir geht es gut. Скажи про мужа: «ему хорошо»",
+     "answer": "Ihm geht es gut."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Mir geht es nicht so gut. Скажи про маму: «ей не очень»",
+     "answer": "Ihr geht es nicht so gut."
+    },
+    {
+     "type": "note",
+     "text": "Deinem, ihm, ihr здесь как чанки, дательный падеж не разбирается. Если тяжело, оставить только первую строку."
+    },
+    {
+     "type": "reverse",
+     "de": "Wie geht es Ihnen?"
+    },
+    {
+     "type": "reverse",
+     "de": "Mir geht es nicht so gut."
+    },
+    {
+     "type": "reverse",
+     "de": "Danke, gut. Und dir?"
+    },
+    {
+     "type": "heading",
+     "text": "П32. Мне холодно"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Mir ist kalt.",
+     "ru": "Мне холодно."
+    },
+    {
+     "type": "show",
+     "de": "Mir ist warm.",
+     "ru": "Мне тепло."
+    },
+    {
+     "type": "show",
+     "de": "Ist dir kalt?",
+     "ru": "Тебе холодно?"
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: точно как по-русски, «мне холодно»: mir ist. Не Ich bin kalt."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе холодно",
+     "answer": "Mir ist kalt."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе тепло",
+     "answer": "Mir ist warm."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, холодно ли ей",
+     "answer": "Ist dir kalt?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе плохо",
+     "answer": "Mir ist schlecht."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, тепло ли ему",
+     "answer": "Ist Ihnen warm?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе не холодно",
+     "answer": "Mir ist nicht kalt."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мне холодно",
+     "answer": "Mir ist kalt."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мне тепло",
+     "answer": "Mir ist warm."
+    },
+    {
+     "type": "carousel",
+     "prompt": "тебе холодно?",
+     "answer": "Ist dir kalt?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "мне плохо",
+     "answer": "Mir ist schlecht."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Вам тепло?",
+     "answer": "Ist Ihnen warm?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "мне не холодно",
+     "answer": "Mir ist nicht kalt."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мне очень холодно",
+     "answer": "Mir ist sehr kalt."
+    },
+    {
+     "type": "carousel",
+     "prompt": "тебе тепло?",
+     "answer": "Ist dir warm?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "мне не плохо",
+     "answer": "Mir ist nicht schlecht."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мне холодно",
+     "answer": "Mir ist kalt."
+    },
+    {
+     "type": "reverse",
+     "de": "Ist dir warm?"
+    },
+    {
+     "type": "reverse",
+     "de": "Mir ist sehr kalt."
+    },
+    {
+     "type": "reverse",
+     "de": "Mir ist schlecht."
+    },
+    {
+     "type": "heading",
+     "text": "П33. Голод, жажда, желание"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich habe Hunger.",
+     "ru": "Я голодна."
+    },
+    {
+     "type": "show",
+     "de": "Hast du Durst?",
+     "ru": "Ты хочешь пить?"
+    },
+    {
+     "type": "show",
+     "de": "Ich habe keine Lust.",
+     "ru": "Мне не хочется."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: «я голодна» превращается в «у меня голод»: ich habe. Нет желания: keine Lust, как keine Zeit."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich habe ___. (голод)",
+     "answer": "Ich habe Hunger."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Hast du ___? (жажда)",
+     "answer": "Hast du Durst?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich habe ___ Lust.",
+     "answer": "Ich habe keine Lust."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich habe ___ Hunger. (нет)",
+     "answer": "Ich habe keinen Hunger."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты голодна",
+     "answer": "Ich habe Hunger."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, хочет ли она пить",
+     "answer": "Hast du Durst?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе не хочется",
+     "answer": "Ich habe keine Lust."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты хочешь пить",
+     "answer": "Ich habe Durst."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, есть ли у неё желание: «хочешь?»",
+     "answer": "Hast du Lust?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты не голодна",
+     "answer": "Ich habe keinen Hunger."
+    },
+    {
+     "type": "note",
+     "text": "Keinen Hunger, потому что Hunger мужского рода: как keinen Kaffee. Движок Д8 будет в следующем уроке."
+    },
+    {
+     "type": "carousel",
+     "prompt": "голодна",
+     "answer": "Ich habe Hunger."
+    },
+    {
+     "type": "carousel",
+     "prompt": "хочу пить",
+     "answer": "Ich habe Durst."
+    },
+    {
+     "type": "carousel",
+     "prompt": "не хочется",
+     "answer": "Ich habe keine Lust."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ты голодна?",
+     "answer": "Hast du Hunger?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "хочешь пить?",
+     "answer": "Hast du Durst?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "хочешь?",
+     "answer": "Hast du Lust?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "не голодна",
+     "answer": "Ich habe keinen Hunger."
+    },
+    {
+     "type": "carousel",
+     "prompt": "очень голодна",
+     "answer": "Ich habe sehr Hunger."
+    },
+    {
+     "type": "carousel",
+     "prompt": "дети голодны",
+     "answer": "Meine Kinder haben Hunger."
+    },
+    {
+     "type": "carousel",
+     "prompt": "у мужа нет желания",
+     "answer": "Mein Mann hat keine Lust."
+    },
+    {
+     "type": "note",
+     "text": "Sehr Hunger разговорно, но так говорят; можно großen Hunger, тогда große на понимание."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich habe Hunger. Спроси взрослого",
+     "answer": "Haben Sie Hunger?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich habe Durst. Скажи про сына",
+     "answer": "Mein Sohn hat Durst."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich habe Lust. Скажи, что нет",
+     "answer": "Ich habe keine Lust."
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси подругу: хочешь? идём в кино",
+     "answer": "Hast du Lust? Wir gehen ins Kino."
+    },
+    {
+     "type": "reverse",
+     "de": "Hast du Hunger?"
+    },
+    {
+     "type": "reverse",
+     "de": "Wir haben Durst."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich habe keine Lust."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Поздоровайся с подругой и спроси, как дела",
+     "answer": "Hallo! Wie geht es dir?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя не очень: ты больна",
+     "answer": "Mir geht es nicht so gut. Ich bin krank."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе холодно и ты хочешь чай",
+     "answer": "Mir ist kalt. Ich möchte einen Tee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты голодна, и спроси: идём вместе поесть?",
+     "answer": "Ich habe Hunger. Gehen wir zusammen essen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, как дела, и ответь: спасибо, хорошо",
+     "answer": "Wie geht es Ihnen? Danke, gut."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе не хочется, и что ты не готовишь: два предложения",
+     "answer": "Ich habe keine Lust. Ich koche nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он хочет пить и голоден",
+     "answer": "Mein Mann hat Durst und Hunger."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе плохо и тебе нужен врач",
+     "answer": "Mir ist schlecht. Ich brauche einen Arzt."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, голодна ли она, и предложи пирог",
+     "answer": "Hast du Hunger? Möchtest du Kuchen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что дети больны и голодны",
+     "answer": "Meine Kinder sind krank und haben Hunger."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя всё хорошо и ты не устала",
+     "answer": "Mir geht es gut. Ich bin nicht müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь пить, но не хочешь пиво",
+     "answer": "Ich habe Durst, aber ich möchte kein Bier."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: встреча с коллегой, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор играет коллегу в холодный день."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Hallo! Wie geht es dir?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спасибо, хорошо, а у него?",
+     "answer": "Danke, gut. Und dir?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Nicht so gut. Mir ist kalt."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "тебе тоже холодно; предложи кофе",
+     "answer": "Mir ist auch kalt. Möchtest du einen Kaffee?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Ja, gern! Hast du Hunger?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, ты голодна; предложи пойти вместе поесть",
+     "answer": "Ja, ich habe Hunger. Gehen wir zusammen essen?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Gute Idee. Um zwölf Uhr?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "в двенадцать у тебя запись; спроси: в час?",
+     "answer": "Um zwölf Uhr habe ich einen Termin. Um ein Uhr?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Okay, um ein Uhr. Wie geht es deinem Mann?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "ему хорошо, он работает каждый день",
+     "answer": "Ihm geht es gut. Er arbeitet jeden Tag."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Коллега",
+     "text": "Schön. Bis später!"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "до скорого",
+     "answer": "Bis später!"
+    },
+    {
+     "type": "note",
+     "text": "Gute Idee, um ein Uhr на понимание: «в час» это um ein Uhr, не um eins Uhr."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Wie geht es dir? Wie geht es Ihnen? Danke, gut. Und dir? Mir geht es nicht so gut.\nMir ist kalt. Mir ist warm. Ist dir kalt?\nIch habe Hunger. Hast du Durst? Ich habe keine Lust."
+    }
+   ]
+  }
+ ]
+}

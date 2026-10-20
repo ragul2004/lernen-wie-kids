@@ -1,0 +1,999 @@
+{
+ "lesson": 1,
+ "title": "Кто я, откуда, где живу",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П1 представиться, П2 откуда, П3 где живу, П4 языки; ритуалы Б2; четыре формулы ремонта Б1. Слов: 15. Разогрева нет: это первый урок. Трансформаций нет: движков ещё нет."
+    }
+   ]
+  },
+  {
+   "title": "0. Перед началом, 5 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Записать факты ученицы: имя, город, страна и город, откуда приехала, языки. Объяснить правило: сначала попытка вслух, потом ответ. Тьютор молчит первые пять секунд."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор читает слово и пример, ученица повторяет дважды. Потом быстрый круг: тьютор говорит по-русски, ученица по-немецки."
+    },
+    {
+     "type": "word",
+     "de": "heißen: ich heiße",
+     "ru": "зваться",
+     "example": "Ich heiße Anna."
+    },
+    {
+     "type": "word",
+     "de": "kommen: ich komme",
+     "ru": "приезжать",
+     "example": "Ich komme aus Russland."
+    },
+    {
+     "type": "word",
+     "de": "wohnen: ich wohne",
+     "ru": "жить где-то",
+     "example": "Ich wohne in Bremen."
+    },
+    {
+     "type": "word",
+     "de": "sprechen: ich spreche",
+     "ru": "говорить",
+     "example": "Ich spreche Russisch."
+    },
+    {
+     "type": "word",
+     "de": "sein: ich bin",
+     "ru": "быть",
+     "example": "Ich bin Anna."
+    },
+    {
+     "type": "word",
+     "de": "der Name",
+     "ru": "имя",
+     "example": "Mein Name ist Anna."
+    },
+    {
+     "type": "word",
+     "de": "die Stadt",
+     "ru": "город",
+     "example": "Bremen ist eine Stadt."
+    },
+    {
+     "type": "word",
+     "de": "das Land",
+     "ru": "страна",
+     "example": "Deutschland ist ein Land."
+    },
+    {
+     "type": "word",
+     "de": "Deutsch, Russisch, Englisch",
+     "ru": "немецкий, русский, английский",
+     "example": "Ich spreche Deutsch."
+    },
+    {
+     "type": "word",
+     "de": "jetzt",
+     "ru": "сейчас, теперь",
+     "example": "Ich wohne jetzt in Bremen."
+    },
+    {
+     "type": "word",
+     "de": "hier",
+     "ru": "здесь",
+     "example": "Ich wohne hier."
+    },
+    {
+     "type": "word",
+     "de": "ein bisschen",
+     "ru": "немного",
+     "example": "Ich spreche ein bisschen Deutsch."
+    },
+    {
+     "type": "word",
+     "de": "gut",
+     "ru": "хорошо",
+     "example": "Gut!"
+    },
+    {
+     "type": "word",
+     "de": "und, auch",
+     "ru": "и, тоже",
+     "example": "Russisch und Englisch. Ich auch."
+    },
+    {
+     "type": "word",
+     "de": "ja, nein, bitte, danke",
+     "ru": "да, нет, пожалуйста, спасибо",
+     "example": "Ja. Nein. Bitte. Danke."
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: город, страна, сейчас, здесь, немного, имя, говорить, жить, приезжать, зваться."
+    }
+   ]
+  },
+  {
+   "title": "2. Ритуалы и ремонт, 8 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Показ и эхо: тьютор читает, ученица повторяет."
+    },
+    {
+     "type": "formula",
+     "de": "Hallo. Guten Morgen. Guten Tag. Guten Abend.",
+     "when": "приветствия"
+    },
+    {
+     "type": "formula",
+     "de": "Tschüss. Auf Wiedersehen. Bis morgen.",
+     "when": "прощания"
+    },
+    {
+     "type": "formula",
+     "de": "Danke. Danke schön. Bitte. Bitte schön.",
+     "when": "спасибо и пожалуйста"
+    },
+    {
+     "type": "formula",
+     "de": "Entschuldigung. Es tut mir leid. Kein Problem.",
+     "when": "извинения"
+    },
+    {
+     "type": "formula",
+     "de": "Ja. Nein. Vielleicht. Okay. Genau. Gut.",
+     "when": "короткие ответы"
+    },
+    {
+     "type": "formula",
+     "de": "Wie bitte?",
+     "when": "не расслышала"
+    },
+    {
+     "type": "formula",
+     "de": "Noch einmal, bitte.",
+     "when": "попросить повторить"
+    },
+    {
+     "type": "formula",
+     "de": "Langsamer, bitte.",
+     "when": "попросить медленнее"
+    },
+    {
+     "type": "formula",
+     "de": "Ich verstehe nicht.",
+     "when": "не поняла"
+    },
+    {
+     "type": "label",
+     "text": "Задания по ситуации"
+    },
+    {
+     "type": "task",
+     "prompt": "Поздоровайся днём",
+     "answer": "Guten Tag."
+    },
+    {
+     "type": "task",
+     "prompt": "Тебе говорят слишком быстро",
+     "answer": "Langsamer, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Ты не расслышала",
+     "answer": "Wie bitte?"
+    },
+    {
+     "type": "task",
+     "prompt": "Поблагодари",
+     "answer": "Danke schön."
+    },
+    {
+     "type": "task",
+     "prompt": "Ты не поняла, что сказали",
+     "answer": "Ich verstehe nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси повторить",
+     "answer": "Noch einmal, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Попрощайся до завтра",
+     "answer": "Tschüss, bis morgen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «ничего страшного»",
+     "answer": "Kein Problem."
+    },
+    {
+     "type": "task",
+     "prompt": "Извинись, чтобы обратиться к человеку",
+     "answer": "Entschuldigung."
+    },
+    {
+     "type": "task",
+     "prompt": "Ответь на «спасибо»",
+     "answer": "Bitte schön."
+    },
+    {
+     "type": "task",
+     "prompt": "Поздоровайся утром",
+     "answer": "Guten Morgen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «может быть»",
+     "answer": "Vielleicht."
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 25 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П1. Представиться"
+    },
+    {
+     "type": "label",
+     "text": "Показ, тьютор читает, ученица слушает"
+    },
+    {
+     "type": "show",
+     "de": "Ich heiße Anna.",
+     "ru": "Меня зовут Анна."
+    },
+    {
+     "type": "show",
+     "de": "Ich bin Anna.",
+     "ru": "Я Анна."
+    },
+    {
+     "type": "show",
+     "de": "Ich heiße Maria Petrowa.",
+     "ru": "Меня зовут Мария Петрова."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо: три предложения по три раза. Что меняется: только имя."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ Anna. (меня зовут)",
+     "answer": "Ich heiße Anna."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ Max. (я)",
+     "answer": "Ich bin Max."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ Maria Petrowa. (меня зовут)",
+     "answer": "Ich heiße Maria Petrowa."
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ heiße Anna.",
+     "answer": "Ich heiße Anna."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, как тебя зовут",
+     "answer": "Ich heiße {имя}."
+    },
+    {
+     "type": "task",
+     "prompt": "Назовись коротко, одним «я»",
+     "answer": "Ich bin {имя}."
+    },
+    {
+     "type": "task",
+     "prompt": "Тебя спросили имя и фамилию. Ответь",
+     "answer": "Ich heiße {имя фамилия}."
+    },
+    {
+     "type": "task",
+     "prompt": "Представься как Анна",
+     "answer": "Ich heiße Anna."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «я Макс»",
+     "answer": "Ich bin Max."
+    },
+    {
+     "type": "task",
+     "prompt": "Тебя спросили, как тебя зовут. Ответь",
+     "answer": "Ich heiße {имя}."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Анна",
+     "answer": "Ich heiße Anna."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Макс, коротко",
+     "answer": "Ich bin Max."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Мария",
+     "answer": "Ich heiße Maria."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ты сама",
+     "answer": "Ich heiße {имя}."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Петер, коротко",
+     "answer": "Ich bin Peter."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Ольга",
+     "answer": "Ich heiße Olga."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Том",
+     "answer": "Ich heiße Tom."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ты сама, коротко",
+     "answer": "Ich bin {имя}."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Лена",
+     "answer": "Ich heiße Lena."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Пауль, коротко",
+     "answer": "Ich bin Paul."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich heiße Peter."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich bin Lena."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich heiße Olga Iwanowa."
+    },
+    {
+     "type": "heading",
+     "text": "П2. Откуда"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich komme aus Russland.",
+     "ru": "Я из России."
+    },
+    {
+     "type": "show",
+     "de": "Ich komme aus Moskau.",
+     "ru": "Я из Москвы."
+    },
+    {
+     "type": "show",
+     "de": "Ich komme aus Deutschland.",
+     "ru": "Я из Германии."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: страна или город после aus."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich komme ___ Russland.",
+     "answer": "Ich komme aus Russland."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ aus Moskau.",
+     "answer": "Ich komme aus Moskau."
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ komme aus Deutschland.",
+     "answer": "Ich komme aus Deutschland."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich komme aus ___. (Польша)",
+     "answer": "Ich komme aus Polen."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, откуда ты",
+     "answer": "Ich komme aus {страна}."
+    },
+    {
+     "type": "task",
+     "prompt": "Назови город, откуда приехала",
+     "answer": "Ich komme aus {откуда}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты из Берлина",
+     "answer": "Ich komme aus Berlin."
+    },
+    {
+     "type": "task",
+     "prompt": "Тебя спросили, откуда ты. Ответь: из Польши",
+     "answer": "Ich komme aus Polen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты из Гамбурга",
+     "answer": "Ich komme aus Hamburg."
+    },
+    {
+     "type": "task",
+     "prompt": "Тебя не расслышали. Повтори, откуда ты",
+     "answer": "Ich komme aus {страна}."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Россия",
+     "answer": "Ich komme aus Russland."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Германия",
+     "answer": "Ich komme aus Deutschland."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Москва",
+     "answer": "Ich komme aus Moskau."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Берлин",
+     "answer": "Ich komme aus Berlin."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Польша",
+     "answer": "Ich komme aus Polen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ты сама",
+     "answer": "Ich komme aus {страна}."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Гамбург",
+     "answer": "Ich komme aus Hamburg."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Бремен",
+     "answer": "Ich komme aus Bremen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Москва",
+     "answer": "Ich komme aus Moskau."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ты сама",
+     "answer": "Ich komme aus {страна}."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich komme aus Polen."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich komme aus Hamburg."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich komme aus Berlin."
+    },
+    {
+     "type": "heading",
+     "text": "П3. Где живу"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich wohne in Bremen.",
+     "ru": "Я живу в Бремене."
+    },
+    {
+     "type": "show",
+     "de": "Ich wohne jetzt in Bremen.",
+     "ru": "Я теперь живу в Бремене."
+    },
+    {
+     "type": "show",
+     "de": "Ich wohne hier.",
+     "ru": "Я живу здесь."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: город после in; jetzt стоит сразу после глагола."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich wohne ___ Bremen.",
+     "answer": "Ich wohne in Bremen."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ in Berlin.",
+     "answer": "Ich wohne in Berlin."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich wohne ___ in Hamburg. (теперь)",
+     "answer": "Ich wohne jetzt in Hamburg."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich wohne ___. (здесь)",
+     "answer": "Ich wohne hier."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, где живёшь",
+     "answer": "Ich wohne in {город}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что теперь живёшь в своём городе",
+     "answer": "Ich wohne jetzt in {город}."
+    },
+    {
+     "type": "task",
+     "prompt": "Покажи на дверь и скажи, что живёшь здесь",
+     "answer": "Ich wohne hier."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь в Берлине",
+     "answer": "Ich wohne in Berlin."
+    },
+    {
+     "type": "task",
+     "prompt": "Ты переехала. Скажи, что теперь живёшь в Гамбурге",
+     "answer": "Ich wohne jetzt in Hamburg."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что теперь живёшь здесь",
+     "answer": "Ich wohne jetzt hier."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Бремен",
+     "answer": "Ich wohne in Bremen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Берлин",
+     "answer": "Ich wohne in Berlin."
+    },
+    {
+     "type": "carousel",
+     "prompt": "здесь",
+     "answer": "Ich wohne hier."
+    },
+    {
+     "type": "carousel",
+     "prompt": "теперь в Гамбурге",
+     "answer": "Ich wohne jetzt in Hamburg."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ты сама",
+     "answer": "Ich wohne in {город}."
+    },
+    {
+     "type": "carousel",
+     "prompt": "теперь здесь",
+     "answer": "Ich wohne jetzt hier."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Москва",
+     "answer": "Ich wohne in Moskau."
+    },
+    {
+     "type": "carousel",
+     "prompt": "Бремен",
+     "answer": "Ich wohne in Bremen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "теперь в Берлине",
+     "answer": "Ich wohne jetzt in Berlin."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ты сама",
+     "answer": "Ich wohne jetzt in {город}."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich wohne in Hamburg."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich wohne jetzt hier."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich wohne in Moskau."
+    },
+    {
+     "type": "heading",
+     "text": "П4. Языки"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich spreche Russisch.",
+     "ru": "Я говорю по-русски."
+    },
+    {
+     "type": "show",
+     "de": "Ich spreche ein bisschen Deutsch.",
+     "ru": "Я немного говорю по-немецки."
+    },
+    {
+     "type": "show",
+     "de": "Ich spreche Russisch und ein bisschen Deutsch.",
+     "ru": "Я говорю по-русски и немного по-немецки."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: язык; ein bisschen стоит перед языком."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ Russisch.",
+     "answer": "Ich spreche Russisch."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich spreche ___ Deutsch. (немного)",
+     "answer": "Ich spreche ein bisschen Deutsch."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich spreche Russisch ___ Englisch.",
+     "answer": "Ich spreche Russisch und Englisch."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich spreche ein bisschen ___. (по-английски)",
+     "answer": "Ich spreche ein bisschen Englisch."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что говоришь по-русски",
+     "answer": "Ich spreche Russisch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что немного говоришь по-немецки",
+     "answer": "Ich spreche ein bisschen Deutsch."
+    },
+    {
+     "type": "task",
+     "prompt": "Назови свои языки",
+     "answer": "Ich spreche {языки}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что говоришь по-английски",
+     "answer": "Ich spreche Englisch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что говоришь по-русски и немного по-немецки",
+     "answer": "Ich spreche Russisch und ein bisschen Deutsch."
+    },
+    {
+     "type": "task",
+     "prompt": "Честно скажи про английский: немного",
+     "answer": "Ich spreche ein bisschen Englisch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "по-русски",
+     "answer": "Ich spreche Russisch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "немного по-немецки",
+     "answer": "Ich spreche ein bisschen Deutsch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "по-английски",
+     "answer": "Ich spreche Englisch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "по-русски и по-английски",
+     "answer": "Ich spreche Russisch und Englisch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "немного по-английски",
+     "answer": "Ich spreche ein bisschen Englisch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "твои языки",
+     "answer": "Ich spreche {языки}."
+    },
+    {
+     "type": "carousel",
+     "prompt": "по-немецки",
+     "answer": "Ich spreche Deutsch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "немного по-немецки",
+     "answer": "Ich spreche ein bisschen Deutsch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "по-русски и немного по-немецки",
+     "answer": "Ich spreche Russisch und ein bisschen Deutsch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "твои языки",
+     "answer": "Ich spreche {языки}."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich spreche Englisch."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich spreche ein bisschen Russisch."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich spreche Deutsch und Englisch."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Представься полностью: имя, откуда, где живёшь",
+     "answer": "Ich heiße {имя}. Ich komme aus {страна}. Ich wohne in {город}."
+    },
+    {
+     "type": "task",
+     "prompt": "Тебя спросили что-то быстро. Попроси медленнее",
+     "answer": "Langsamer, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты из Москвы и теперь живёшь в Бремене",
+     "answer": "Ich komme aus Moskau. Ich wohne jetzt in Bremen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что немного говоришь по-немецки, и извинись",
+     "answer": "Ich spreche ein bisschen Deutsch. Entschuldigung."
+    },
+    {
+     "type": "task",
+     "prompt": "Поздоровайся и назовись",
+     "answer": "Guten Tag. Ich heiße {имя}."
+    },
+    {
+     "type": "task",
+     "prompt": "Ты не поняла вопрос",
+     "answer": "Ich verstehe nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь здесь и говоришь по-русски",
+     "answer": "Ich wohne hier. Ich spreche Russisch."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси повторить и поблагодари",
+     "answer": "Noch einmal, bitte. Danke."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты из Польши",
+     "answer": "Ich komme aus Polen."
+    },
+    {
+     "type": "task",
+     "prompt": "Попрощайся до завтра",
+     "answer": "Bis morgen."
+    },
+    {
+     "type": "task",
+     "prompt": "Ты Макс из Берлина. Представься",
+     "answer": "Ich bin Max. Ich komme aus Berlin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что говоришь по-английски и немного по-немецки",
+     "answer": "Ich spreche Englisch und ein bisschen Deutsch."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: первый разговор на курсе, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор играет преподавателя, читает реплики вслух. Ученица видит только свою подсказку."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Преподаватель",
+     "text": "Guten Tag! Wie heißen Sie?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "назовись",
+     "answer": "Ich heiße {имя}."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Преподаватель",
+     "text": "Woher kommen Sie?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, откуда",
+     "answer": "Ich komme aus {страна}."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Преподаватель",
+     "text": "Und wo wohnen Sie jetzt?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что теперь живёшь в своём городе",
+     "answer": "Ich wohne jetzt in {город}."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Преподаватель",
+     "text": "(быстро и длинно) Sprechen Sie Deutsch?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "немного; попроси медленнее",
+     "answer": "Ein bisschen. Langsamer, bitte."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Преподаватель",
+     "text": "Kein Problem. Sprechen Sie Englisch?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, немного",
+     "answer": "Ja, ein bisschen."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Преподаватель",
+     "text": "Gut! Auf Wiedersehen!"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "попрощайся и поблагодари",
+     "answer": "Auf Wiedersehen. Danke schön."
+    },
+    {
+     "type": "note",
+     "text": "Свободно: то же самое, тьютор меняет порядок вопросов и добавляет Wie bitte? в неожиданном месте."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Все задания, отмеченные как не получившиеся. Каждое до двух правильных ответов подряд."
+    }
+   ]
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "label",
+     "text": "Теперь ты можешь сказать"
+    },
+    {
+     "type": "summary",
+     "text": "Ich heiße {имя}. Ich komme aus {страна}. Ich wohne jetzt in {город}.\nIch spreche {языки} und ein bisschen Deutsch.\nWie bitte? Langsamer, bitte. Ich verstehe nicht."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,839 @@
+{
+ "lesson": 20,
+ "title": "В кафе",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П35 заказать, П36 есть ли, движок Д8 einen, keinen, den для слов мужского рода. Слов: 16, почти всё еда. Движок Д8 уже звучал чанками: einen Kaffee, einen Bruder, keinen Hunger; здесь он становится правилом на три формы."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "das Restaurant; das Café",
+     "ru": "ресторан; кафе",
+     "example": "Wir gehen ins Restaurant."
+    },
+    {
+     "type": "word",
+     "de": "die Speisekarte",
+     "ru": "меню",
+     "example": "Die Speisekarte, bitte."
+    },
+    {
+     "type": "word",
+     "de": "die Rechnung",
+     "ru": "счёт",
+     "example": "Die Rechnung, bitte."
+    },
+    {
+     "type": "word",
+     "de": "der Salat",
+     "ru": "салат",
+     "example": "Ich nehme den Salat."
+    },
+    {
+     "type": "word",
+     "de": "die Suppe",
+     "ru": "суп",
+     "example": "Ich nehme die Suppe."
+    },
+    {
+     "type": "word",
+     "de": "die Pizza",
+     "ru": "пицца",
+     "example": "eine Pizza, bitte"
+    },
+    {
+     "type": "word",
+     "de": "der Reis; die Nudeln; die Kartoffeln",
+     "ru": "рис; макароны; картошка",
+     "example": "Fisch mit Reis"
+    },
+    {
+     "type": "word",
+     "de": "die Wurst; das Ei, die Eier",
+     "ru": "колбаса; яйцо, яйца",
+     "example": "Brot mit Wurst"
+    },
+    {
+     "type": "word",
+     "de": "die Milch; die Butter",
+     "ru": "молоко; масло",
+     "example": "Kaffee mit Milch"
+    },
+    {
+     "type": "word",
+     "de": "der Zucker; das Salz",
+     "ru": "сахар; соль",
+     "example": "mit Zucker"
+    },
+    {
+     "type": "word",
+     "de": "das Stück",
+     "ru": "кусок",
+     "example": "ein Stück Kuchen"
+    },
+    {
+     "type": "word",
+     "de": "nehmen: ich nehme, er nimmt",
+     "ru": "брать",
+     "example": "Ich nehme den Fisch."
+    },
+    {
+     "type": "word",
+     "de": "bezahlen",
+     "ru": "платить",
+     "example": "Ich möchte bezahlen."
+    },
+    {
+     "type": "word",
+     "de": "lecker",
+     "ru": "вкусно",
+     "example": "Das ist lecker!"
+    },
+    {
+     "type": "word",
+     "de": "noch etwas",
+     "ru": "что-нибудь ещё",
+     "example": "Möchten Sie noch etwas?"
+    },
+    {
+     "type": "word",
+     "de": "es gibt",
+     "ru": "есть, имеется",
+     "example": "Es gibt Kuchen."
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: ресторан, меню, счёт, салат, суп, рис, колбаса, яйцо, молоко, сахар, кусок, брать, платить, вкусно."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, как дела",
+     "answer": "Wie geht es dir?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя всё хорошо",
+     "answer": "Mir geht es gut."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе холодно",
+     "answer": "Mir ist kalt."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты голодна",
+     "answer": "Ich habe Hunger."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, хочет ли она пить",
+     "answer": "Hast du Durst?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе не хочется",
+     "answer": "Ich habe keine Lust."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь кофе",
+     "answer": "Ich mag Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь рыбу",
+     "answer": "Ich mag Fisch nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь чай",
+     "answer": "Ich möchte einen Tee."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, сколько это стоит",
+     "answer": "Was kostet das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это стоит семь евро пятьдесят",
+     "answer": "Das kostet sieben Euro fünfzig."
+    },
+    {
+     "type": "task",
+     "prompt": "Предложи подруге пирог",
+     "answer": "Möchtest du Kuchen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Откажись вежливо",
+     "answer": "Nein, danke."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы идёте вместе поесть",
+     "answer": "Wir gehen zusammen essen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: сначала ешь, потом идёшь домой",
+     "answer": "Zuerst esse ich, dann gehe ich nach Hause."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что часто готовишь",
+     "answer": "Ich koche oft."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вечером у тебя есть время",
+     "answer": "Am Abend habe ich Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, где туалет",
+     "answer": "Wo ist die Toilette?"
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси счёт: «платить, пожалуйста» ещё не знаешь; скажи «я хочу платить»",
+     "answer": "Ich möchte bezahlen."
+    },
+    {
+     "type": "task",
+     "prompt": "Услышала слово «Rechnung». Спроси, что оно значит",
+     "answer": "Was bedeutet „Rechnung“?"
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 13",
+     "answer": "dreizehn"
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 62",
+     "answer": "zweiundsechzig"
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "Движок Д8. Einen, keinen, den"
+    },
+    {
+     "type": "note",
+     "text": "Показ, тьютор читает пары. Что двигается: у слов мужского рода после haben, möchten, brauchen, nehmen и es gibt артикль меняется: ein становится einen, kein становится keinen, der становится den. Женский и средний род не меняются вообще."
+    },
+    {
+     "type": "show_pair",
+     "from": "der Salat",
+     "to": "Ich nehme den Salat."
+    },
+    {
+     "type": "show_pair",
+     "from": "ein Kaffee",
+     "to": "Ich möchte einen Kaffee."
+    },
+    {
+     "type": "show_pair",
+     "from": "kein Kuchen",
+     "to": "Es gibt keinen Kuchen."
+    },
+    {
+     "type": "show_pair",
+     "from": "die Suppe",
+     "to": "Ich nehme die Suppe."
+    },
+    {
+     "type": "show_pair",
+     "from": "das Wasser",
+     "to": "Ich nehme das Wasser."
+    },
+    {
+     "type": "show_pair",
+     "from": "ein Ei",
+     "to": "Ich möchte ein Ei."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо: обе версии каждой пары."
+    },
+    {
+     "type": "label",
+     "text": "С опорой, слово показано с артиклем"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ der Fisch. Скажи «я беру»",
+     "answer": "Ich nehme den Fisch."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ die Pizza. Скажи «я беру»",
+     "answer": "Ich nehme die Pizza."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ ein Tee. Скажи «я хочу»",
+     "answer": "Ich möchte einen Tee."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ ein Wasser. Скажи «я хочу»",
+     "answer": "Ich möchte ein Wasser."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ kein Hunger. Скажи «у меня нет»",
+     "answer": "Ich habe keinen Hunger."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ keine Zeit. Скажи «у меня нет»",
+     "answer": "Ich habe keine Zeit."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ der Kuchen. Скажи «я беру»",
+     "answer": "Ich nehme den Kuchen."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ ein Apfel. Скажи «мне нужно»",
+     "answer": "Ich brauche einen Apfel."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ kein Salat. Скажи «здесь нет» через es gibt",
+     "answer": "Es gibt keinen Salat."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ der Reis. Скажи «я беру»",
+     "answer": "Ich nehme den Reis."
+    },
+    {
+     "type": "heading",
+     "text": "П35. Заказать"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich hätte gern einen Tee.",
+     "ru": "Мне, пожалуйста, чай."
+    },
+    {
+     "type": "show",
+     "de": "Ich nehme den Salat.",
+     "ru": "Я возьму салат."
+    },
+    {
+     "type": "show",
+     "de": "Für mich ein Wasser, bitte.",
+     "ru": "Мне воду, пожалуйста."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: три способа заказать. Ich hätte gern запоминается целиком, вежливее, чем ich möchte. Für mich плюс блюдо, без глагола."
+    },
+    {
+     "type": "label",
+     "text": "Формулы счёта, показ и эхо"
+    },
+    {
+     "type": "formula",
+     "de": "Die Rechnung, bitte.",
+     "when": "просишь счёт"
+    },
+    {
+     "type": "formula",
+     "de": "Zahlen, bitte.",
+     "when": "то же, короче"
+    },
+    {
+     "type": "formula",
+     "de": "Das macht sieben Euro fünfzig.",
+     "when": "официант называет сумму"
+    },
+    {
+     "type": "formula",
+     "de": "Stimmt so.",
+     "when": "сдачи не надо"
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ gern einen Tee.",
+     "answer": "Ich hätte gern einen Tee."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich nehme ___ Salat.",
+     "answer": "Ich nehme den Salat."
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ mich ein Wasser, bitte.",
+     "answer": "Für mich ein Wasser, bitte."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Die ___, bitte.",
+     "answer": "Die Rechnung, bitte."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Закажи вежливо чай",
+     "answer": "Ich hätte gern einen Tee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что берёшь салат",
+     "answer": "Ich nehme den Salat."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: мне воду, пожалуйста",
+     "answer": "Für mich ein Wasser, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси счёт",
+     "answer": "Die Rechnung, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Закажи вежливо кофе с молоком",
+     "answer": "Ich hätte gern einen Kaffee mit Milch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что берёшь суп и кусок пирога",
+     "answer": "Ich nehme die Suppe und ein Stück Kuchen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "вежливо чай",
+     "answer": "Ich hätte gern einen Tee."
+    },
+    {
+     "type": "carousel",
+     "prompt": "беру салат",
+     "answer": "Ich nehme den Salat."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мне воду",
+     "answer": "Für mich ein Wasser, bitte."
+    },
+    {
+     "type": "carousel",
+     "prompt": "счёт",
+     "answer": "Die Rechnung, bitte."
+    },
+    {
+     "type": "carousel",
+     "prompt": "вежливо кофе с молоком",
+     "answer": "Ich hätte gern einen Kaffee mit Milch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "беру рыбу с рисом",
+     "answer": "Ich nehme den Fisch mit Reis."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мне пиццу",
+     "answer": "Für mich eine Pizza, bitte."
+    },
+    {
+     "type": "carousel",
+     "prompt": "платить, пожалуйста",
+     "answer": "Zahlen, bitte."
+    },
+    {
+     "type": "carousel",
+     "prompt": "вежливо кусок пирога",
+     "answer": "Ich hätte gern ein Stück Kuchen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "беру суп",
+     "answer": "Ich nehme die Suppe."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich nehme den Salat. Скажи про мужа",
+     "answer": "Mein Mann nimmt den Salat."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich nehme den Fisch. Спроси подругу: что берёшь ты?",
+     "answer": "Was nimmst du?"
+    },
+    {
+     "type": "transform",
+     "prompt": "Скажи официанту, что хочешь платить",
+     "answer": "Ich möchte bezahlen."
+    },
+    {
+     "type": "transform",
+     "prompt": "Скажи, что это вкусно",
+     "answer": "Das ist lecker."
+    },
+    {
+     "type": "note",
+     "text": "Nimmt, nimmst: гласная меняется, как isst."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich hätte gern eine Suppe."
+    },
+    {
+     "type": "reverse",
+     "de": "Was nimmst du?"
+    },
+    {
+     "type": "reverse",
+     "de": "Das macht zwölf Euro."
+    },
+    {
+     "type": "heading",
+     "text": "П36. Есть ли"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Haben Sie Milch?",
+     "ru": "У вас есть молоко?"
+    },
+    {
+     "type": "show",
+     "de": "Gibt es hier ein Café?",
+     "ru": "Здесь есть кафе?"
+    },
+    {
+     "type": "show",
+     "de": "Es gibt keinen Kuchen.",
+     "ru": "Пирога нет."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: Haben Sie к человеку, gibt es про место. После es gibt тот же движок Д8: keinen Kuchen, einen Salat."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси официанта, есть ли молоко",
+     "answer": "Haben Sie Milch?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, есть ли здесь кафе",
+     "answer": "Gibt es hier ein Café?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что пирога нет",
+     "answer": "Es gibt keinen Kuchen."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, есть ли суп",
+     "answer": "Gibt es Suppe?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси официанта, есть ли чай с молоком",
+     "answer": "Haben Sie Tee mit Milch?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что здесь есть ресторан",
+     "answer": "Es gibt hier ein Restaurant."
+    },
+    {
+     "type": "carousel",
+     "prompt": "есть молоко?",
+     "answer": "Haben Sie Milch?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "здесь есть кафе?",
+     "answer": "Gibt es hier ein Café?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "пирога нет",
+     "answer": "Es gibt keinen Kuchen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "есть суп?",
+     "answer": "Gibt es Suppe?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "есть салат?",
+     "answer": "Gibt es Salat?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "здесь есть туалет?",
+     "answer": "Gibt es hier eine Toilette?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "рыбы нет",
+     "answer": "Es gibt keinen Fisch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "есть сахар?",
+     "answer": "Haben Sie Zucker?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "здесь есть супермаркет?",
+     "answer": "Gibt es hier einen Supermarkt?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "воды нет",
+     "answer": "Es gibt kein Wasser."
+    },
+    {
+     "type": "reverse",
+     "de": "Gibt es hier einen Bahnhof?"
+    },
+    {
+     "type": "reverse",
+     "de": "Haben Sie Butter?"
+    },
+    {
+     "type": "reverse",
+     "de": "Es gibt keine Milch."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты голодна, и закажи вежливо суп",
+     "answer": "Ich habe Hunger. Ich hätte gern eine Suppe."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, есть ли рыба, и скажи, что берёшь рыбу с рисом",
+     "answer": "Gibt es Fisch? Ich nehme den Fisch mit Reis."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси меню",
+     "answer": "Die Speisekarte, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи официанту: мне кофе, а мужу чай",
+     "answer": "Für mich einen Kaffee und für meinen Mann einen Tee."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, что она берёт",
+     "answer": "Was nimmst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь мясо и берёшь салат",
+     "answer": "Ich mag Fleisch nicht. Ich nehme den Salat."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это вкусно, и попроси счёт",
+     "answer": "Das ist lecker. Die Rechnung, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, есть ли здесь кафе, и скажи, что хочешь пить",
+     "answer": "Gibt es hier ein Café? Ich habe Durst."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь пирог, но пирога нет: два предложения",
+     "answer": "Ich möchte Kuchen. Es gibt keinen Kuchen."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси официанта, сколько стоит суп",
+     "answer": "Was kostet die Suppe?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь платить, и что это стоит семь евро: только первое",
+     "answer": "Ich möchte bezahlen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет голода, но есть жажда",
+     "answer": "Ich habe keinen Hunger, aber ich habe Durst."
+    },
+    {
+     "type": "note",
+     "text": "Für meinen Mann как чанк: meinen по тому же движку Д8."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: в ресторане, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор играет официанта."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Guten Abend! Was möchten Sie?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "попроси меню",
+     "answer": "Die Speisekarte, bitte."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Bitte schön. Möchten Sie etwas trinken?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "вежливо закажи воду и чай",
+     "answer": "Ich hätte gern ein Wasser und einen Tee."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Tee mit Milch?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "нет, с сахаром",
+     "answer": "Nein, mit Zucker, bitte."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Und zum Essen?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, есть ли рыба",
+     "answer": "Gibt es Fisch?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Ja, Fisch mit Reis oder mit Kartoffeln."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "берёшь рыбу с картошкой",
+     "answer": "Ich nehme den Fisch mit Kartoffeln."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Gern. Möchten Sie noch etwas?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "нет, спасибо",
+     "answer": "Nein, danke."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "… Hat es geschmeckt?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, очень вкусно; попроси счёт",
+     "answer": "Ja, sehr lecker. Die Rechnung, bitte."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Das macht achtzehn Euro fünfzig."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "дай двадцать и скажи: сдачи не надо",
+     "answer": "Zwanzig Euro. Stimmt so."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Danke schön! Auf Wiedersehen!"
+    },
+    {
+     "type": "note",
+     "text": "Etwas trinken, zum Essen, Hat es geschmeckt на понимание."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Ich nehme den Salat. Ich möchte einen Kaffee. Es gibt keinen Kuchen.\nIch hätte gern einen Tee. Für mich ein Wasser, bitte. Die Rechnung, bitte. Das macht sieben Euro fünfzig.\nHaben Sie Milch? Gibt es hier ein Café?"
+    }
+   ]
+  }
+ ]
+}

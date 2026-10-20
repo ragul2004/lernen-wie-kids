@@ -1,0 +1,867 @@
+{
+ "lesson": 5,
+ "title": "Могу, должна, можно?",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П9 умение, П10 необходимость, П11 просьба и разрешение. Слов: 12. «kann nicht» пока как чанк, отрицание целиком в уроке 6."
+    }
+   ]
+  },
+  {
+   "title": "0. Перед началом",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Добавить факт: работа ученицы, если есть; одно слово или «нет»."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "können: ich kann",
+     "ru": "мочь, уметь",
+     "example": "Ich kann Deutsch sprechen."
+    },
+    {
+     "type": "word",
+     "de": "müssen: ich muss",
+     "ru": "быть должной",
+     "example": "Ich muss arbeiten."
+    },
+    {
+     "type": "word",
+     "de": "arbeiten",
+     "ru": "работать",
+     "example": "Ich muss arbeiten."
+    },
+    {
+     "type": "word",
+     "de": "machen",
+     "ru": "делать",
+     "example": "Ich kann das machen."
+    },
+    {
+     "type": "word",
+     "de": "kaufen",
+     "ru": "покупать",
+     "example": "Ich muss Wasser kaufen."
+    },
+    {
+     "type": "word",
+     "de": "helfen",
+     "ru": "помогать",
+     "example": "Kannst du mir helfen?"
+    },
+    {
+     "type": "word",
+     "de": "sitzen",
+     "ru": "сидеть",
+     "example": "Kann ich hier sitzen?"
+    },
+    {
+     "type": "word",
+     "de": "der Kurs",
+     "ru": "курс",
+     "example": "Ich habe einen Kurs."
+    },
+    {
+     "type": "word",
+     "de": "die Wohnung",
+     "ru": "квартира",
+     "example": "Ich habe eine Wohnung."
+    },
+    {
+     "type": "word",
+     "de": "das Haus",
+     "ru": "дом",
+     "example": "Das ist mein Haus."
+    },
+    {
+     "type": "word",
+     "de": "leider",
+     "ru": "к сожалению",
+     "example": "Leider nicht."
+    },
+    {
+     "type": "word",
+     "de": "vielleicht",
+     "ru": "может быть",
+     "example": "Vielleicht morgen."
+    },
+    {
+     "type": "word",
+     "de": "mir",
+     "ru": "мне",
+     "example": "Kannst du mir helfen?"
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: мочь, должна, работать, делать, покупать, помогать, сидеть, курс, квартира, дом."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь кофе",
+     "answer": "Ich möchte einen Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь спать",
+     "answer": "Ich möchte schlafen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна помощь",
+     "answer": "Ich brauche Hilfe."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна запись",
+     "answer": "Ich brauche einen Termin."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, хочет ли она чай",
+     "answer": "Möchtest du einen Tee?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, чего он хочет",
+     "answer": "Was möchten Sie?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь пойти домой",
+     "answer": "Ich möchte nach Hause gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь учить немецкий",
+     "answer": "Ich möchte Deutsch lernen."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, откуда она",
+     "answer": "Woher kommst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, где он живёт",
+     "answer": "Wo wohnen Sie?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, есть ли у неё машина",
+     "answer": "Hast du ein Auto?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, когда она придёт",
+     "answer": "Wann kommst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть работа",
+     "answer": "Ich habe Arbeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь коллегу",
+     "answer": "Das ist mein Kollege."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты больна",
+     "answer": "Ich bin krank."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет денег",
+     "answer": "Ich habe kein Geld."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, что это",
+     "answer": "Was ist das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Назовись и скажи, откуда ты",
+     "answer": "Ich heiße {имя}. Ich komme aus {страна}."
+    },
+    {
+     "type": "task",
+     "prompt": "Тебе говорят слишком быстро",
+     "answer": "Langsamer, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна вода",
+     "answer": "Ich brauche Wasser."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, нужна ли ему помощь",
+     "answer": "Brauchen Sie Hilfe?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь есть",
+     "answer": "Ich möchte essen."
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П9. Умение и возможность"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich kann Deutsch sprechen.",
+     "ru": "Я могу говорить по-немецки."
+    },
+    {
+     "type": "show",
+     "de": "Ich kann heute nicht kommen.",
+     "ru": "Я сегодня не могу прийти."
+    },
+    {
+     "type": "show",
+     "de": "Ich kann das nicht.",
+     "ru": "Я не могу это."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Та же рамка, что с möchte: kann второе, действие в конце. nicht встаёт перед действием; пока это чанк."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ Deutsch sprechen.",
+     "answer": "Ich kann Deutsch sprechen."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich kann heute ___ kommen. (не)",
+     "answer": "Ich kann heute nicht kommen."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich kann das ___. (не)",
+     "answer": "Ich kann das nicht."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich kann ___. (помочь)",
+     "answer": "Ich kann helfen."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что можешь говорить по-немецки",
+     "answer": "Ich kann Deutsch sprechen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сегодня не можешь прийти",
+     "answer": "Ich kann heute nicht kommen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не можешь это",
+     "answer": "Ich kann das nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что можешь помочь",
+     "answer": "Ich kann helfen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что можешь прийти завтра",
+     "answer": "Ich kann morgen kommen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не можешь спать",
+     "answer": "Ich kann nicht schlafen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "говорить по-немецки",
+     "answer": "Ich kann Deutsch sprechen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сегодня не могу прийти",
+     "answer": "Ich kann heute nicht kommen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "не могу это",
+     "answer": "Ich kann das nicht."
+    },
+    {
+     "type": "carousel",
+     "prompt": "помочь",
+     "answer": "Ich kann helfen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "прийти завтра",
+     "answer": "Ich kann morgen kommen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "не могу спать",
+     "answer": "Ich kann nicht schlafen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "могу это сделать",
+     "answer": "Ich kann das machen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "не могу работать",
+     "answer": "Ich kann nicht arbeiten."
+    },
+    {
+     "type": "carousel",
+     "prompt": "могу говорить по-английски",
+     "answer": "Ich kann Englisch sprechen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "не могу прийти",
+     "answer": "Ich kann nicht kommen."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich kann Deutsch sprechen. Спроси подругу",
+     "answer": "Kannst du Deutsch sprechen?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich kann morgen kommen. Спроси взрослого",
+     "answer": "Können Sie morgen kommen?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich kann helfen. Спроси подругу",
+     "answer": "Kannst du helfen?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich kann nicht kommen."
+    },
+    {
+     "type": "reverse",
+     "de": "Kannst du das machen?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich kann Englisch sprechen."
+    },
+    {
+     "type": "heading",
+     "text": "П10. Необходимость"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich muss arbeiten.",
+     "ru": "Я должна работать."
+    },
+    {
+     "type": "show",
+     "de": "Ich muss jetzt gehen.",
+     "ru": "Мне надо сейчас идти."
+    },
+    {
+     "type": "show",
+     "de": "Ich muss Deutsch lernen.",
+     "ru": "Я должна учить немецкий."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Та же рамка."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ arbeiten.",
+     "answer": "Ich muss arbeiten."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich muss jetzt ___.",
+     "answer": "Ich muss jetzt gehen."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich muss Deutsch ___.",
+     "answer": "Ich muss Deutsch lernen."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich muss Wasser ___. (купить)",
+     "answer": "Ich muss Wasser kaufen."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна работать",
+     "answer": "Ich muss arbeiten."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе надо сейчас идти",
+     "answer": "Ich muss jetzt gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна учить немецкий",
+     "answer": "Ich muss Deutsch lernen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна купить воду",
+     "answer": "Ich muss Wasser kaufen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна пойти домой",
+     "answer": "Ich muss nach Hause gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сегодня должна работать",
+     "answer": "Ich muss heute arbeiten."
+    },
+    {
+     "type": "carousel",
+     "prompt": "работать",
+     "answer": "Ich muss arbeiten."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сейчас идти",
+     "answer": "Ich muss jetzt gehen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "учить немецкий",
+     "answer": "Ich muss Deutsch lernen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "купить воду",
+     "answer": "Ich muss Wasser kaufen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "домой",
+     "answer": "Ich muss nach Hause gehen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сегодня работать",
+     "answer": "Ich muss heute arbeiten."
+    },
+    {
+     "type": "carousel",
+     "prompt": "спать",
+     "answer": "Ich muss schlafen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "есть",
+     "answer": "Ich muss essen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "купить кофе",
+     "answer": "Ich muss Kaffee kaufen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "завтра работать",
+     "answer": "Ich muss morgen arbeiten."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich muss arbeiten. Спроси подругу",
+     "answer": "Musst du arbeiten?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich muss jetzt gehen. Спроси взрослого",
+     "answer": "Müssen Sie jetzt gehen?"
+    },
+    {
+     "type": "transform",
+     "prompt": "Карусель трёх модальных с одним действием: работать",
+     "answer": "Ich möchte arbeiten. Ich kann arbeiten. Ich muss arbeiten."
+    },
+    {
+     "type": "transform",
+     "prompt": "То же со «спать»",
+     "answer": "Ich möchte schlafen. Ich kann schlafen. Ich muss schlafen."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich muss heute arbeiten."
+    },
+    {
+     "type": "reverse",
+     "de": "Musst du gehen?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich muss Kaffee kaufen."
+    },
+    {
+     "type": "heading",
+     "text": "П11. Просьба и разрешение"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Kann ich hier sitzen?",
+     "ru": "Можно мне здесь сесть?"
+    },
+    {
+     "type": "show",
+     "de": "Kannst du mir helfen?",
+     "ru": "Ты можешь мне помочь?"
+    },
+    {
+     "type": "show",
+     "de": "Können Sie das wiederholen?",
+     "ru": "Вы можете это повторить?"
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: kann ich про себя; kannst du к своим; können Sie к взрослым. mir helfen как один кусок."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ ich hier sitzen?",
+     "answer": "Kann ich hier sitzen?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Kannst du ___ helfen?",
+     "answer": "Kannst du mir helfen?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ Sie das wiederholen?",
+     "answer": "Können Sie das wiederholen?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Kann ich ___? (идти)",
+     "answer": "Kann ich gehen?"
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, можно ли здесь сесть",
+     "answer": "Kann ich hier sitzen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси подругу помочь тебе",
+     "answer": "Kannst du mir helfen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси преподавателя повторить",
+     "answer": "Können Sie das wiederholen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси взрослого помочь тебе",
+     "answer": "Können Sie mir helfen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, можно ли тебе идти",
+     "answer": "Kann ich gehen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси подругу повторить",
+     "answer": "Kannst du das wiederholen?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "можно сесть здесь?",
+     "answer": "Kann ich hier sitzen?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "помоги мне (ты)",
+     "answer": "Kannst du mir helfen?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "повторите (Вы)",
+     "answer": "Können Sie das wiederholen?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "помогите (Вы)",
+     "answer": "Können Sie mir helfen?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "можно идти?",
+     "answer": "Kann ich gehen?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "повтори (ты)",
+     "answer": "Kannst du das wiederholen?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "можно домой?",
+     "answer": "Kann ich nach Hause gehen?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "можно это сделать?",
+     "answer": "Kann ich das machen?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "помоги (ты)",
+     "answer": "Kannst du mir helfen?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "повторите (Вы)",
+     "answer": "Können Sie das wiederholen?"
+    },
+    {
+     "type": "reverse",
+     "de": "Kann ich hier sitzen?"
+    },
+    {
+     "type": "reverse",
+     "de": "Können Sie mir helfen?"
+    },
+    {
+     "type": "reverse",
+     "de": "Kannst du das machen?"
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна работать и не можешь прийти",
+     "answer": "Ich muss arbeiten. Ich kann nicht kommen."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси помощи у подруги и скажи, что не понимаешь",
+     "answer": "Kannst du mir helfen? Ich verstehe nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь, но не можешь: хочу спать, не могу спать",
+     "answer": "Ich möchte schlafen. Ich kann nicht schlafen."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, можно ли сесть, и поблагодари",
+     "answer": "Kann ich hier sitzen? Danke."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть курс и ты должна учить немецкий",
+     "answer": "Ich habe einen Kurs. Ich muss Deutsch lernen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «к сожалению, не могу»",
+     "answer": "Leider kann ich nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, должна ли она сегодня работать",
+     "answer": "Musst du heute arbeiten?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе надо идти, и попрощайся",
+     "answer": "Ich muss jetzt gehen. Tschüss!"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть квартира, и представь мужа",
+     "answer": "Ich habe eine Wohnung. Das ist mein Mann."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что можешь помочь: может быть, завтра",
+     "answer": "Ich kann helfen. Vielleicht morgen."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси преподавателя говорить медленнее и повторить",
+     "answer": "Langsamer, bitte. Können Sie das wiederholen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна купить кофе и воду",
+     "answer": "Ich muss Kaffee und Wasser kaufen."
+    },
+    {
+     "type": "note",
+     "text": "Задание 6 показывает Leider kann ich: порядок слов после leider тьютор даёт как чанк, объяснение будет в A1.1."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: на курсе, 7 минут",
+   "cards": [
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, можно ли сесть здесь",
+     "answer": "Kann ich hier sitzen?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Ja, bitte."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Преподаватель",
+     "text": "(быстро и длинно) …"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "попроси повторить",
+     "answer": "Können Sie das wiederholen, bitte?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Преподаватель",
+     "text": "(повторяет так же быстро)"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что не понимаешь; попроси соседку помочь",
+     "answer": "Ich verstehe nicht. Kannst du mir helfen?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Ja. Das ist …"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что не можешь это",
+     "answer": "Ich kann das nicht."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Doch! Du kannst das."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что можешь немного говорить по-немецки",
+     "answer": "Ich kann ein bisschen Deutsch sprechen."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Преподаватель",
+     "text": "Bis morgen!"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что должна сейчас идти, попрощайся",
+     "answer": "Ich muss jetzt gehen. Auf Wiedersehen!"
+    },
+    {
+     "type": "note",
+     "text": "Doch на понимание."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Ich kann Deutsch sprechen. Ich kann heute nicht kommen.\nIch muss arbeiten. Ich muss jetzt gehen.\nKann ich hier sitzen? Kannst du mir helfen? Können Sie das wiederholen?"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,624 @@
+{
+ "lesson": 13,
+ "title": "Нравится",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П21 mögen, что я люблю и не люблю. Слов: 15, в основном еда и досуг, чтобы было что любить. Трансформации: вопросы Д3, отрицание Д4, лица Д5 к новому паттерну. Второй раздел нового: ответы на вопросы тьютора «Magst du …?»."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "mögen: ich mag, du magst, er mag",
+     "ru": "любить, нравиться",
+     "example": "Ich mag Kaffee."
+    },
+    {
+     "type": "word",
+     "de": "der Fisch",
+     "ru": "рыба",
+     "example": "Ich mag Fisch."
+    },
+    {
+     "type": "word",
+     "de": "das Fleisch",
+     "ru": "мясо",
+     "example": "Ich mag Fleisch nicht."
+    },
+    {
+     "type": "word",
+     "de": "der Käse",
+     "ru": "сыр",
+     "example": "Brot mit Käse"
+    },
+    {
+     "type": "word",
+     "de": "der Kuchen",
+     "ru": "пирог, торт",
+     "example": "Magst du Kuchen?"
+    },
+    {
+     "type": "word",
+     "de": "das Obst; das Gemüse",
+     "ru": "фрукты; овощи",
+     "example": "Ich mag Obst und Gemüse."
+    },
+    {
+     "type": "word",
+     "de": "der Wein; der Saft",
+     "ru": "вино; сок",
+     "example": "Ich mag Wein nicht."
+    },
+    {
+     "type": "word",
+     "de": "der Apfel",
+     "ru": "яблоко",
+     "example": "Ich mag Äpfel."
+    },
+    {
+     "type": "word",
+     "de": "die Musik",
+     "ru": "музыка",
+     "example": "Ich mag Musik."
+    },
+    {
+     "type": "word",
+     "de": "der Sport",
+     "ru": "спорт",
+     "example": "Magst du Sport?"
+    },
+    {
+     "type": "word",
+     "de": "der Fußball",
+     "ru": "футбол",
+     "example": "Mein Mann mag Fußball."
+    },
+    {
+     "type": "word",
+     "de": "das Kino",
+     "ru": "кино",
+     "example": "Ich mag Kino."
+    },
+    {
+     "type": "word",
+     "de": "das Buch, die Bücher",
+     "ru": "книга, книги",
+     "example": "Ich mag Bücher."
+    },
+    {
+     "type": "word",
+     "de": "der Film",
+     "ru": "фильм",
+     "example": "Ich mag den Film nicht."
+    },
+    {
+     "type": "word",
+     "de": "mit",
+     "ru": "с",
+     "example": "Tee mit Milch"
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: рыба, мясо, сыр, пирог, фрукты, овощи, вино, сок, яблоко, музыка, спорт, футбол, кино, книга, фильм."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он работает в Сименсе",
+     "answer": "Mein Mann arbeitet bei Siemens."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про подругу, что она из Польши",
+     "answer": "Meine Freundin kommt aus Polen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы живёте в Бремене",
+     "answer": "Wir wohnen in Bremen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про родителей, что они живут в Москве",
+     "answer": "Meine Eltern wohnen in Moskau."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, где живёт её брат",
+     "answer": "Wo wohnt dein Bruder?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про сына, что он спит",
+     "answer": "Mein Sohn schläft."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть сестра",
+     "answer": "Ich habe eine Schwester."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты замужем",
+     "answer": "Ich bin verheiratet."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь родителей",
+     "answer": "Das sind meine Eltern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, кем работаешь",
+     "answer": "Ich arbeite als {профессия}."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, сколько ему лет",
+     "answer": "Wie alt sind Sie?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что мама учительница",
+     "answer": "Meine Mutter ist Lehrerin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы устали",
+     "answer": "Wir sind müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь чай",
+     "answer": "Ich möchte einen Tee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна помощь",
+     "answer": "Ich brauche Hilfe."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не можешь это",
+     "answer": "Ich kann das nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, сколько стоит хлеб",
+     "answer": "Was kostet das Brot?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не понимаешь вопрос",
+     "answer": "Ich verstehe die Frage nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, есть ли у неё машина",
+     "answer": "Hast du ein Auto?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь одна",
+     "answer": "Ich wohne allein."
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 26",
+     "answer": "sechsundzwanzig"
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: родители",
+     "answer": "die Eltern"
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П21. Нравится, не нравится"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich mag Kaffee.",
+     "ru": "Я люблю кофе."
+    },
+    {
+     "type": "show",
+     "de": "Ich mag Fisch nicht.",
+     "ru": "Я не люблю рыбу."
+    },
+    {
+     "type": "show",
+     "de": "Magst du Musik?",
+     "ru": "Ты любишь музыку?"
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: то, что нравится, стоит после mag без артикля, когда речь вообще: Kaffee, Fisch, Musik. Не нравится: nicht в самый конец. Формы: ich mag, du magst, er mag, wir mögen, Sie mögen."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ Kaffee.",
+     "answer": "Ich mag Kaffee."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich mag Fisch ___.",
+     "answer": "Ich mag Fisch nicht."
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ du Musik?",
+     "answer": "Magst du Musik?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Mein Mann ___ Fußball.",
+     "answer": "Mein Mann mag Fußball."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь кофе",
+     "answer": "Ich mag Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь рыбу",
+     "answer": "Ich mag Fisch nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь музыку",
+     "answer": "Ich mag Musik."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь пирог",
+     "answer": "Ich mag Kuchen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь мясо",
+     "answer": "Ich mag Fleisch nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь фрукты и овощи",
+     "answer": "Ich mag Obst und Gemüse."
+    },
+    {
+     "type": "carousel",
+     "prompt": "кофе",
+     "answer": "Ich mag Kaffee."
+    },
+    {
+     "type": "carousel",
+     "prompt": "не рыбу",
+     "answer": "Ich mag Fisch nicht."
+    },
+    {
+     "type": "carousel",
+     "prompt": "музыку",
+     "answer": "Ich mag Musik."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сыр",
+     "answer": "Ich mag Käse."
+    },
+    {
+     "type": "carousel",
+     "prompt": "не вино",
+     "answer": "Ich mag Wein nicht."
+    },
+    {
+     "type": "carousel",
+     "prompt": "спорт",
+     "answer": "Ich mag Sport."
+    },
+    {
+     "type": "carousel",
+     "prompt": "яблоки",
+     "answer": "Ich mag Äpfel."
+    },
+    {
+     "type": "carousel",
+     "prompt": "не футбол",
+     "answer": "Ich mag Fußball nicht."
+    },
+    {
+     "type": "carousel",
+     "prompt": "кино",
+     "answer": "Ich mag Kino."
+    },
+    {
+     "type": "carousel",
+     "prompt": "чай с молоком (Tee mit Milch: Milch на понимание)",
+     "answer": "Ich mag Tee mit Milch."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich mag Kuchen. Спроси подругу",
+     "answer": "Magst du Kuchen?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich mag Fisch. Скажи, что нет",
+     "answer": "Ich mag Fisch nicht."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich mag Fußball. Скажи про мужа",
+     "answer": "Mein Mann mag Fußball."
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси взрослого, любит ли он музыку",
+     "answer": "Mögen Sie Musik?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich mag Sport. Скажи про детей",
+     "answer": "Meine Kinder mögen Sport."
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси подругу, что она любит: «что любишь ты»",
+     "answer": "Was magst du?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich mag Tee."
+    },
+    {
+     "type": "reverse",
+     "de": "Magst du Fleisch?"
+    },
+    {
+     "type": "reverse",
+     "de": "Meine Tochter mag Musik nicht."
+    },
+    {
+     "type": "heading",
+     "text": "Ответы на вопросы"
+    },
+    {
+     "type": "note",
+     "text": "Тьютор читает вопрос вслух, ученица отвечает про себя: ja или nein, потом полное предложение."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Magst du Kaffee?",
+     "answer": "Ja, ich mag Kaffee. / Nein, ich mag Kaffee nicht."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Magst du Fisch?",
+     "answer": "Ja, ich mag Fisch. / Nein, ich mag Fisch nicht."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Magst du Musik?",
+     "answer": "Ja, ich mag Musik."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Magst du Sport?",
+     "answer": "Ja, ich mag Sport. / Nein, ich mag Sport nicht."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Mag dein Mann Fußball?",
+     "answer": "Ja, er mag Fußball. / Nein, er mag Fußball nicht."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Was magst du: Tee oder Kaffee?",
+     "answer": "Ich mag Tee. / Ich mag Kaffee."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Mögen deine Kinder Obst?",
+     "answer": "Ja, sie mögen Obst."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Magst du Kino?",
+     "answer": "Ja, ich mag Kino."
+    },
+    {
+     "type": "note",
+     "text": "Oder в шестом вопросе на понимание, слово будет в уроке 14."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь кофе и хочешь кофе",
+     "answer": "Ich mag Kaffee. Ich möchte einen Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь рыбу и любишь мясо: два предложения",
+     "answer": "Ich mag Fisch nicht. Ich mag Fleisch."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, любит ли она музыку",
+     "answer": "Magst du Musik?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он любит футбол и спорт",
+     "answer": "Mein Mann mag Fußball und Sport."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сын любит яблоки, а дочь нет: два предложения",
+     "answer": "Mein Sohn mag Äpfel. Meine Tochter mag Äpfel nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужен сыр и хлеб: «мне нужны сыр и хлеб»",
+     "answer": "Ich brauche Käse und Brot."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, любит ли он кино",
+     "answer": "Mögen Sie Kino?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь книги, но сейчас у тебя нет времени",
+     "answer": "Ich mag Bücher. Ich habe jetzt keine Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы любите музыку",
+     "answer": "Wir mögen Musik."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, сколько стоит пирог",
+     "answer": "Was kostet der Kuchen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь вино и не пьёшь пиво: «пиво я не пью» через Ich trinke kein Bier",
+     "answer": "Ich mag Wein nicht. Ich trinke kein Bier."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что подруга любит спорт и она молодая",
+     "answer": "Meine Freundin mag Sport. Sie ist jung."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: в гостях, за столом, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор играет подругу, которая угощает."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Möchtest du Kaffee oder Tee?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что любишь чай, и попроси чай",
+     "answer": "Ich mag Tee. Ich möchte einen Tee, bitte."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Mit Milch?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "нет, спасибо",
+     "answer": "Nein, danke."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Magst du Fisch? Ich habe Fisch."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "нет, ты не любишь рыбу, но любишь сыр",
+     "answer": "Nein, ich mag Fisch nicht. Ich mag Käse."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Okay, Brot mit Käse. Und Kuchen?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, ты любишь пирог",
+     "answer": "Ja, gern. Ich mag Kuchen."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Mag dein Mann auch Kuchen?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, и дети тоже любят пирог",
+     "answer": "Ja, er mag Kuchen. Meine Kinder mögen auch Kuchen."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Was magst du: Musik oder Kino?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "ответь про себя",
+     "answer": "Ich mag Musik. / Ich mag Kino."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Ich auch!"
+    },
+    {
+     "type": "note",
+     "text": "Ja, gern как ответ на предложение: чанк, разбор в уроке 14."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Ich mag Kaffee. Ich mag Fisch nicht. Ich mag Obst und Gemüse.\nMagst du Musik? Mögen Sie Kino? Was magst du?\nMein Mann mag Fußball. Meine Kinder mögen Sport."
+    }
+   ]
+  }
+ ]
+}

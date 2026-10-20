@@ -1,0 +1,83 @@
+[
+{"engine":"Д2","pattern":"П7","templates":[{"id":"Д2-П7-1","de":"Ich möchte {inf}.","slot":"inf","fillerIds":["w_schlafen","w_essen","w_spielen","w_lernen","p_nach_hause_gehen","p_deutsch_lernen","p_hausaufgaben_machen","p_wasser_trinken"],"cueRu":"Скажи, что хочешь {ruInf}"}],"noteRu":"карусель Д2: один заполнитель подряд через möchte, kann, muss"},
+{"engine":"Д2","pattern":"П9","templates":[{"id":"Д2-П9-1","de":"Ich kann {inf}.","slot":"inf","fillerIds":["w_schlafen","w_essen","w_spielen","w_lernen","p_nach_hause_gehen","p_deutsch_lernen","p_hausaufgaben_machen","p_wasser_trinken"],"cueRu":"Скажи, что можешь {ruInf}"}]},
+{"engine":"Д2","pattern":"П10","templates":[{"id":"Д2-П10-1","de":"Ich muss {inf}.","slot":"inf","fillerIds":["w_schlafen","w_essen","w_spielen","w_lernen","p_nach_hause_gehen","p_deutsch_lernen","p_hausaufgaben_machen","p_wasser_trinken"],"cueRu":"Скажи, что должна {ruInf}"}]},
+
+{"engine":"Д3","pattern":"П1","templates":[
+ {"id":"Д3-П1-1","de":"Wie heißt du?","cueRu":"Спроси Тома, как его зовут"},
+ {"id":"Д3-П1-2","de":"Wie heißen Sie?","cueRu":"Спроси фрау Вебер, как её зовут"},
+ {"id":"Д3-П1-3","de":"Bist du {name}?","slot":"name","fillerIds":["f_tom","f_emma","f_ali","f_max","f_anna"],"cueRu":"Спроси ребёнка, его ли зовут {ru}"},
+ {"id":"Д3-П1-4","de":"Sind Sie Frau Weber?","cueRu":"Спроси женщину, она ли фрау Вебер"}]},
+{"engine":"Д3","pattern":"П2","templates":[
+ {"id":"Д3-П2-1","de":"Woher kommst du?","cueRu":"Спроси Эмму, откуда она"},
+ {"id":"Д3-П2-2","de":"Woher kommen Sie?","cueRu":"Спроси фрау Браун, откуда она"},
+ {"id":"Д3-П2-3","de":"Kommst du aus {country}?","slot":"country","fillerIds":["f_russland","f_polen","f_deutschland","f_moskau","f_berlin"],"cueRu":"Спроси Тома, он ли {ruFrom}"},
+ {"id":"Д3-П2-4","de":"Kommen Sie aus {country}?","slot":"country","fillerIds":["f_russland","f_polen","f_deutschland"],"cueRu":"Спроси фрау Вебер, она ли {ruFrom}"},
+ {"id":"Д3-П2-5","de":"Kommst du morgen?","cueRu":"Спроси Тома, придёт ли он завтра"},
+ {"id":"Д3-П2-6","de":"Wann kommst du?","cueRu":"Спроси Тома, когда он придёт"}]},
+{"engine":"Д3","pattern":"П3","templates":[
+ {"id":"Д3-П3-1","de":"Wo wohnst du?","cueRu":"Спроси Али, где он живёт"},
+ {"id":"Д3-П3-2","de":"Wo wohnen Sie?","cueRu":"Спроси фрау Браун, где она живёт"},
+ {"id":"Д3-П3-3","de":"Wohnst du in {city}?","slot":"city","fillerIds":["f_bremen","f_berlin","f_hamburg"],"cueRu":"Спроси Эмму, живёт ли она в {ruIn}"},
+ {"id":"Д3-П3-4","de":"Wohnen Sie in {city}?","slot":"city","fillerIds":["f_bremen","f_berlin","f_hamburg"],"cueRu":"Спроси фрау Вебер, живёт ли она в {ruIn}"},
+ {"id":"Д3-П3-5","de":"Wohnst du hier?","cueRu":"Спроси Тома, здесь ли он живёт"}]},
+{"engine":"Д3","pattern":"П4","templates":[
+ {"id":"Д3-П4-1","de":"Sprichst du {lang}?","slot":"lang","fillerIds":["w_deutsch","w_russisch","w_englisch"],"cueRu":"Спроси Тома, говорит ли он {ruSpeak}"},
+ {"id":"Д3-П4-2","de":"Sprechen Sie {lang}?","slot":"lang","fillerIds":["w_deutsch","w_russisch","w_englisch"],"cueRu":"Спроси фрау Вебер, говорит ли она {ruSpeak}"}]},
+{"engine":"Д3","pattern":"П5","templates":[
+ {"id":"Д3-П5-1","de":"Bist du {adj}?","slot":"adj","fillerIds":["w_muede","w_krank","w_fertig","w_neu"],"cueRu":"Спроси Тома, {ruAskM}"},
+ {"id":"Д3-П5-2","de":"Sind Sie {adj}?","slot":"adj","fillerIds":["w_muede","w_krank","w_fertig"],"cueRu":"Спроси фрау Вебер, {ruAskF}"}]},
+{"engine":"Д3","pattern":"П6","templates":[
+ {"id":"Д3-П6-1","de":"Hast du {akkIndef}?","slot":"akkIndef","fillerIds":["w_zeit","w_geld","w_frage","w_problem","w_handy","w_auto","w_freund","w_freundin","w_hausaufgabe"],"cueRu":"Спроси Тома, есть ли у него {ru}"},
+ {"id":"Д3-П6-2","de":"Haben Sie {akkIndef}?","slot":"akkIndef","fillerIds":["w_zeit","w_frage","w_problem","w_handy","w_auto"],"cueRu":"Спроси фрау Вебер, есть ли у неё {ru}"}]},
+{"engine":"Д3","pattern":"П7","templates":[
+ {"id":"Д3-П7-1","de":"Möchtest du {akkIndef}?","slot":"akkIndef","fillerIds":["w_saft","w_kuchen","w_wasser","w_tee","w_kaffee","w_brot","w_milch"],"cueRu":"Спроси Эмму, хочет ли она {ruAkk}"},
+ {"id":"Д3-П7-2","de":"Möchtest du {inf}?","slot":"inf","fillerIds":["w_spielen","w_schlafen","w_essen","w_trinken","p_nach_hause_gehen","p_kuchen_essen"],"cueRu":"Спроси Тома, хочет ли он {ruInf}"},
+ {"id":"Д3-П7-3","de":"Möchten Sie {akkIndef}?","slot":"akkIndef","fillerIds":["w_tee","w_kaffee","w_wasser","w_kuchen"],"cueRu":"Спроси фрау Вебер, хочет ли она {ruAkk}"},
+ {"id":"Д3-П7-4","de":"Was möchtest du?","cueRu":"Спроси Тома, чего он хочет"},
+ {"id":"Д3-П7-5","de":"Was möchten Sie?","cueRu":"Спроси взрослого, чего он хочет"}]},
+{"engine":"Д3","pattern":"П8","templates":[
+ {"id":"Д3-П8-1","de":"Brauchst du {akkIndef}?","slot":"akkIndef","fillerIds":["w_hilfe","w_wasser","w_zeit","w_geld","w_handy"],"cueRu":"Спроси Тома, нужно ли ему это: {ru}"},
+ {"id":"Д3-П8-2","de":"Brauchen Sie {akkIndef}?","slot":"akkIndef","fillerIds":["w_hilfe","w_wasser","w_zeit"],"cueRu":"Спроси фрау Вебер, нужно ли ей это: {ru}"},
+ {"id":"Д3-П8-3","de":"Was brauchst du?","cueRu":"Спроси Эмму, что ей нужно"}]},
+{"engine":"Д3","pattern":"П9","templates":[
+ {"id":"Д3-П9-1","de":"Kannst du {inf}?","slot":"inf","fillerIds":["p_deutsch_sprechen","w_spielen","w_helfen","p_das_machen","w_kommen"],"cueRu":"Спроси Тома, может ли он {ruInf}"},
+ {"id":"Д3-П9-2","de":"Können Sie {inf}?","slot":"inf","fillerIds":["p_das_wiederholen","w_helfen","w_kommen"],"cueRu":"Спроси фрау Браун, может ли она {ruInf}"}]},
+{"engine":"Д3","pattern":"П10","templates":[
+ {"id":"Д3-П10-1","de":"Musst du {inf}?","slot":"inf","fillerIds":["w_lernen","p_nach_hause_gehen","p_hausaufgaben_machen","w_schlafen","p_jetzt_gehen"],"cueRu":"Спроси Тома, должен ли он {ruInf}"},
+ {"id":"Д3-П10-2","de":"Müssen Sie {inf}?","slot":"inf","fillerIds":["p_jetzt_gehen","w_lernen"],"cueRu":"Спроси фрау Вебер, должна ли она {ruInf}"}]},
+{"engine":"Д3","pattern":"П13","templates":[
+ {"id":"Д3-П13-1","de":"Ist das {nom}?","slot":"nom","fillers":[{"id":"w_problem","form":"nomIndef","ru":"проблема"},{"id":"f_tom","form":"de","ru":"Том"},{"id":"f_frau_weber","form":"de","ru":"фрау Вебер"},{"id":"w_handy","form":"nomIndef","ru":"телефон"},{"id":"w_richtig","form":"de","ru":"правильно"},{"id":"w_teuer","form":"de","ru":"дорого"},{"id":"w_neu","form":"de","ru":"новое"}],"cueRu":"Спроси, {ru} ли это"}]},
+{"engine":"Д3","pattern":"П15","templates":[
+ {"id":"Д3-П15-1","de":"Weißt du das?","cueRu":"Спроси Тома, знает ли он это"},
+ {"id":"Д3-П15-2","de":"Verstehst du das?","cueRu":"Спроси Тома, понимает ли он это"},
+ {"id":"Д3-П15-3","de":"Verstehen Sie das?","cueRu":"Спроси фрау Вебер, понимает ли она это"}]},
+
+{"engine":"Д4","pattern":"П1","templates":[
+ {"id":"Д4-П1-1","de":"Ich heiße nicht {name}.","slot":"name","fillerIds":["f_anna","f_max","f_tom"],"cueRu":"Тебя назвали неправильно. Скажи, что тебя зовут не {ru}"},
+ {"id":"Д4-П1-2","de":"Ich bin nicht {name}.","slot":"name","fillerIds":["f_anna","f_max","f_emma"],"cueRu":"Скажи, что ты не {ru}"}]},
+{"engine":"Д4","pattern":"П2","templates":[
+ {"id":"Д4-П2-1","de":"Ich komme nicht aus {country}.","slot":"country","fillerIds":["f_polen","f_deutschland","f_berlin","f_hamburg"],"cueRu":"Скажи, что ты не {ruFrom}"}]},
+{"engine":"Д4","pattern":"П3","templates":[
+ {"id":"Д4-П3-1","de":"Ich wohne nicht in {city}.","slot":"city","fillerIds":["f_berlin","f_hamburg","f_moskau"],"cueRu":"Скажи, что живёшь не в {ruIn}"},
+ {"id":"Д4-П3-2","de":"Ich wohne nicht hier.","cueRu":"Скажи, что живёшь не здесь"}]},
+{"engine":"Д4","pattern":"П4","templates":[
+ {"id":"Д4-П4-1","de":"Ich spreche kein {lang}.","slot":"lang","fillerIds":["w_englisch","w_deutsch"],"cueRu":"Скажи, что не говоришь {ruSpeak}","noteRu":"языки с kein, не с nicht"}]},
+{"engine":"Д4","pattern":"П5","templates":[
+ {"id":"Д4-П5-1","de":"Ich bin nicht {adj}.","slot":"adj","fillerIds":["w_muede","w_krank","w_fertig","w_neu"],"cueRu":"Скажи, что ты не {ruState}"}]},
+{"engine":"Д4","pattern":"П6","templates":[
+ {"id":"Д4-П6-1","de":"Ich habe {akkNeg}.","slot":"akkNeg","fillerIds":["w_zeit","w_geld","w_frage","w_problem","w_handy","w_auto","w_hausaufgabe","w_freund"],"cueRu":"Скажи, что у тебя нет {ruGen}"}]},
+{"engine":"Д4","pattern":"П7","templates":[
+ {"id":"Д4-П7-1","de":"Ich möchte nicht {inf}.","slot":"inf","fillerIds":["w_schlafen","w_essen","w_spielen","w_lernen","p_nach_hause_gehen","p_hausaufgaben_machen"],"cueRu":"Скажи, что не хочешь {ruInf}"},
+ {"id":"Д4-П7-2","de":"Ich möchte {akkNeg}.","slot":"akkNeg","fillerIds":["w_saft","w_kuchen","w_wasser","w_tee","w_kaffee","w_brot","w_milch"],"cueRu":"Скажи, что не хочешь {ruGen}"}]},
+{"engine":"Д4","pattern":"П8","templates":[
+ {"id":"Д4-П8-1","de":"Ich brauche {akkNeg}.","slot":"akkNeg","fillerIds":["w_hilfe","w_wasser","w_zeit","w_geld","w_arzt"],"cueRu":"Скажи, что тебе это не нужно: {ru}"}]},
+{"engine":"Д4","pattern":"П9","templates":[
+ {"id":"Д4-П9-1","de":"Ich kann nicht {inf}.","slot":"inf","fillerIds":["p_deutsch_sprechen","w_spielen","w_helfen","p_das_machen","w_kommen","w_schlafen"],"cueRu":"Скажи, что не можешь {ruInf}"},
+ {"id":"Д4-П9-2","de":"Ich kann das nicht.","cueRu":"Скажи, что не можешь это"}]},
+{"engine":"Д4","pattern":"П10","templates":[
+ {"id":"Д4-П10-1","de":"Ich muss nicht {inf}.","slot":"inf","fillerIds":["w_lernen","p_nach_hause_gehen","p_hausaufgaben_machen","w_schlafen"],"cueRu":"Скажи, что тебе не надо {ruInf}"}]},
+{"engine":"Д4","pattern":"П13","templates":[
+ {"id":"Д4-П13-1","de":"Das ist nicht {nom}.","slot":"nom","fillers":[{"id":"w_mama","form":"poss","ru":"моя мама"},{"id":"f_tom","form":"de","ru":"Том"},{"id":"w_handy","form":"poss","ru":"мой телефон"},{"id":"w_freund","form":"poss","ru":"мой друг"},{"id":"w_schule","form":"poss","ru":"моя школа"},{"id":"w_richtig","form":"de","ru":"правильно"},{"id":"w_teuer","form":"de","ru":"дорого"},{"id":"w_gut","form":"de","ru":"хорошо"},{"id":"w_neu","form":"de","ru":"новое"},{"id":"w_schlecht","form":"de","ru":"плохо"}],"cueRu":"Скажи, что это не {ru}"},
+ {"id":"Д4-П13-2","de":"Das ist kein Problem.","cueRu":"Скажи, что это не проблема"}]}
+]

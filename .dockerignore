@@ -1,0 +1,8 @@
+# В образ попадает только то, что нужно плееру: страница, player/, конфиг nginx,
+# lessons/index.json и JSON-карточки всех слоёв. Markdown уроков не нужен.
+*
+!index.html
+!player/
+!docker/
+!lessons/
+lessons/**/*.md

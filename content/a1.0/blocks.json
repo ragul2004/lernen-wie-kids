@@ -1,0 +1,34 @@
+[
+{"id":"Б1","nameRu":"Ремонт коммуникации","formulas":[
+ {"id":"b1_wie_bitte","module":"M01","de":"Wie bitte?","ru":"Что, простите?","cues":[{"voice":"neutral","text":"Ты не расслышала. Переспроси"},{"voice":"story","text":"Фрау Вебер что-то сказала, ты не расслышала"}]},
+ {"id":"b1_noch_einmal","module":"M01","de":"Noch einmal, bitte.","ru":"Ещё раз, пожалуйста","cues":[{"voice":"neutral","text":"Попроси повторить"},{"voice":"story","text":"Учительница сказала слово, попроси сказать ещё раз"}]},
+ {"id":"b1_langsamer","module":"M01","de":"Langsamer, bitte.","ru":"Помедленнее, пожалуйста","cues":[{"voice":"neutral","text":"Тебе говорят слишком быстро"},{"voice":"story","text":"Фрау Вебер говорит быстро и много"}]},
+ {"id":"b1_ich_verstehe_nicht","module":"M01","de":"Ich verstehe nicht.","ru":"Я не понимаю","cues":[{"voice":"neutral","text":"Ты не поняла, что сказали"},{"voice":"story","text":"Том что-то объясняет, а ты не понимаешь"}]},
+ {"id":"b1_was_bedeutet","module":"M03","de":"Was bedeutet „{word}“?","ru":"Что значит …?","slot":"word","sampleWords":["Spielplatz","Pause","Klasse"],"cues":[{"voice":"neutral","text":"Ты услышала незнакомое слово: {word}. Спроси, что оно значит"},{"voice":"story","text":"Фрау Браун сказала «{word}». Спроси, что это значит"}]},
+ {"id":"b1_wie_sagt_man","module":"M03","de":"Wie sagt man „{ruWord}“ auf Deutsch?","ru":"Как по-немецки …?","slot":"ruWord","sampleWords":["мяч","качели","кошка"],"cues":[{"voice":"neutral","text":"Ты не знаешь, как сказать по-немецки: {ruWord}. Спроси"},{"voice":"story","text":"Ты хочешь сказать Тому «{ruWord}», но не знаешь слова. Спроси"}]},
+ {"id":"b1_buchstabieren","module":"M03","de":"Können Sie das buchstabieren?","ru":"Можете сказать по буквам?","cues":[{"voice":"neutral","text":"Ты не поняла имя. Попроси взрослого сказать по буквам"},{"voice":"story","text":"Фрау Браун называет свою фамилию, а ты не поняла. Попроси по буквам"}]},
+ {"id":"b1_moment","module":"M03","de":"Moment, bitte.","ru":"Минутку","cues":[{"voice":"neutral","text":"Тебе нужна секунда подумать"},{"voice":"story","text":"Официант ждёт, а ты ещё думаешь"}]}
+]},
+{"id":"Б2","nameRu":"Ритуалы","formulas":[
+ {"id":"b2_hallo","module":"M01","de":"Hallo.","ru":"Привет","cues":[{"voice":"neutral","text":"Поздоровайся с ребёнком"},{"voice":"story","text":"Том говорит привет. Ответь"}]},
+ {"id":"b2_guten_morgen","module":"M01","de":"Guten Morgen.","ru":"Доброе утро","cues":[{"voice":"neutral","text":"Поздоровайся утром"},{"voice":"story","text":"Утро, учительница входит в класс. Поздоровайся"}]},
+ {"id":"b2_guten_tag","module":"M01","de":"Guten Tag.","ru":"Добрый день","cues":[{"voice":"neutral","text":"Поздоровайся днём со взрослым"},{"voice":"story","text":"Фрау Вебер у двери. Поздоровайся"}]},
+ {"id":"b2_guten_abend","module":"M01","de":"Guten Abend.","ru":"Добрый вечер","cues":[{"voice":"neutral","text":"Поздоровайся вечером"},{"voice":"story","text":"Вечером в дверь стучит сосед. Поздоровайся"}]},
+ {"id":"b2_tschuess","module":"M01","de":"Tschüss.","ru":"Пока","cues":[{"voice":"neutral","text":"Попрощайся"},{"voice":"story","text":"Том уходит домой. Попрощайся"}]},
+ {"id":"b2_auf_wiedersehen","module":"M01","de":"Auf Wiedersehen.","ru":"До свидания","cues":[{"voice":"neutral","text":"Попрощайся со взрослым вежливо"},{"voice":"story","text":"Ты уходишь из школы. Попрощайся с фрау Браун"}]},
+ {"id":"b2_bis_morgen","module":"M01","de":"Bis morgen.","ru":"До завтра","cues":[{"voice":"neutral","text":"Скажи «до завтра»"},{"voice":"story","text":"Эмма уходит, вы увидитесь завтра. Скажи ей"}]},
+ {"id":"b2_danke","module":"M01","de":"Danke.","ru":"Спасибо","cues":[{"voice":"neutral","text":"Поблагодари"},{"voice":"story","text":"Кассир дал сдачу. Поблагодари"}]},
+ {"id":"b2_danke_schoen","module":"M01","de":"Danke schön.","ru":"Большое спасибо","cues":[{"voice":"neutral","text":"Поблагодари тепло"},{"voice":"story","text":"Официант принёс воду. Поблагодари"}]},
+ {"id":"b2_bitte","module":"M01","de":"Bitte.","ru":"Пожалуйста","cues":[{"voice":"neutral","text":"Скажи «пожалуйста», протягивая что-то"},{"voice":"story","text":"Ты отдаёшь кассиру деньги. Скажи"}]},
+ {"id":"b2_bitte_schoen","module":"M01","de":"Bitte schön.","ru":"Пожалуйста (в ответ на спасибо)","cues":[{"voice":"neutral","text":"Ответь на «спасибо»"},{"voice":"story","text":"Том говорит спасибо за мяч. Ответь"}]},
+ {"id":"b2_entschuldigung","module":"M01","de":"Entschuldigung.","ru":"Извините","cues":[{"voice":"neutral","text":"Привлеки внимание взрослого"},{"voice":"story","text":"Ты хочешь спросить кассира. Начни"}]},
+ {"id":"b2_es_tut_mir_leid","module":"M01","de":"Es tut mir leid.","ru":"Мне жаль","cues":[{"voice":"neutral","text":"Извинись за то, что сделала"},{"voice":"story","text":"Ты разлила воду на стол. Извинись"}]},
+ {"id":"b2_kein_problem","module":"M01","de":"Kein Problem.","ru":"Ничего страшного","cues":[{"voice":"neutral","text":"Скажи, что ничего страшного"},{"voice":"story","text":"Том извиняется, что опоздал. Ответь"}]},
+ {"id":"b2_ja","module":"M01","de":"Ja.","ru":"Да","cues":[{"voice":"neutral","text":"Согласись"},{"voice":"story","text":"Тебя спросили, хочешь ли ты играть. Ответь да"}]},
+ {"id":"b2_nein","module":"M01","de":"Nein.","ru":"Нет","cues":[{"voice":"neutral","text":"Откажись одним словом"},{"voice":"story","text":"Тебя спросили, больна ли ты. Ответь нет"}]},
+ {"id":"b2_vielleicht","module":"M01","de":"Vielleicht.","ru":"Может быть","cues":[{"voice":"neutral","text":"Скажи, что может быть"},{"voice":"story","text":"Эмма спрашивает, придёшь ли ты завтра. Ты не уверена"}]},
+ {"id":"b2_okay","module":"M01","de":"Okay.","ru":"Хорошо, ладно","cues":[{"voice":"neutral","text":"Согласись коротко"},{"voice":"story","text":"Мама говорит идти домой. Ответь"}]},
+ {"id":"b2_genau","module":"M01","de":"Genau.","ru":"Точно","cues":[{"voice":"neutral","text":"Подтверди, что всё верно"},{"voice":"story","text":"Фрау Вебер повторила твоё имя правильно. Подтверди"}]},
+ {"id":"b2_gut","module":"M01","de":"Gut.","ru":"Хорошо","cues":[{"voice":"neutral","text":"Ответь, что хорошо"},{"voice":"story","text":"Бабушка спрашивает, как дела. Ответь одним словом"}]}
+]}
+]

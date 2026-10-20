@@ -1,0 +1,731 @@
+{
+ "lesson": 11,
+ "title": "Семья",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П18 семья, П19 представить других. Слов: 14. Внутри П18 впервые звучит einen Bruder и keinen Bruder: это пока чанк, движок Д8 будет в уроке 20. Трансформации: вопросы Д3 и отрицание Д4 к новым паттернам."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "die Familie",
+     "ru": "семья",
+     "example": "Das ist meine Familie."
+    },
+    {
+     "type": "word",
+     "de": "die Eltern",
+     "ru": "родители",
+     "example": "Das sind meine Eltern."
+    },
+    {
+     "type": "word",
+     "de": "der Vater",
+     "ru": "отец",
+     "example": "Mein Vater ist sechzig."
+    },
+    {
+     "type": "word",
+     "de": "die Mutter",
+     "ru": "мать",
+     "example": "Meine Mutter ist in Moskau."
+    },
+    {
+     "type": "word",
+     "de": "der Bruder",
+     "ru": "брат",
+     "example": "Ich habe einen Bruder."
+    },
+    {
+     "type": "word",
+     "de": "die Schwester",
+     "ru": "сестра",
+     "example": "Ich habe eine Schwester."
+    },
+    {
+     "type": "word",
+     "de": "die Geschwister",
+     "ru": "братья и сёстры",
+     "example": "Ich habe keine Geschwister."
+    },
+    {
+     "type": "word",
+     "de": "die Oma; der Opa",
+     "ru": "бабушка; дедушка",
+     "example": "Das ist meine Oma."
+    },
+    {
+     "type": "word",
+     "de": "der Partner, die Partnerin",
+     "ru": "партнёр, партнёрша",
+     "example": "Das ist mein Partner."
+    },
+    {
+     "type": "word",
+     "de": "verheiratet",
+     "ru": "замужем, женат",
+     "example": "Ich bin verheiratet."
+    },
+    {
+     "type": "word",
+     "de": "ledig",
+     "ru": "не замужем, холост",
+     "example": "Ich bin ledig."
+    },
+    {
+     "type": "word",
+     "de": "geschieden",
+     "ru": "в разводе",
+     "example": "Ich bin geschieden."
+    },
+    {
+     "type": "word",
+     "de": "zwei, drei Kinder",
+     "ru": "двое, трое детей",
+     "example": "Ich habe zwei Kinder."
+    },
+    {
+     "type": "word",
+     "de": "das sind",
+     "ru": "это (про нескольких)",
+     "example": "Das sind meine Kinder."
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: семья, родители, отец, мать, брат, сестра, бабушка, дедушка, замужем, в разводе."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, кем работаешь",
+     "answer": "Ich arbeite als {профессия}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи свой возраст",
+     "answer": "Ich bin {возраст} Jahre alt."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, кто он по профессии",
+     "answer": "Was sind Sie von Beruf?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, сколько ей лет",
+     "answer": "Wie alt bist du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты без работы",
+     "answer": "Ich bin arbeitslos."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь мужа",
+     "answer": "Das ist mein Mann."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь дочь",
+     "answer": "Das ist meine Tochter."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть ребёнок",
+     "answer": "Ich habe ein Kind."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет детей",
+     "answer": "Ich habe keine Kinder."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, есть ли у неё дети",
+     "answer": "Hast du Kinder?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, кто это",
+     "answer": "Wer ist das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сыну десять",
+     "answer": "Mein Sohn ist zehn."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что работаешь в офисе",
+     "answer": "Ich arbeite im Büro."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть друг",
+     "answer": "Ich habe einen Freund."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь пойти домой",
+     "answer": "Ich möchte nach Hause gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что можешь помочь",
+     "answer": "Ich kann helfen."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, где туалет",
+     "answer": "Wo ist die Toilette?"
+    },
+    {
+     "type": "task",
+     "prompt": "Ты не расслышала",
+     "answer": "Wie bitte?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь здесь",
+     "answer": "Ich wohne hier."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это не твой сын",
+     "answer": "Das ist nicht mein Sohn."
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 33",
+     "answer": "dreiunddreißig"
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 58",
+     "answer": "achtundfünfzig"
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П18. Семья: кто у меня есть"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich habe zwei Kinder.",
+     "ru": "У меня двое детей."
+    },
+    {
+     "type": "show",
+     "de": "Ich habe einen Bruder.",
+     "ru": "У меня есть брат."
+    },
+    {
+     "type": "show",
+     "de": "Ich bin verheiratet.",
+     "ru": "Я замужем."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: после habe стоит, кто есть. Bruder мужского рода, поэтому einen Bruder, как einen Kaffee. Schwester женского: eine Schwester. Про семейное положение говорят через bin: Ich bin verheiratet, ledig, geschieden."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich habe ___ Bruder.",
+     "answer": "Ich habe einen Bruder."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich habe ___ Schwester.",
+     "answer": "Ich habe eine Schwester."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich habe ___ Kinder. (двое)",
+     "answer": "Ich habe zwei Kinder."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ verheiratet.",
+     "answer": "Ich bin verheiratet."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich habe ___ Geschwister. (нет)",
+     "answer": "Ich habe keine Geschwister."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя двое детей",
+     "answer": "Ich habe zwei Kinder."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть брат",
+     "answer": "Ich habe einen Bruder."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть сестра",
+     "answer": "Ich habe eine Schwester."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты замужем",
+     "answer": "Ich bin verheiratet."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет братьев и сестёр",
+     "answer": "Ich habe keine Geschwister."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты не замужем",
+     "answer": "Ich bin ledig."
+    },
+    {
+     "type": "carousel",
+     "prompt": "брат",
+     "answer": "Ich habe einen Bruder."
+    },
+    {
+     "type": "carousel",
+     "prompt": "двое детей",
+     "answer": "Ich habe zwei Kinder."
+    },
+    {
+     "type": "carousel",
+     "prompt": "замужем",
+     "answer": "Ich bin verheiratet."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сестра",
+     "answer": "Ich habe eine Schwester."
+    },
+    {
+     "type": "carousel",
+     "prompt": "нет братьев и сестёр",
+     "answer": "Ich habe keine Geschwister."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в разводе",
+     "answer": "Ich bin geschieden."
+    },
+    {
+     "type": "carousel",
+     "prompt": "трое детей",
+     "answer": "Ich habe drei Kinder."
+    },
+    {
+     "type": "carousel",
+     "prompt": "нет брата",
+     "answer": "Ich habe keinen Bruder."
+    },
+    {
+     "type": "carousel",
+     "prompt": "не замужем",
+     "answer": "Ich bin ledig."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ты сама (кто у тебя есть)",
+     "answer": "Ich habe {семья}."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich habe einen Bruder. Спроси подругу",
+     "answer": "Hast du einen Bruder?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich bin verheiratet. Спроси взрослого",
+     "answer": "Sind Sie verheiratet?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich habe eine Schwester. Скажи, что нет",
+     "answer": "Ich habe keine Schwester."
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси подругу, есть ли у неё братья и сёстры",
+     "answer": "Hast du Geschwister?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich habe drei Kinder."
+    },
+    {
+     "type": "reverse",
+     "de": "Hast du einen Bruder?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich bin geschieden."
+    },
+    {
+     "type": "heading",
+     "text": "П19. Представить других"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Das ist meine Mutter.",
+     "ru": "Это моя мама."
+    },
+    {
+     "type": "show",
+     "de": "Das ist mein Bruder Igor.",
+     "ru": "Это мой брат Игорь."
+    },
+    {
+     "type": "show",
+     "de": "Das sind meine Eltern.",
+     "ru": "Это мои родители."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: один человек, das ist; несколько, das sind. Mein для мужчин и среднего рода, meine для женщин и для всех, кого много: meine Eltern, meine Kinder."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Das ist ___ Mutter.",
+     "answer": "Das ist meine Mutter."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Das ist ___ Vater.",
+     "answer": "Das ist mein Vater."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Das ___ meine Eltern.",
+     "answer": "Das sind meine Eltern."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Das sind ___ Kinder.",
+     "answer": "Das sind meine Kinder."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Представь маму",
+     "answer": "Das ist meine Mutter."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь отца",
+     "answer": "Das ist mein Vater."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь родителей",
+     "answer": "Das sind meine Eltern."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь брата Игоря",
+     "answer": "Das ist mein Bruder Igor."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь детей",
+     "answer": "Das sind meine Kinder."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь бабушку",
+     "answer": "Das ist meine Oma."
+    },
+    {
+     "type": "carousel",
+     "prompt": "мама",
+     "answer": "Das ist meine Mutter."
+    },
+    {
+     "type": "carousel",
+     "prompt": "родители",
+     "answer": "Das sind meine Eltern."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сестра Анна",
+     "answer": "Das ist meine Schwester Anna."
+    },
+    {
+     "type": "carousel",
+     "prompt": "дедушка",
+     "answer": "Das ist mein Opa."
+    },
+    {
+     "type": "carousel",
+     "prompt": "дети",
+     "answer": "Das sind meine Kinder."
+    },
+    {
+     "type": "carousel",
+     "prompt": "муж",
+     "answer": "Das ist mein Mann."
+    },
+    {
+     "type": "carousel",
+     "prompt": "брат",
+     "answer": "Das ist mein Bruder."
+    },
+    {
+     "type": "carousel",
+     "prompt": "бабушка и дедушка",
+     "answer": "Das sind meine Oma und mein Opa."
+    },
+    {
+     "type": "carousel",
+     "prompt": "подруга Лена",
+     "answer": "Das ist meine Freundin Lena."
+    },
+    {
+     "type": "carousel",
+     "prompt": "семья",
+     "answer": "Das ist meine Familie."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "На фото несколько человек. Спроси, кто это",
+     "answer": "Wer ist das?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Das ist mein Bruder. Скажи, что нет",
+     "answer": "Das ist nicht mein Bruder."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Das ist meine Schwester. Спроси подругу: «это твоя сестра?»",
+     "answer": "Ist das deine Schwester?"
+    },
+    {
+     "type": "reverse",
+     "de": "Das sind meine Kinder."
+    },
+    {
+     "type": "reverse",
+     "de": "Das ist mein Vater."
+    },
+    {
+     "type": "reverse",
+     "de": "Ist das dein Bruder?"
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Представь мужа и скажи, что ему сорок",
+     "answer": "Das ist mein Mann. Er ist vierzig."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты замужем и у тебя двое детей",
+     "answer": "Ich bin verheiratet. Ich habe zwei Kinder."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, замужем ли она",
+     "answer": "Bist du verheiratet?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть брат, и он в Москве: «мой брат в Москве»",
+     "answer": "Ich habe einen Bruder. Mein Bruder ist in Moskau."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь родителей и скажи, что они из России: только «это мои родители»",
+     "answer": "Das sind meine Eltern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет братьев и сестёр, но есть подруга",
+     "answer": "Ich habe keine Geschwister. Ich habe eine Freundin."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, есть ли у него дети",
+     "answer": "Haben Sie Kinder?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что мама учительница: «моя мама учительница по профессии»",
+     "answer": "Meine Mutter ist Lehrerin von Beruf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты не замужем и живёшь одна: только первое",
+     "answer": "Ich bin ledig."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, кто это, и представь сестру",
+     "answer": "Wer ist das? Das ist meine Schwester."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что дочери пять, а сыну девять",
+     "answer": "Meine Tochter ist fünf. Mein Sohn ist neun."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна помощь: у тебя трое детей",
+     "answer": "Ich brauche Hilfe. Ich habe drei Kinder."
+    },
+    {
+     "type": "note",
+     "text": "Er ist vierzig в первом задании как чанк: «он есть» звучит здесь первый раз, лица целиком в следующем уроке."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: у друзей, фото семьи, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор играет подругу, которая показывает фотографию, потом спрашивает про семью ученицы."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Schau, das ist meine Familie. Das ist mein Mann, Thomas."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, кто это, показывая на женщину",
+     "answer": "Wer ist das?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Das ist meine Mutter. Sie ist siebzig."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, есть ли у неё братья и сёстры",
+     "answer": "Hast du Geschwister?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Ja, einen Bruder. Er wohnt in Hamburg. Und du? Bist du verheiratet?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "ответь по фактам: замужем или нет",
+     "answer": "Ja, ich bin verheiratet. / Nein, ich bin ledig."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Hast du Kinder?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "ответь про детей",
+     "answer": "Ich habe {семья}."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Und Geschwister?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, есть ли брат или сестра",
+     "answer": "Ich habe eine Schwester. / Ich habe keine Geschwister."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Wo wohnen deine Eltern?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что родители в твоём городе, откуда ты: «мои родители живут в …»",
+     "answer": "Meine Eltern wohnen in {откуда}."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Schön!"
+    },
+    {
+     "type": "note",
+     "text": "Schau, sie ist, er wohnt, wohnen deine Eltern только на понимание; ответ «Meine Eltern wohnen in …» повторить за тьютором как чанк."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Ich habe zwei Kinder. Ich habe einen Bruder. Ich habe keine Geschwister.\nIch bin verheiratet. Ich bin ledig.\nDas ist meine Mutter. Das sind meine Eltern. Ist das dein Bruder?"
+    }
+   ]
+  }
+ ]
+}

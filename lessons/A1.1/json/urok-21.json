@@ -1,0 +1,782 @@
+{
+ "lesson": 21,
+ "title": "Город и дорога",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П37 ищу, П38 дорога: как пройти, прямо, налево, направо, далеко ли. Слов: 16. Ответы прохожего в основном на понимание: ученица должна спросить и понять, куда идти. Движок Д8 продолжает работать: Ich suche einen Parkplatz, den Bahnhof."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "suchen",
+     "ru": "искать",
+     "example": "Ich suche die Post."
+    },
+    {
+     "type": "word",
+     "de": "finden",
+     "ru": "находить",
+     "example": "Ich finde die Straße nicht."
+    },
+    {
+     "type": "word",
+     "de": "die Post",
+     "ru": "почта",
+     "example": "Wo ist die Post?"
+    },
+    {
+     "type": "word",
+     "de": "die Bank",
+     "ru": "банк",
+     "example": "Die Bank ist dort."
+    },
+    {
+     "type": "word",
+     "de": "die Apotheke",
+     "ru": "аптека",
+     "example": "Gibt es hier eine Apotheke?"
+    },
+    {
+     "type": "word",
+     "de": "die Bäckerei",
+     "ru": "булочная",
+     "example": "Die Bäckerei ist links."
+    },
+    {
+     "type": "word",
+     "de": "der Park",
+     "ru": "парк",
+     "example": "Wir gehen in den Park."
+    },
+    {
+     "type": "word",
+     "de": "die Haltestelle",
+     "ru": "остановка",
+     "example": "Wo ist die Haltestelle?"
+    },
+    {
+     "type": "word",
+     "de": "der Platz; das Zentrum",
+     "ru": "площадь; центр",
+     "example": "Wie komme ich zum Zentrum?"
+    },
+    {
+     "type": "word",
+     "de": "der Markt; der Parkplatz",
+     "ru": "рынок; парковка",
+     "example": "Es gibt keinen Parkplatz."
+    },
+    {
+     "type": "word",
+     "de": "das Geschäft",
+     "ru": "магазин",
+     "example": "Das Geschäft ist geschlossen."
+    },
+    {
+     "type": "word",
+     "de": "links; rechts; geradeaus",
+     "ru": "налево; направо; прямо",
+     "example": "Gehen Sie geradeaus."
+    },
+    {
+     "type": "word",
+     "de": "weit; nah; in der Nähe",
+     "ru": "далеко; близко; рядом",
+     "example": "Das ist nicht weit."
+    },
+    {
+     "type": "word",
+     "de": "zum; zur",
+     "ru": "к (мужской и средний род; женский)",
+     "example": "zum Bahnhof, zur Post"
+    },
+    {
+     "type": "word",
+     "de": "laufen: ich laufe",
+     "ru": "идти пешком, бежать",
+     "example": "Ich laufe zur Arbeit."
+    },
+    {
+     "type": "word",
+     "de": "der Bus; mit dem Bus",
+     "ru": "автобус; на автобусе",
+     "example": "Ich fahre mit dem Bus."
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: искать, находить, почта, банк, аптека, булочная, парк, остановка, центр, рынок, парковка, магазин, налево, направо, прямо, далеко, рядом."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Закажи вежливо чай",
+     "answer": "Ich hätte gern einen Tee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что берёшь салат",
+     "answer": "Ich nehme den Salat."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси счёт",
+     "answer": "Die Rechnung, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси официанта, есть ли молоко",
+     "answer": "Haben Sie Milch?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, есть ли здесь кафе",
+     "answer": "Gibt es hier ein Café?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что пирога нет",
+     "answer": "Es gibt keinen Kuchen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это вкусно",
+     "answer": "Das ist lecker."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты голодна",
+     "answer": "Ich habe Hunger."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе холодно",
+     "answer": "Mir ist kalt."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, как дела",
+     "answer": "Wie geht es Ihnen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, где вокзал",
+     "answer": "Wo ist der Bahnhof?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что супермаркет там",
+     "answer": "Der Supermarkt ist dort."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, где туалет",
+     "answer": "Wo ist die Toilette?"
+    },
+    {
+     "type": "task",
+     "prompt": "Обратись к прохожему",
+     "answer": "Entschuldigung."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не понимаешь; попроси медленнее",
+     "answer": "Ich verstehe nicht. Langsamer, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что едешь на работу",
+     "answer": "Ich fahre zur Arbeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в субботу делаешь покупки",
+     "answer": "Am Samstag kaufe ich ein."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы идёте вместе в кино",
+     "answer": "Wir gehen zusammen ins Kino."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна квартира",
+     "answer": "Ich brauche eine Wohnung."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что находишь город большим",
+     "answer": "Ich finde die Stadt groß."
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: суп",
+     "answer": "die Suppe"
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: счёт",
+     "answer": "die Rechnung"
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П37. Ищу"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich suche die Post.",
+     "ru": "Я ищу почту."
+    },
+    {
+     "type": "show",
+     "de": "Ich suche den Bahnhof.",
+     "ru": "Я ищу вокзал."
+    },
+    {
+     "type": "show",
+     "de": "Ich suche eine Wohnung.",
+     "ru": "Я ищу квартиру."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: что ищешь. Мужской род с den или einen, движок Д8: den Bahnhof, einen Parkplatz. Начинать с Entschuldigung, если спрашиваешь прохожего."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich ___ die Post.",
+     "answer": "Ich suche die Post."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich suche ___ Bahnhof.",
+     "answer": "Ich suche den Bahnhof."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich suche ___ Wohnung.",
+     "answer": "Ich suche eine Wohnung."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich suche ___ Parkplatz.",
+     "answer": "Ich suche einen Parkplatz."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ищешь почту",
+     "answer": "Ich suche die Post."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ищешь вокзал",
+     "answer": "Ich suche den Bahnhof."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ищешь квартиру",
+     "answer": "Ich suche eine Wohnung."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи прохожему, что ищешь аптеку: сначала «извините»",
+     "answer": "Entschuldigung, ich suche eine Apotheke."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ищешь парковку",
+     "answer": "Ich suche einen Parkplatz."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ищешь работу",
+     "answer": "Ich suche einen Job."
+    },
+    {
+     "type": "carousel",
+     "prompt": "почту",
+     "answer": "Ich suche die Post."
+    },
+    {
+     "type": "carousel",
+     "prompt": "вокзал",
+     "answer": "Ich suche den Bahnhof."
+    },
+    {
+     "type": "carousel",
+     "prompt": "квартиру",
+     "answer": "Ich suche eine Wohnung."
+    },
+    {
+     "type": "carousel",
+     "prompt": "аптеку",
+     "answer": "Ich suche eine Apotheke."
+    },
+    {
+     "type": "carousel",
+     "prompt": "парковку",
+     "answer": "Ich suche einen Parkplatz."
+    },
+    {
+     "type": "carousel",
+     "prompt": "работу",
+     "answer": "Ich suche einen Job."
+    },
+    {
+     "type": "carousel",
+     "prompt": "остановку",
+     "answer": "Ich suche die Haltestelle."
+    },
+    {
+     "type": "carousel",
+     "prompt": "банк",
+     "answer": "Ich suche die Bank."
+    },
+    {
+     "type": "carousel",
+     "prompt": "супермаркет",
+     "answer": "Ich suche den Supermarkt."
+    },
+    {
+     "type": "carousel",
+     "prompt": "центр",
+     "answer": "Ich suche das Zentrum."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich suche die Post. Спроси подругу: что ищешь ты?",
+     "answer": "Was suchst du?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich suche eine Wohnung. Скажи про брата",
+     "answer": "Mein Bruder sucht eine Wohnung."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich suche den Bahnhof. Скажи, что не находишь его: «я не нахожу вокзал»",
+     "answer": "Ich finde den Bahnhof nicht."
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси взрослого, что он ищет",
+     "answer": "Was suchen Sie?"
+    },
+    {
+     "type": "reverse",
+     "de": "Ich suche einen Parkplatz."
+    },
+    {
+     "type": "reverse",
+     "de": "Was suchst du?"
+    },
+    {
+     "type": "reverse",
+     "de": "Wir suchen die Haltestelle."
+    },
+    {
+     "type": "heading",
+     "text": "П38. Дорога"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Wie komme ich zum Bahnhof?",
+     "ru": "Как мне пройти к вокзалу?"
+    },
+    {
+     "type": "show",
+     "de": "Wie komme ich zur Post?",
+     "ru": "Как мне пройти к почте?"
+    },
+    {
+     "type": "show",
+     "de": "Gehen Sie geradeaus und dann links.",
+     "ru": "Идите прямо, потом налево."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: zum для мужского и среднего рода, zur для женского: zum Bahnhof, zum Zentrum, zur Post, zur Apotheke. Ответ прохожего надо понять, а не сказать."
+    },
+    {
+     "type": "label",
+     "text": "Формулы дороги, показ и эхо"
+    },
+    {
+     "type": "formula",
+     "de": "Ist das weit?",
+     "when": "спрашиваешь, далеко ли"
+    },
+    {
+     "type": "formula",
+     "de": "Das ist nicht weit.",
+     "when": "тебе отвечают: недалеко"
+    },
+    {
+     "type": "formula",
+     "de": "Das ist in der Nähe.",
+     "when": "тебе отвечают: рядом"
+    },
+    {
+     "type": "formula",
+     "de": "Gehen Sie links. Gehen Sie rechts.",
+     "when": "тебе показывают дорогу"
+    },
+    {
+     "type": "formula",
+     "de": "Fahren Sie mit dem Bus.",
+     "when": "тебе советуют автобус"
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Wie ___ ich zum Bahnhof?",
+     "answer": "Wie komme ich zum Bahnhof?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Wie komme ich ___ Post?",
+     "answer": "Wie komme ich zur Post?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Gehen Sie ___. (прямо)",
+     "answer": "Gehen Sie geradeaus."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ist das ___? (далеко)",
+     "answer": "Ist das weit?"
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, как пройти к вокзалу",
+     "answer": "Wie komme ich zum Bahnhof?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, как пройти к почте",
+     "answer": "Wie komme ich zur Post?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, далеко ли это",
+     "answer": "Ist das weit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи прохожему: идите прямо, потом налево",
+     "answer": "Gehen Sie geradeaus und dann links."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, как пройти к центру: сначала «извините»",
+     "answer": "Entschuldigung, wie komme ich zum Zentrum?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это недалеко, это рядом",
+     "answer": "Das ist nicht weit. Das ist in der Nähe."
+    },
+    {
+     "type": "carousel",
+     "prompt": "к вокзалу?",
+     "answer": "Wie komme ich zum Bahnhof?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "к почте?",
+     "answer": "Wie komme ich zur Post?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "к аптеке?",
+     "answer": "Wie komme ich zur Apotheke?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "к центру?",
+     "answer": "Wie komme ich zum Zentrum?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "далеко?",
+     "answer": "Ist das weit?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "к остановке?",
+     "answer": "Wie komme ich zur Haltestelle?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "к рынку?",
+     "answer": "Wie komme ich zum Markt?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "к супермаркету?",
+     "answer": "Wie komme ich zum Supermarkt?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "к банку?",
+     "answer": "Wie komme ich zur Bank?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "к парку?",
+     "answer": "Wie komme ich zum Park?"
+    },
+    {
+     "type": "note",
+     "text": "Понимание дороги, тьютор читает, ученица показывает рукой и говорит смысл по-русски:"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Gehen Sie geradeaus.",
+     "answer": "прямо"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Gehen Sie links, dann rechts.",
+     "answer": "налево, потом направо"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Das ist nicht weit, zehn Minuten.",
+     "answer": "недалеко, десять минут"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Die Post ist rechts, in der Nähe.",
+     "answer": "почта справа, рядом"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Fahren Sie mit dem Bus, das ist weit.",
+     "answer": "на автобусе, это далеко"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Geradeaus, dann links. Die Apotheke ist dort.",
+     "answer": "прямо, потом налево, аптека там"
+    },
+    {
+     "type": "reverse",
+     "de": "Wie komme ich zur Haltestelle?"
+    },
+    {
+     "type": "reverse",
+     "de": "Das ist weit."
+    },
+    {
+     "type": "reverse",
+     "de": "Gehen Sie rechts."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Обратись к прохожему и скажи, что ищешь вокзал",
+     "answer": "Entschuldigung, ich suche den Bahnhof."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, как пройти к аптеке, и далеко ли это",
+     "answer": "Wie komme ich zur Apotheke? Ist das weit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не находишь остановку",
+     "answer": "Ich finde die Haltestelle nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, есть ли здесь рядом банк",
+     "answer": "Gibt es hier in der Nähe eine Bank?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ищешь квартиру в центре: «квартиру, в центре»",
+     "answer": "Ich suche eine Wohnung im Zentrum."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что супермаркет налево, а булочная направо: два предложения",
+     "answer": "Der Supermarkt ist links. Die Bäckerei ist rechts."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, как пройти к рынку",
+     "answer": "Wie komme ich zum Markt?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что едешь на работу на автобусе",
+     "answer": "Ich fahre mit dem Bus zur Arbeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не понимаешь, и попроси повторить",
+     "answer": "Ich verstehe nicht. Noch einmal, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что парковки нет и ты ищешь парковку",
+     "answer": "Es gibt keinen Parkplatz. Ich suche einen Parkplatz."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он ищет работу",
+     "answer": "Mein Mann sucht einen Job."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что идёшь пешком: это недалеко",
+     "answer": "Ich laufe. Das ist nicht weit."
+    },
+    {
+     "type": "note",
+     "text": "Im Zentrum как чанк, как im Büro."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: на улице, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор играет прохожего. Ученица спрашивает дорогу и повторяет вслух, что поняла."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "обратись и спроси, как пройти к почте",
+     "answer": "Entschuldigung, wie komme ich zur Post?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Прохожий",
+     "text": "Zur Post? Gehen Sie geradeaus und dann links."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "повтори: прямо, потом налево",
+     "answer": "Geradeaus und dann links."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Прохожий",
+     "text": "Ja. Die Post ist dort, in der Nähe."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, далеко ли",
+     "answer": "Ist das weit?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Прохожий",
+     "text": "Nein, fünf Minuten."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, есть ли там рядом аптека",
+     "answer": "Gibt es dort eine Apotheke?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Прохожий",
+     "text": "Ja, die Apotheke ist rechts, neben der Post."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "переспроси: направо?",
+     "answer": "Rechts?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Прохожий",
+     "text": "Genau, rechts."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что ты ещё ищешь остановку",
+     "answer": "Ich suche auch die Haltestelle."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Прохожий",
+     "text": "Die Haltestelle ist hier, geradeaus, zwei Minuten."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "поблагодари и попрощайся",
+     "answer": "Danke schön! Auf Wiedersehen!"
+    },
+    {
+     "type": "note",
+     "text": "Neben на понимание."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Ich suche die Post. Ich suche den Bahnhof. Ich suche eine Wohnung. Was suchst du?\nWie komme ich zum Bahnhof? Wie komme ich zur Post? Ist das weit?\nGehen Sie geradeaus und dann links. Das ist nicht weit. Das ist in der Nähe."
+    }
+   ]
+  }
+ ]
+}

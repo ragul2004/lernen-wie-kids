@@ -1,0 +1,354 @@
+{
+ "lesson": 8,
+ "title": "Сплошная проверка",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Ничего нового. Шестьдесят заданий подряд по всему, что было: каждый паттерн не меньше двух раз, вопросы и отрицания, формулы, слова. Темп быстрый, без объяснений: тьютор отмечает номера, что не получилось, и в конце разбирает по паттернам."
+    }
+   ]
+  },
+  {
+   "title": "1. Паттерны, 30 заданий",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Назовись",
+     "answer": "Ich heiße {имя}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, откуда ты",
+     "answer": "Ich komme aus {страна}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что теперь живёшь в своём городе",
+     "answer": "Ich wohne jetzt in {город}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что говоришь по-русски и немного по-немецки",
+     "answer": "Ich spreche Russisch und ein bisschen Deutsch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты устала",
+     "answer": "Ich bin müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть вопрос",
+     "answer": "Ich habe eine Frage."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет времени",
+     "answer": "Ich habe keine Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь мужа",
+     "answer": "Das ist mein Mann."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, что это",
+     "answer": "Was ist das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь кофе",
+     "answer": "Ich möchte einen Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь пойти домой",
+     "answer": "Ich möchte nach Hause gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна помощь",
+     "answer": "Ich brauche Hilfe."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна запись",
+     "answer": "Ich brauche einen Termin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что можешь говорить по-немецки",
+     "answer": "Ich kann Deutsch sprechen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сегодня не можешь прийти",
+     "answer": "Ich kann heute nicht kommen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна работать",
+     "answer": "Ich muss arbeiten."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе надо сейчас идти",
+     "answer": "Ich muss jetzt gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, можно ли здесь сесть",
+     "answer": "Kann ich hier sitzen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси преподавателя повторить",
+     "answer": "Können Sie das wiederholen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси подругу помочь",
+     "answer": "Kannst du mir helfen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, где туалет",
+     "answer": "Wo ist die Toilette?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вокзал там",
+     "answer": "Der Bahnhof ist dort."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, сколько это стоит",
+     "answer": "Was kostet das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это стоит три евро",
+     "answer": "Das kostet drei Euro."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не знаешь",
+     "answer": "Ich weiß nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не понимаешь вопрос",
+     "answer": "Ich verstehe die Frage nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты больна и тебе нужен врач",
+     "answer": "Ich bin krank. Ich brauche einen Arzt."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, кто это, и представь дочь",
+     "answer": "Wer ist das? Das ist meine Tochter."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть курс и ты должна учить немецкий",
+     "answer": "Ich habe einen Kurs. Ich muss Deutsch lernen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь есть, но должна работать",
+     "answer": "Ich möchte essen. Ich muss arbeiten."
+    }
+   ]
+  },
+  {
+   "title": "2. Вопросы и отрицания, 12 заданий",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, как её зовут",
+     "answer": "Wie heißt du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, откуда он",
+     "answer": "Woher kommen Sie?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, есть ли у неё дети",
+     "answer": "Hast du Kinder?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, говорит ли он по-английски",
+     "answer": "Sprechen Sie Englisch?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, хочет ли она чай",
+     "answer": "Möchtest du einen Tee?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, должна ли она сегодня работать",
+     "answer": "Musst du heute arbeiten?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты не больна",
+     "answer": "Ich bin nicht krank."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет машины",
+     "answer": "Ich habe kein Auto."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не хочешь спать",
+     "answer": "Ich möchte nicht schlafen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не говоришь по-английски",
+     "answer": "Ich spreche kein Englisch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь не в Берлине",
+     "answer": "Ich wohne nicht in Berlin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это не твой сын",
+     "answer": "Das ist nicht mein Sohn."
+    }
+   ]
+  },
+  {
+   "title": "3. Формулы по ситуации, 8 заданий",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Ты не расслышала",
+     "answer": "Wie bitte?"
+    },
+    {
+     "type": "task",
+     "prompt": "Тебе говорят слишком быстро",
+     "answer": "Langsamer, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Услышала слово «Rechnung». Спроси, что оно значит",
+     "answer": "Was bedeutet „Rechnung“?"
+    },
+    {
+     "type": "task",
+     "prompt": "Не знаешь, как по-немецки «окно». Спроси",
+     "answer": "Wie sagt man „окно“ auf Deutsch?"
+    },
+    {
+     "type": "task",
+     "prompt": "Обратись к прохожему",
+     "answer": "Entschuldigung."
+    },
+    {
+     "type": "task",
+     "prompt": "Извинись за то, что сделала",
+     "answer": "Es tut mir leid."
+    },
+    {
+     "type": "task",
+     "prompt": "Попрощайся вежливо со взрослым",
+     "answer": "Auf Wiedersehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Тебе нужна секунда",
+     "answer": "Moment, bitte."
+    }
+   ]
+  },
+  {
+   "title": "4. Слова, 10 заданий, только слово с артиклем",
+   "cards": [
+    {
+     "type": "word_task",
+     "prompt": "время",
+     "answer": "die Zeit"
+    },
+    {
+     "type": "word_task",
+     "prompt": "работа",
+     "answer": "die Arbeit"
+    },
+    {
+     "type": "word_task",
+     "prompt": "вода",
+     "answer": "das Wasser"
+    },
+    {
+     "type": "word_task",
+     "prompt": "квартира",
+     "answer": "die Wohnung"
+    },
+    {
+     "type": "word_task",
+     "prompt": "врач",
+     "answer": "der Arzt"
+    },
+    {
+     "type": "word_task",
+     "prompt": "хлеб",
+     "answer": "das Brot"
+    },
+    {
+     "type": "word_task",
+     "prompt": "супермаркет",
+     "answer": "der Supermarkt"
+    },
+    {
+     "type": "word_task",
+     "prompt": "завтра",
+     "answer": "morgen"
+    },
+    {
+     "type": "word_task",
+     "prompt": "семнадцать",
+     "answer": "siebzehn"
+    },
+    {
+     "type": "word_task",
+     "prompt": "дорого",
+     "answer": "teuer"
+    }
+   ]
+  },
+  {
+   "title": "5. Разбор, 10 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Все отмеченные номера повторить по два раза. Если красных больше шести на один паттерн, вернуться к его карусели из соответствующего урока. Если красных меньше шести всего, ученица готова к воротам."
+    }
+   ]
+  },
+  {
+   "title": "6. Итог",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Читать вслух вместе: итоги уроков 1–7, по три строки на урок."
+    }
+   ]
+  }
+ ]
+}

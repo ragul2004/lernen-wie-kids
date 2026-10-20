@@ -1,0 +1,194 @@
+/* Lernen wie Kids · плеер уроков. Крупный текст, читаемый с метра; без анимаций. */
+:root {
+  color-scheme: light dark;
+  --bg: #fbfaf6;
+  --fg: #1c1c1a;
+  --muted: #6d6c66;
+  --accent: #0b5f8f;
+  --line: #e3e1d9;
+  --mark: #b3261e;
+  --sel: #eef2f6;
+  --big: clamp(36px, 4.6vw, 64px);
+  --mid: clamp(24px, 2.5vw, 34px);
+  --small: 18px;
+  --text: clamp(20px, 1.9vw, 28px);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151515;
+    --fg: #ecece7;
+    --muted: #9b9a93;
+    --accent: #7cc4f2;
+    --line: #2d2d2b;
+    --mark: #ff8a80;
+    --sel: #232323;
+  }
+}
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: var(--small);
+  line-height: 1.4;
+}
+#app { min-height: 100vh; display: flex; flex-direction: column; }
+
+header, footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 24px;
+  color: var(--muted);
+  font-size: var(--small);
+}
+header { border-bottom: 1px solid var(--line); }
+footer { border-top: 1px solid var(--line); flex-wrap: wrap; justify-content: center; }
+.crumbs { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.pos { white-space: nowrap; flex-shrink: 0; font-variant-numeric: tabular-nums; }
+
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  cursor: default;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  text-align: center;
+  padding-top: 24px;
+}
+.big { font-size: var(--big); line-height: 1.25; margin: 0; font-weight: 500; }
+.mid { font-size: var(--mid); line-height: 1.35; }
+.small { font-size: var(--small); }
+.muted { color: var(--muted); }
+.accent { color: var(--accent); }
+.pre { white-space: pre-line; }
+.de { hyphens: none; }
+.type {
+  font-size: var(--small);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+.mark {
+  position: absolute;
+  top: -8px;
+  right: 0;
+  font-size: var(--small);
+  color: var(--mark);
+  border: 1px solid var(--mark);
+  border-radius: 999px;
+  padding: 2px 14px;
+}
+.hidden-answer {
+  font-size: var(--small);
+  color: var(--muted);
+  border: 1px dashed var(--muted);
+  border-radius: 12px;
+  padding: 18px 36px;
+  min-width: 40%;
+}
+.card-scene_line .mid { max-width: 900px; }
+.card-echo .mid, .card-note .mid, .card-summary .mid { max-width: 1000px; text-align: left; }
+
+/* очень длинные подсказки и ответы */
+.text { font-size: var(--text); line-height: 1.45; text-align: left; width: 100%; max-width: 1000px; }
+
+/* подвал */
+.hint {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font: inherit;
+  cursor: pointer;
+  padding: 6px 10px;
+}
+.hint:hover { color: var(--fg); }
+.hint.dim { opacity: 0.4; }
+kbd {
+  font: inherit;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 1px 8px;
+  color: var(--fg);
+}
+
+/* список уроков и факты */
+.list-box { width: 100%; max-width: 900px; display: flex; flex-direction: column; gap: 20px; }
+.screen-list { align-items: flex-start; overflow-y: auto; }
+.title { font-size: var(--mid); font-weight: 600; margin: 0; }
+.facts-line { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+.btn {
+  font: inherit;
+  color: var(--fg);
+  background: none;
+  border: 1px solid var(--muted);
+  border-radius: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.btn:hover { border-color: var(--fg); }
+.btn.small { font-size: 15px; padding: 5px 12px; color: var(--muted); }
+
+/* прогресс: полоса по всем урокам, счётчик по слою, отметка у урока */
+.progress-line { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.bar { flex: 1 1 160px; height: 8px; border-radius: 4px; background: var(--line); overflow: hidden; }
+.bar-fill { height: 100%; background: var(--accent); }
+.layer-title { display: flex; justify-content: space-between; gap: 16px; font-size: var(--small); color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 8px; }
+.lessons { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.lesson {
+  display: grid;
+  grid-template-columns: 32px 110px 1fr auto;
+  gap: 16px;
+  align-items: baseline;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-size: var(--mid);
+  cursor: pointer;
+}
+.lesson:hover { background: var(--sel); }
+.lesson.selected { background: var(--sel); outline: 2px solid var(--accent); }
+.lesson-mark { font: inherit; font-size: var(--mid); line-height: 1; color: var(--line); background: none; border: 0; padding: 0; cursor: pointer; text-align: center; }
+.lesson-mark:hover { color: var(--muted); }
+.lesson.done .lesson-mark { color: var(--accent); }
+.lesson.done .lesson-title { color: var(--muted); }
+.lesson.done .lesson-count { color: var(--accent); }
+.lesson.started .lesson-count { color: var(--fg); }
+.lesson-num { color: var(--muted); font-size: var(--small); }
+.lesson-count { font-size: var(--small); white-space: nowrap; }
+@media (max-width: 720px) {
+  .lesson { grid-template-columns: 32px 1fr; row-gap: 2px; }
+  .lesson-num, .lesson-title, .lesson-count { grid-column: 2; }
+  .lesson-count { white-space: normal; }
+}
+
+.facts-form { display: flex; flex-direction: column; gap: 18px; }
+.fact-row { display: flex; flex-direction: column; gap: 6px; }
+.fact-head { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: baseline; }
+.fact-label { font-size: var(--mid); }
+.fact-input {
+  font: inherit;
+  font-size: var(--mid);
+  padding: 10px 14px;
+  border: 1px solid var(--muted);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--fg);
+}
+.fact-input:focus { outline: 2px solid var(--accent); border-color: var(--accent); }
+.facts-actions { display: flex; gap: 12px; }
+
+.left-list { list-style: none; margin: 0; padding: 0; max-height: 40vh; overflow: auto; display: flex; flex-direction: column; gap: 6px; }

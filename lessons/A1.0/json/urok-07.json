@@ -1,0 +1,716 @@
+{
+ "lesson": 7,
+ "title": "Где и сколько стоит",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П12 где, П14 цена, числа до 100. Слов: 9 плюс числа. Трансформации: отрицание Д4 к новым словам."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока и числа, 12 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "kosten: das kostet",
+     "ru": "стоить",
+     "example": "Das kostet zwei Euro."
+    },
+    {
+     "type": "word",
+     "de": "die Toilette",
+     "ru": "туалет",
+     "example": "Wo ist die Toilette?"
+    },
+    {
+     "type": "word",
+     "de": "der Bahnhof",
+     "ru": "вокзал",
+     "example": "Wo ist der Bahnhof?"
+    },
+    {
+     "type": "word",
+     "de": "der Supermarkt",
+     "ru": "супермаркет",
+     "example": "Der Supermarkt ist dort."
+    },
+    {
+     "type": "word",
+     "de": "die Straße",
+     "ru": "улица",
+     "example": "die Goethestraße"
+    },
+    {
+     "type": "word",
+     "de": "das Brot",
+     "ru": "хлеб",
+     "example": "Ich möchte Brot."
+    },
+    {
+     "type": "word",
+     "de": "das Bier",
+     "ru": "пиво",
+     "example": "Was kostet das Bier?"
+    },
+    {
+     "type": "word",
+     "de": "der Euro",
+     "ru": "евро",
+     "example": "zwei Euro"
+    },
+    {
+     "type": "word",
+     "de": "wie viel",
+     "ru": "сколько",
+     "example": "Wie viel kostet das?"
+    },
+    {
+     "type": "label",
+     "text": "Числа, показ и эхо по строкам"
+    },
+    {
+     "type": "show",
+     "de": "null, eins, zwei, drei, vier, fünf",
+     "ru": "0–5"
+    },
+    {
+     "type": "show",
+     "de": "sechs, sieben, acht, neun, zehn",
+     "ru": "6–10"
+    },
+    {
+     "type": "show",
+     "de": "elf, zwölf, dreizehn, vierzehn, fünfzehn",
+     "ru": "11–15"
+    },
+    {
+     "type": "show",
+     "de": "sechzehn, siebzehn, achtzehn, neunzehn, zwanzig",
+     "ru": "16–20"
+    },
+    {
+     "type": "show",
+     "de": "dreißig, vierzig, fünfzig, sechzig, siebzig, achtzig, neunzig, hundert",
+     "ru": "десятки"
+    },
+    {
+     "type": "note",
+     "text": "Перед Euro eins превращается в ein: ein Euro. Цена с центами как чанк: zwei Euro fünfzig. Числа 21–99 пока только на понимание: einundzwanzig, единицы вперёд."
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг чисел, тьютор по-русски, ученица по-немецки: 3, 7, 12, 20, 15, 1, 9, 50, 18, 100, 4, 11, 30, 16, 2. Потом наоборот, тьютор по-немецки: acht, elf, zwanzig, sieben, dreizehn, vierzig, eins, zehn."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты не устала",
+     "answer": "Ich bin nicht müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет телефона",
+     "answer": "Ich habe kein Handy."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не хочешь кофе",
+     "answer": "Ich möchte keinen Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не говоришь по-английски",
+     "answer": "Ich spreche kein Englisch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не знаешь",
+     "answer": "Ich weiß nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не понимаешь этого",
+     "answer": "Ich verstehe das nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты не из Германии",
+     "answer": "Ich komme nicht aus Deutschland."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это не проблема",
+     "answer": "Das ist kein Problem."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужен врач",
+     "answer": "Ich brauche einen Arzt."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это дорого",
+     "answer": "Das ist teuer."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что можешь говорить по-немецки",
+     "answer": "Ich kann Deutsch sprechen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна работать",
+     "answer": "Ich muss arbeiten."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси подругу помочь",
+     "answer": "Kannst du mir helfen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, можно ли здесь сесть",
+     "answer": "Kann ich hier sitzen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь пойти домой",
+     "answer": "Ich möchte nach Hause gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна запись",
+     "answer": "Ich brauche einen Termin."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, откуда она",
+     "answer": "Woher kommst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, есть ли у него время",
+     "answer": "Haben Sie Zeit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Представь мужа",
+     "answer": "Das ist mein Mann."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть вопрос",
+     "answer": "Ich habe eine Frage."
+    },
+    {
+     "type": "task",
+     "prompt": "Назовись и скажи, где живёшь",
+     "answer": "Ich heiße {имя}. Ich wohne in {город}."
+    },
+    {
+     "type": "task",
+     "prompt": "Ты не расслышала",
+     "answer": "Wie bitte?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «очень хорошо»",
+     "answer": "Sehr gut."
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 18 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П12. Где?"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Wo ist die Toilette?",
+     "ru": "Где туалет?"
+    },
+    {
+     "type": "show",
+     "de": "Wo ist der Bahnhof?",
+     "ru": "Где вокзал?"
+    },
+    {
+     "type": "show",
+     "de": "Der Supermarkt ist dort.",
+     "ru": "Супермаркет там."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: вещь или место после Wo ist, всегда с артиклем; ответ: … ist dort или … ist hier, коротко Dort. Hier."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ ist die Toilette?",
+     "answer": "Wo ist die Toilette?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Wo ist ___ Bahnhof?",
+     "answer": "Wo ist der Bahnhof?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Der Supermarkt ist ___. (там)",
+     "answer": "Der Supermarkt ist dort."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Wo ist ___ Handy? (мой)",
+     "answer": "Wo ist mein Handy?"
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, где туалет",
+     "answer": "Wo ist die Toilette?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, где вокзал",
+     "answer": "Wo ist der Bahnhof?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что супермаркет там",
+     "answer": "Der Supermarkt ist dort."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, где твой телефон",
+     "answer": "Wo ist mein Handy?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, где хлеб",
+     "answer": "Wo ist das Brot?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что врач здесь",
+     "answer": "Der Arzt ist hier."
+    },
+    {
+     "type": "carousel",
+     "prompt": "туалет?",
+     "answer": "Wo ist die Toilette?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "вокзал?",
+     "answer": "Wo ist der Bahnhof?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "супермаркет там",
+     "answer": "Der Supermarkt ist dort."
+    },
+    {
+     "type": "carousel",
+     "prompt": "хлеб?",
+     "answer": "Wo ist das Brot?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "пиво?",
+     "answer": "Wo ist das Bier?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "мой муж?",
+     "answer": "Wo ist mein Mann?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "врач здесь",
+     "answer": "Der Arzt ist hier."
+    },
+    {
+     "type": "carousel",
+     "prompt": "улица Гёте?",
+     "answer": "Wo ist die Goethestraße?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "мой телефон?",
+     "answer": "Wo ist mein Handy?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "вокзал там",
+     "answer": "Der Bahnhof ist dort."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Der Supermarkt ist dort. Скажи, что нет",
+     "answer": "Der Supermarkt ist nicht dort."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Der Arzt ist hier. Скажи, что нет",
+     "answer": "Der Arzt ist nicht hier."
+    },
+    {
+     "type": "transform",
+     "prompt": "Ответь коротко на «Wo ist der Bahnhof?»: там",
+     "answer": "Dort."
+    },
+    {
+     "type": "reverse",
+     "de": "Wo ist der Supermarkt?"
+    },
+    {
+     "type": "reverse",
+     "de": "Die Toilette ist dort."
+    },
+    {
+     "type": "reverse",
+     "de": "Wo ist mein Auto?"
+    },
+    {
+     "type": "heading",
+     "text": "П14. Цена"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Was kostet das?",
+     "ru": "Сколько это стоит?"
+    },
+    {
+     "type": "show",
+     "de": "Wie viel kostet das Brot?",
+     "ru": "Сколько стоит хлеб?"
+    },
+    {
+     "type": "show",
+     "de": "Das kostet zwei Euro.",
+     "ru": "Это стоит два евро."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: вещь после kostet; число перед Euro."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Was ___ das?",
+     "answer": "Was kostet das?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Wie viel kostet ___ Brot?",
+     "answer": "Wie viel kostet das Brot?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Das kostet ___ Euro. (три)",
+     "answer": "Das kostet drei Euro."
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ Euro. (один)",
+     "answer": "Ein Euro."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, сколько это стоит",
+     "answer": "Was kostet das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, сколько стоит хлеб",
+     "answer": "Wie viel kostet das Brot?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это стоит два евро",
+     "answer": "Das kostet zwei Euro."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, сколько стоит пиво",
+     "answer": "Was kostet das Bier?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это стоит десять евро",
+     "answer": "Das kostet zehn Euro."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «пять евро пятьдесят»",
+     "answer": "Fünf Euro fünfzig."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сколько это стоит?",
+     "answer": "Was kostet das?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "хлеб?",
+     "answer": "Wie viel kostet das Brot?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "два евро",
+     "answer": "Das kostet zwei Euro."
+    },
+    {
+     "type": "carousel",
+     "prompt": "пиво?",
+     "answer": "Was kostet das Bier?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "десять евро",
+     "answer": "Das kostet zehn Euro."
+    },
+    {
+     "type": "carousel",
+     "prompt": "кофе?",
+     "answer": "Was kostet der Kaffee?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "один евро",
+     "answer": "Ein Euro."
+    },
+    {
+     "type": "carousel",
+     "prompt": "двадцать евро",
+     "answer": "Zwanzig Euro."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сколько стоит вода?",
+     "answer": "Wie viel kostet das Wasser?"
+    },
+    {
+     "type": "carousel",
+     "prompt": "три евро пятьдесят",
+     "answer": "Drei Euro fünfzig."
+    },
+    {
+     "type": "reverse",
+     "de": "Das kostet vier Euro."
+    },
+    {
+     "type": "reverse",
+     "de": "Sieben Euro fünfzig."
+    },
+    {
+     "type": "reverse",
+     "de": "Das Brot kostet zwei Euro."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя двое детей",
+     "answer": "Ich habe zwei Kinder."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужно десять евро",
+     "answer": "Ich brauche zehn Euro."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, где супермаркет, и скажи, что должна купить хлеб",
+     "answer": "Wo ist der Supermarkt? Ich muss Brot kaufen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это дорого: двадцать евро",
+     "answer": "Das ist teuer. Zwanzig Euro."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, сколько стоит курс",
+     "answer": "Was kostet der Kurs?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь хлеб и воду",
+     "answer": "Ich möchte Brot und Wasser."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, где врач, и скажи, что ты больна",
+     "answer": "Wo ist der Arzt? Ich bin krank."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет денег, и спроси, сколько это стоит",
+     "answer": "Ich habe kein Geld. Was kostet das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Обратись к прохожему и спроси, где вокзал",
+     "answer": "Entschuldigung, wo ist der Bahnhof?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вокзал не там, а здесь",
+     "answer": "Der Bahnhof ist nicht dort. Der Bahnhof ist hier."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, сколько стоит кофе, и закажи один",
+     "answer": "Was kostet der Kaffee? Ich möchte einen Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь на улице Гёте, дом пять",
+     "answer": "Ich wohne in der Goethestraße fünf."
+    },
+    {
+     "type": "note",
+     "text": "Задание 12: in der Goethestraße как чанк, объяснение в A1.1."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: супермаркет, 7 минут",
+   "cards": [
+    {
+     "type": "scene_turn",
+     "prompt": "обратись и спроси, где хлеб",
+     "answer": "Entschuldigung, wo ist das Brot?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Кассир",
+     "text": "Dort."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "поблагодари и спроси, где пиво",
+     "answer": "Danke. Und wo ist das Bier?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Кассир",
+     "text": "Hier."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, сколько стоит хлеб",
+     "answer": "Was kostet das Brot?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Кассир",
+     "text": "Zwei Euro."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "а пиво?",
+     "answer": "Und das Bier?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Кассир",
+     "text": "Ein Euro fünfzig."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "скажи, что хочешь хлеб и пиво",
+     "answer": "Ich möchte das Brot und das Bier."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Кассир",
+     "text": "Drei Euro fünfzig, bitte."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "отдай деньги: «пожалуйста»",
+     "answer": "Bitte."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Кассир",
+     "text": "Danke!"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, где туалет",
+     "answer": "Wo ist die Toilette?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Кассир",
+     "text": "Dort."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "поблагодари и попрощайся",
+     "answer": "Danke schön! Auf Wiedersehen!"
+    },
+    {
+     "type": "note",
+     "text": "Свободно: другой список покупок, кассир называет другие цены до двадцати евро, ученица повторяет цену вслух."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Wo ist die Toilette? Wo ist der Bahnhof? Der Supermarkt ist dort.\nWas kostet das? Wie viel kostet das Brot? Das kostet zwei Euro.\neins, zwei, drei … zwanzig, fünfzig, hundert"
+    }
+   ]
+  }
+ ]
+}

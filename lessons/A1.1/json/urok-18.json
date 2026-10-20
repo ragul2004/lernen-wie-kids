@@ -1,0 +1,780 @@
+{
+ "lesson": 18,
+ "title": "Мой день по порядку",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П28 частота, П29 порядок действий zuerst, dann, danach, П39 пойдём вместе. Слов: 12. Всё держится на движке Д6: после dann и danach глагол сразу, ich за ним. Итог урока: рассказ «Mein Tag» из семи предложений."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "immer",
+     "ru": "всегда",
+     "example": "Ich stehe immer um sieben auf."
+    },
+    {
+     "type": "word",
+     "de": "oft",
+     "ru": "часто",
+     "example": "Ich koche oft."
+    },
+    {
+     "type": "word",
+     "de": "manchmal",
+     "ru": "иногда",
+     "example": "Manchmal sehe ich fern."
+    },
+    {
+     "type": "word",
+     "de": "nie",
+     "ru": "никогда",
+     "example": "Ich trinke nie Bier."
+    },
+    {
+     "type": "word",
+     "de": "jeden Tag",
+     "ru": "каждый день",
+     "example": "Ich gehe jeden Tag zur Arbeit."
+    },
+    {
+     "type": "word",
+     "de": "jede Woche",
+     "ru": "каждую неделю",
+     "example": "Ich kaufe jede Woche ein."
+    },
+    {
+     "type": "word",
+     "de": "wie oft",
+     "ru": "как часто",
+     "example": "Wie oft kochst du?"
+    },
+    {
+     "type": "word",
+     "de": "zuerst",
+     "ru": "сначала",
+     "example": "Zuerst frühstücke ich."
+    },
+    {
+     "type": "word",
+     "de": "danach",
+     "ru": "после этого",
+     "example": "Danach kaufe ich ein."
+    },
+    {
+     "type": "word",
+     "de": "ins Kino",
+     "ru": "в кино",
+     "example": "Wir gehen ins Kino."
+    },
+    {
+     "type": "word",
+     "de": "essen gehen",
+     "ru": "идти поесть",
+     "example": "Wir gehen zusammen essen."
+    },
+    {
+     "type": "word",
+     "de": "treffen: ich treffe, er trifft",
+     "ru": "встречать",
+     "example": "Ich treffe meine Freundin."
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: всегда, часто, иногда, никогда, каждый день, каждую неделю, как часто, сначала, потом, после этого, в кино, встречать."
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что встаёшь в семь",
+     "answer": "Ich stehe um sieben Uhr auf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что начинаешь в девять",
+     "answer": "Ich fange um neun Uhr an."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вечером смотришь телевизор",
+     "answer": "Am Abend sehe ich fern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна встать в шесть",
+     "answer": "Ich muss um sechs Uhr aufstehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, идёт ли она вместе",
+     "answer": "Kommst du mit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, когда она встаёт",
+     "answer": "Wann stehst du auf?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что звонишь маме",
+     "answer": "Ich rufe meine Mutter an."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что идёшь спать в одиннадцать",
+     "answer": "Ich gehe um elf Uhr schlafen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в субботу делаешь покупки",
+     "answer": "Am Samstag kaufe ich ein."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что работаешь с девяти до шести",
+     "answer": "Ich arbeite von neun bis sechs."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в выходные у тебя есть время, начиная с выходных",
+     "answer": "Am Wochenende habe ich Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: без четверти девять",
+     "answer": "Es ist Viertel vor neun."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь читать",
+     "answer": "Ich lese gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не любишь рыбу",
+     "answer": "Ich mag Fisch nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он работает в офисе",
+     "answer": "Mein Mann arbeitet im Büro."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы устали",
+     "answer": "Wir sind müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь родителей",
+     "answer": "Das sind meine Eltern."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, кто он по профессии",
+     "answer": "Was sind Sie von Beruf?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что находишь это важным",
+     "answer": "Ich finde das wichtig."
+    },
+    {
+     "type": "task",
+     "prompt": "Согласись с удовольствием",
+     "answer": "Ja, gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: ужин",
+     "answer": "das Abendessen"
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: звонить",
+     "answer": "anrufen"
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П28. Частота"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Ich koche oft.",
+     "ru": "Я часто готовлю."
+    },
+    {
+     "type": "show",
+     "de": "Ich gehe jeden Tag zur Arbeit.",
+     "ru": "Я каждый день хожу на работу."
+    },
+    {
+     "type": "show",
+     "de": "Ich trinke nie Bier.",
+     "ru": "Я никогда не пью пиво."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: слово частоты стоит сразу после глагола, как gern. Nie уже значит «никогда не»: второго nicht не нужно."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich koche ___. (часто)",
+     "answer": "Ich koche oft."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich gehe ___ ___ zur Arbeit. (каждый день)",
+     "answer": "Ich gehe jeden Tag zur Arbeit."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich trinke ___ Bier. (никогда)",
+     "answer": "Ich trinke nie Bier."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich stehe ___ um sieben auf. (всегда)",
+     "answer": "Ich stehe immer um sieben auf."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что часто готовишь",
+     "answer": "Ich koche oft."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что каждый день ходишь на работу",
+     "answer": "Ich gehe jeden Tag zur Arbeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что никогда не пьёшь пиво",
+     "answer": "Ich trinke nie Bier."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что всегда встаёшь в семь",
+     "answer": "Ich stehe immer um sieben auf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что иногда смотришь телевизор",
+     "answer": "Ich sehe manchmal fern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что каждую неделю делаешь покупки",
+     "answer": "Ich kaufe jede Woche ein."
+    },
+    {
+     "type": "carousel",
+     "prompt": "часто готовлю",
+     "answer": "Ich koche oft."
+    },
+    {
+     "type": "carousel",
+     "prompt": "никогда не пью пиво",
+     "answer": "Ich trinke nie Bier."
+    },
+    {
+     "type": "carousel",
+     "prompt": "каждый день на работу",
+     "answer": "Ich gehe jeden Tag zur Arbeit."
+    },
+    {
+     "type": "carousel",
+     "prompt": "иногда смотрю телевизор",
+     "answer": "Ich sehe manchmal fern."
+    },
+    {
+     "type": "carousel",
+     "prompt": "всегда встаю в семь",
+     "answer": "Ich stehe immer um sieben auf."
+    },
+    {
+     "type": "carousel",
+     "prompt": "каждую неделю покупки",
+     "answer": "Ich kaufe jede Woche ein."
+    },
+    {
+     "type": "carousel",
+     "prompt": "часто звоню маме",
+     "answer": "Ich rufe oft meine Mutter an."
+    },
+    {
+     "type": "carousel",
+     "prompt": "никогда не ем мясо",
+     "answer": "Ich esse nie Fleisch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "иногда читаю",
+     "answer": "Ich lese manchmal."
+    },
+    {
+     "type": "carousel",
+     "prompt": "каждый день учу немецкий",
+     "answer": "Ich lerne jeden Tag Deutsch."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси подругу, как часто она готовит",
+     "answer": "Wie oft kochst du?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich koche oft. Скажи про мужа",
+     "answer": "Mein Mann kocht oft."
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich trinke nie Bier. Спроси подругу: пьёшь ли ты пиво",
+     "answer": "Trinkst du Bier?"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси взрослого, как часто он путешествует",
+     "answer": "Wie oft reisen Sie?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich sehe jeden Tag fern. Скажи, что нет: никогда",
+     "answer": "Ich sehe nie fern."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich koche nie."
+    },
+    {
+     "type": "reverse",
+     "de": "Wie oft gehst du ins Kino?"
+    },
+    {
+     "type": "reverse",
+     "de": "Meine Kinder spielen jeden Tag."
+    },
+    {
+     "type": "heading",
+     "text": "П29. Порядок: zuerst, dann, danach"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Zuerst frühstücke ich, dann gehe ich zur Arbeit.",
+     "ru": "Сначала я завтракаю, потом иду на работу."
+    },
+    {
+     "type": "show",
+     "de": "Danach kaufe ich ein.",
+     "ru": "После этого я делаю покупки."
+    },
+    {
+     "type": "show",
+     "de": "Zuerst koche ich, dann sehe ich fern.",
+     "ru": "Сначала я готовлю, потом смотрю телевизор."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: после zuerst, dann, danach сразу глагол, ich за ним, это движок Д6. Не «dann ich gehe»."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "Zuerst ___ ich, dann gehe ich zur Arbeit. (завтракаю)",
+     "answer": "Zuerst frühstücke ich, dann gehe ich zur Arbeit."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Danach ___ ich ein.",
+     "answer": "Danach kaufe ich ein."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Zuerst koche ich, ___ sehe ich fern.",
+     "answer": "Zuerst koche ich, dann sehe ich fern."
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ stehe ich auf, dann frühstücke ich.",
+     "answer": "Zuerst stehe ich auf, dann frühstücke ich."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: сначала завтракаешь, потом идёшь на работу",
+     "answer": "Zuerst frühstücke ich, dann gehe ich zur Arbeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: после этого делаешь покупки",
+     "answer": "Danach kaufe ich ein."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: сначала готовишь, потом смотришь телевизор",
+     "answer": "Zuerst koche ich, dann sehe ich fern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: сначала встаёшь, потом пьёшь кофе",
+     "answer": "Zuerst stehe ich auf, dann trinke ich Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: после этого идёшь спать",
+     "answer": "Danach gehe ich schlafen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: сначала работаешь, потом ешь",
+     "answer": "Zuerst arbeite ich, dann esse ich."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сначала кофе, потом работа",
+     "answer": "Zuerst trinke ich Kaffee, dann arbeite ich."
+    },
+    {
+     "type": "carousel",
+     "prompt": "после этого покупки",
+     "answer": "Danach kaufe ich ein."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сначала готовлю, потом ем",
+     "answer": "Zuerst koche ich, dann esse ich."
+    },
+    {
+     "type": "carousel",
+     "prompt": "потом иду спать",
+     "answer": "Dann gehe ich schlafen."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сначала встаю, потом завтракаю",
+     "answer": "Zuerst stehe ich auf, dann frühstücke ich."
+    },
+    {
+     "type": "carousel",
+     "prompt": "после этого звоню маме",
+     "answer": "Danach rufe ich meine Mutter an."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сначала учу немецкий, потом смотрю телевизор",
+     "answer": "Zuerst lerne ich Deutsch, dann sehe ich fern."
+    },
+    {
+     "type": "carousel",
+     "prompt": "потом еду домой",
+     "answer": "Dann fahre ich nach Hause."
+    },
+    {
+     "type": "carousel",
+     "prompt": "после этого сплю",
+     "answer": "Danach schlafe ich."
+    },
+    {
+     "type": "carousel",
+     "prompt": "сначала ем, потом читаю",
+     "answer": "Zuerst esse ich, dann lese ich."
+    },
+    {
+     "type": "reverse",
+     "de": "Zuerst arbeite ich, dann gehe ich einkaufen."
+    },
+    {
+     "type": "reverse",
+     "de": "Danach sehe ich fern."
+    },
+    {
+     "type": "reverse",
+     "de": "Dann gehen wir nach Hause."
+    },
+    {
+     "type": "heading",
+     "text": "Mein Tag, рассказ"
+    },
+    {
+     "type": "note",
+     "text": "Ученица рассказывает свой день целиком, не меньше семи предложений, тьютор не перебивает. Ожидается примерно:"
+    },
+    {
+     "type": "note",
+     "text": "Ich stehe um sieben Uhr auf. Zuerst frühstücke ich, dann fahre ich zur Arbeit.\nIch arbeite von neun bis sechs. Um zwölf Uhr esse ich.\nAm Abend koche ich. Danach sehe ich fern oder lese ich.\nIch gehe um elf Uhr schlafen. Am Wochenende kaufe ich ein und rufe meine Mutter an."
+    },
+    {
+     "type": "note",
+     "text": "Записать на диктофон: это вторая запись после рассказа о себе на воротах A1.0."
+    },
+    {
+     "type": "heading",
+     "text": "П39. Пойдём вместе"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Kommst du mit ins Kino?",
+     "ru": "Пойдёшь со мной в кино?"
+    },
+    {
+     "type": "show",
+     "de": "Ja, ich komme mit.",
+     "ru": "Да, я иду с тобой."
+    },
+    {
+     "type": "show",
+     "de": "Wir gehen zusammen essen.",
+     "ru": "Мы идём вместе поесть."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: куда: ins Kino, essen, einkaufen. Всё это уже было, новое только сочетание."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Позови подругу в кино: «идёшь со мной в кино?»",
+     "answer": "Kommst du mit ins Kino?"
+    },
+    {
+     "type": "task",
+     "prompt": "Согласись: ты идёшь с ней",
+     "answer": "Ja, ich komme mit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы идёте вместе поесть",
+     "answer": "Wir gehen zusammen essen."
+    },
+    {
+     "type": "task",
+     "prompt": "Позови подругу за покупками",
+     "answer": "Kommst du mit einkaufen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не можешь пойти: должна работать",
+     "answer": "Ich kann nicht mitkommen. Ich muss arbeiten."
+    },
+    {
+     "type": "task",
+     "prompt": "Предложи: идём вместе в кино в субботу",
+     "answer": "Wir gehen am Samstag zusammen ins Kino."
+    },
+    {
+     "type": "reverse",
+     "de": "Kommst du mit essen?"
+    },
+    {
+     "type": "reverse",
+     "de": "Wir gehen zusammen einkaufen."
+    },
+    {
+     "type": "reverse",
+     "de": "Ich komme gern mit."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что каждый день встаёшь в семь и идёшь на работу: два предложения",
+     "answer": "Ich stehe jeden Tag um sieben auf. Ich gehe zur Arbeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, как часто она ходит в кино",
+     "answer": "Wie oft gehst du ins Kino?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: сначала работаешь, потом идёшь за покупками",
+     "answer": "Zuerst arbeite ich, dann gehe ich einkaufen."
+    },
+    {
+     "type": "task",
+     "prompt": "Позови подругу поесть вместе в воскресенье",
+     "answer": "Kommst du am Sonntag mit essen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что никогда не смотришь телевизор, но часто читаешь",
+     "answer": "Ich sehe nie fern, aber ich lese oft."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он иногда готовит",
+     "answer": "Mein Mann kocht manchmal."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что каждую неделю встречаешь подругу",
+     "answer": "Ich treffe jede Woche meine Freundin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: после этого вы идёте вместе в кино",
+     "answer": "Danach gehen wir zusammen ins Kino."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, идёт ли он вместе",
+     "answer": "Kommen Sie mit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что дети всегда встают в восемь",
+     "answer": "Meine Kinder stehen immer um acht auf."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вечером ты сначала готовишь, потом звонишь маме",
+     "answer": "Am Abend koche ich zuerst, dann rufe ich meine Mutter an."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь ходить в кино, но у тебя никогда нет времени",
+     "answer": "Ich gehe gern ins Kino, aber ich habe nie Zeit."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: планы на субботу, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор играет подругу."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Was machst du am Samstag?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "сначала покупки, потом готовишь",
+     "answer": "Zuerst kaufe ich ein, dann koche ich."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Und am Abend? Kommst du mit ins Kino?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, во сколько",
+     "answer": "Um wie viel Uhr?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Um acht Uhr."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, с удовольствием, ты идёшь с ней",
+     "answer": "Ja, gern. Ich komme mit."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Wie oft gehst du ins Kino?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "иногда; ты часто смотришь телевизор",
+     "answer": "Manchmal. Ich sehe oft fern."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Gehen wir zuerst zusammen essen?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, сначала поесть, потом кино",
+     "answer": "Ja. Zuerst essen wir, dann gehen wir ins Kino."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Подруга",
+     "text": "Super. Ich treffe dich um sechs."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "хорошо, до субботы",
+     "answer": "Okay, bis Samstag!"
+    },
+    {
+     "type": "note",
+     "text": "Dich на понимание."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Ich koche oft. Ich gehe jeden Tag zur Arbeit. Ich trinke nie Bier. Wie oft kochst du?\nZuerst frühstücke ich, dann gehe ich zur Arbeit. Danach kaufe ich ein.\nKommst du mit ins Kino? Ja, ich komme mit. Wir gehen zusammen essen."
+    }
+   ]
+  }
+ ]
+}

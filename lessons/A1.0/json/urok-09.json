@@ -1,0 +1,490 @@
+{
+ "lesson": 9,
+ "title": "Ворота",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Ничего нового. Проверка слоя: паттерны, вопросы и отрицания, формулы, слова, два диалога вживую и рассказ о себе. Проход: не меньше девяти из десяти заданий верно и ни одного паттерна, который не получился дважды. Если не прошли, следующее занятие повторяет урок 8, потом ворота снова."
+    }
+   ]
+  },
+  {
+   "title": "1. Паттерны, по два задания на каждый, 30 заданий",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Представься полностью: имя и фамилия",
+     "answer": "Ich heiße {имя фамилия}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «я Анна»",
+     "answer": "Ich bin Anna."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты из Москвы",
+     "answer": "Ich komme aus Moskau."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, откуда ты",
+     "answer": "Ich komme aus {страна}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь здесь",
+     "answer": "Ich wohne hier."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что теперь живёшь в Гамбурге",
+     "answer": "Ich wohne jetzt in Hamburg."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что говоришь по-английски",
+     "answer": "Ich spreche Englisch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что немного говоришь по-немецки",
+     "answer": "Ich spreche ein bisschen Deutsch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты закончила",
+     "answer": "Ich bin fertig."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты очень устала",
+     "answer": "Ich bin sehr müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя проблема",
+     "answer": "Ich habe ein Problem."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет денег",
+     "answer": "Ich habe kein Geld."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь коллегу",
+     "answer": "Das ist meine Kollegin."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, кто это",
+     "answer": "Wer ist das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь чай",
+     "answer": "Ich möchte einen Tee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что хочешь учить немецкий",
+     "answer": "Ich möchte Deutsch lernen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна вода",
+     "answer": "Ich brauche Wasser."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужно время",
+     "answer": "Ich brauche Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что можешь помочь",
+     "answer": "Ich kann helfen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не можешь это",
+     "answer": "Ich kann das nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна купить хлеб",
+     "answer": "Ich muss Brot kaufen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что должна пойти домой",
+     "answer": "Ich muss nach Hause gehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси взрослого помочь",
+     "answer": "Können Sie mir helfen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, можно ли идти",
+     "answer": "Kann ich gehen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, где супермаркет",
+     "answer": "Wo ist der Supermarkt?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что туалет там",
+     "answer": "Die Toilette ist dort."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, сколько стоит пиво",
+     "answer": "Was kostet das Bier?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что это стоит двенадцать евро",
+     "answer": "Das kostet zwölf Euro."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что этого не знаешь",
+     "answer": "Ich weiß es nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не понимаешь этого",
+     "answer": "Ich verstehe das nicht."
+    }
+   ]
+  },
+  {
+   "title": "2. Вопросы и отрицания, 6 заданий",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, где он живёт",
+     "answer": "Wo wohnen Sie?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, устала ли она",
+     "answer": "Bist du müde?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, может ли она прийти завтра",
+     "answer": "Kannst du morgen kommen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не хочешь кофе",
+     "answer": "Ich möchte keinen Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе не нужна помощь",
+     "answer": "Ich brauche keine Hilfe."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не должна сегодня работать",
+     "answer": "Ich muss heute nicht arbeiten."
+    }
+   ]
+  },
+  {
+   "title": "3. Формулы, 6 заданий",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Попроси повторить",
+     "answer": "Noch einmal, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не понимаешь",
+     "answer": "Ich verstehe nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси сказать по буквам",
+     "answer": "Können Sie das buchstabieren?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «ничего страшного»",
+     "answer": "Kein Problem."
+    },
+    {
+     "type": "task",
+     "prompt": "Поздоровайся вечером",
+     "answer": "Guten Abend."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи «до завтра»",
+     "answer": "Bis morgen."
+    }
+   ]
+  },
+  {
+   "title": "4. Слова, 20 заданий, слово с артиклем",
+   "cards": [
+    {
+     "type": "word_task",
+     "prompt": "вопрос",
+     "answer": "die Frage"
+    },
+    {
+     "type": "word_task",
+     "prompt": "деньги",
+     "answer": "das Geld"
+    },
+    {
+     "type": "word_task",
+     "prompt": "сын",
+     "answer": "der Sohn"
+    },
+    {
+     "type": "word_task",
+     "prompt": "подруга",
+     "answer": "die Freundin"
+    },
+    {
+     "type": "word_task",
+     "prompt": "телефон",
+     "answer": "das Handy"
+    },
+    {
+     "type": "word_task",
+     "prompt": "сегодня",
+     "answer": "heute"
+    },
+    {
+     "type": "word_task",
+     "prompt": "кофе",
+     "answer": "der Kaffee"
+    },
+    {
+     "type": "word_task",
+     "prompt": "помощь",
+     "answer": "die Hilfe"
+    },
+    {
+     "type": "word_task",
+     "prompt": "запись",
+     "answer": "der Termin"
+    },
+    {
+     "type": "word_task",
+     "prompt": "курс",
+     "answer": "der Kurs"
+    },
+    {
+     "type": "word_task",
+     "prompt": "дом",
+     "answer": "das Haus"
+    },
+    {
+     "type": "word_task",
+     "prompt": "знать",
+     "answer": "wissen"
+    },
+    {
+     "type": "word_task",
+     "prompt": "понимать",
+     "answer": "verstehen"
+    },
+    {
+     "type": "word_task",
+     "prompt": "правильно",
+     "answer": "richtig"
+    },
+    {
+     "type": "word_task",
+     "prompt": "там",
+     "answer": "dort"
+    },
+    {
+     "type": "word_task",
+     "prompt": "вокзал",
+     "answer": "der Bahnhof"
+    },
+    {
+     "type": "word_task",
+     "prompt": "улица",
+     "answer": "die Straße"
+    },
+    {
+     "type": "word_task",
+     "prompt": "евро",
+     "answer": "der Euro"
+    },
+    {
+     "type": "word_task",
+     "prompt": "пятнадцать",
+     "answer": "fünfzehn"
+    },
+    {
+     "type": "word_task",
+     "prompt": "сорок",
+     "answer": "vierzig"
+    }
+   ]
+  },
+  {
+   "title": "5. Диалог 1: запись на курс, вживую",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Без подсказок на экране. Тьютор играет сотрудника школы. Ожидаемые реплики ученицы для тьютора:"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Guten Tag. Wie heißen Sie?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "",
+     "answer": "Ich heiße {имя фамилия}."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Woher kommen Sie?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "",
+     "answer": "Ich komme aus {страна}. Ich wohne jetzt in {город}."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Sprechen Sie Deutsch?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "",
+     "answer": "Ein bisschen. Ich verstehe nicht gut. Langsamer, bitte."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Kein Problem. Haben Sie eine Frage?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "",
+     "answer": "Ja. Was kostet der Kurs?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Der Kurs kostet zweihundert Euro."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "",
+     "answer": "Okay. Ich möchte den Kurs machen."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудник",
+     "text": "Gut. Bis morgen!"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "",
+     "answer": "Danke schön. Auf Wiedersehen!"
+    },
+    {
+     "type": "note",
+     "text": "zweihundert и den Kurs на понимание и как чанк."
+    }
+   ]
+  },
+  {
+   "title": "6. Диалог 2: в кафе, вживую",
+   "cards": [
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Was möchten Sie?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "",
+     "answer": "Ich möchte einen Kaffee und ein Wasser, bitte."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Bitte schön."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "",
+     "answer": "Was kostet das?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Vier Euro."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "",
+     "answer": "Vier Euro. Bitte. Danke. Wo ist die Toilette?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Официант",
+     "text": "Dort."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "",
+     "answer": "Danke schön!"
+    }
+   ]
+  },
+  {
+   "title": "7. Рассказ о себе, без экрана",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Ученица говорит подряд не меньше пяти предложений о себе. Ожидается примерно:"
+    },
+    {
+     "type": "note",
+     "text": "Ich heiße {имя}. Ich komme aus {страна}, aus {откуда}.\nIch wohne jetzt in {город}. Ich spreche {языки} und ein bisschen Deutsch.\nIch habe {семья}. Ich möchte Deutsch lernen. Ich muss arbeiten."
+    },
+    {
+     "type": "note",
+     "text": "Записать на диктофон телефона: это первая запись, к ней вернётесь после A1."
+    }
+   ]
+  },
+  {
+   "title": "8. Решение",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Не меньше 90 % заданий верно, оба диалога прошли, рассказ не меньше пяти предложений: Слой A1.0 пройден. Дальше слой A1.1 из curriculum/A1.md\nКрасных больше 10 % или один из диалогов не получился: Следующее занятие: урок 8 заново, потом ворота\nРассказ короче пяти предложений при пройденном остальном: Ворота засчитаны, рассказ повторить в начале следующего слоя"
+    }
+   ]
+  }
+ ]
+}

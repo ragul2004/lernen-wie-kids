@@ -1,0 +1,748 @@
+{
+ "lesson": 16,
+ "title": "Дни и когда",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: П26 когда: am плюс день или часть дня, im плюс месяц, von … bis; дни недели, части дня и месяцы из блока Б3. Слов: 14 плюс месяцы на понимание. Движок Д6 продолжает работать: Am Wochenende habe ich Zeit."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 12 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "der Montag; der Dienstag",
+     "ru": "понедельник; вторник",
+     "example": "am Montag"
+    },
+    {
+     "type": "word",
+     "de": "der Mittwoch; der Donnerstag",
+     "ru": "среда; четверг",
+     "example": "am Mittwoch"
+    },
+    {
+     "type": "word",
+     "de": "der Freitag; der Samstag; der Sonntag",
+     "ru": "пятница; суббота; воскресенье",
+     "example": "am Sonntag"
+    },
+    {
+     "type": "word",
+     "de": "die Woche",
+     "ru": "неделя",
+     "example": "jede Woche"
+    },
+    {
+     "type": "word",
+     "de": "das Wochenende",
+     "ru": "выходные",
+     "example": "am Wochenende"
+    },
+    {
+     "type": "word",
+     "de": "der Morgen; der Vormittag",
+     "ru": "утро; первая половина дня",
+     "example": "am Morgen"
+    },
+    {
+     "type": "word",
+     "de": "der Mittag; der Nachmittag",
+     "ru": "полдень; вторая половина дня",
+     "example": "am Nachmittag"
+    },
+    {
+     "type": "word",
+     "de": "der Abend; die Nacht",
+     "ru": "вечер; ночь",
+     "example": "am Abend"
+    },
+    {
+     "type": "word",
+     "de": "der Monat",
+     "ru": "месяц",
+     "example": "ein Monat"
+    },
+    {
+     "type": "word",
+     "de": "das Jahr",
+     "ru": "год",
+     "example": "ein Jahr"
+    },
+    {
+     "type": "word",
+     "de": "am",
+     "ru": "в (день, часть дня)",
+     "example": "am Montag, am Abend"
+    },
+    {
+     "type": "word",
+     "de": "im",
+     "ru": "в (месяц)",
+     "example": "im Mai"
+    },
+    {
+     "type": "word",
+     "de": "von … bis",
+     "ru": "с … до",
+     "example": "von neun bis sechs"
+    },
+    {
+     "type": "word",
+     "de": "wann",
+     "ru": "когда",
+     "example": "Wann kommst du?"
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: понедельник, среда, пятница, воскресенье, неделя, выходные, утро, вечер, ночь, месяц, год."
+    },
+    {
+     "type": "note",
+     "text": "Месяцы, показ и эхо, на понимание и для своего дня рождения:"
+    },
+    {
+     "type": "show",
+     "de": "Januar, Februar, März",
+     "ru": "январь, февраль, март"
+    },
+    {
+     "type": "show",
+     "de": "April, Mai, Juni",
+     "ru": "апрель, май, июнь"
+    },
+    {
+     "type": "show",
+     "de": "Juli, August, September",
+     "ru": "июль, август, сентябрь"
+    },
+    {
+     "type": "show",
+     "de": "Oktober, November, Dezember",
+     "ru": "октябрь, ноябрь, декабрь"
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг дней, тьютор по-русски, ученица по-немецки: понедельник, четверг, суббота, вторник, воскресенье, среда, пятница. Потом месяц своего дня рождения: Im …"
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Спроси, который час",
+     "answer": "Wie spät ist es?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: половина девятого",
+     "answer": "Es ist halb neun."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи: без четверти десять",
+     "answer": "Es ist Viertel vor zehn."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в восемь ты работаешь, начиная со времени",
+     "answer": "Um acht Uhr arbeite ich."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сегодня у тебя есть время, начиная с «сегодня»",
+     "answer": "Heute habe ich Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, во сколько начинается курс",
+     "answer": "Um wie viel Uhr beginnt der Kurs?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что завтра ты придёшь, начиная с «завтра»",
+     "answer": "Morgen komme ich."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь плавать",
+     "answer": "Ich schwimme gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, как она находит фильм",
+     "answer": "Wie findest du den Film?"
+    },
+    {
+     "type": "task",
+     "prompt": "Откажись вежливо",
+     "answer": "Nein, danke."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что любишь чай, но не любишь кофе",
+     "answer": "Ich mag Tee, aber ich mag Kaffee nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он работает в офисе",
+     "answer": "Mein Mann arbeitet im Büro."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вы хотите учить немецкий",
+     "answer": "Wir möchten Deutsch lernen."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь брата",
+     "answer": "Das ist mein Bruder."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты замужем и у тебя есть дочь",
+     "answer": "Ich bin verheiratet. Ich habe eine Tochter."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи свой возраст",
+     "answer": "Ich bin {возраст} Jahre alt."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что тебе нужна запись",
+     "answer": "Ich brauche einen Termin."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, есть ли у него время в десять",
+     "answer": "Haben Sie um zehn Uhr Zeit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что не знаешь",
+     "answer": "Ich weiß nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Попроси повторить",
+     "answer": "Noch einmal, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 19",
+     "answer": "neunzehn"
+    },
+    {
+     "type": "task",
+     "prompt": "Число: 84",
+     "answer": "vierundachtzig"
+    }
+   ]
+  },
+  {
+   "title": "3. Новое, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "П26. Когда: am, im, von … bis"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Wann kommst du? — Am Montag.",
+     "ru": "Когда ты придёшь? — В понедельник."
+    },
+    {
+     "type": "show",
+     "de": "Am Wochenende habe ich Zeit.",
+     "ru": "В выходные у меня есть время."
+    },
+    {
+     "type": "show",
+     "de": "Ich arbeite von neun bis sechs.",
+     "ru": "Я работаю с девяти до шести."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: am перед днём и частью дня, im перед месяцем, um перед часом. Von … bis для промежутка. Если am Wochenende впереди, глагол второй, ich за ним: движок Д6."
+    },
+    {
+     "type": "label",
+     "text": "Пропуск"
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ kommst du?",
+     "answer": "Wann kommst du?"
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ Montag.",
+     "answer": "Am Montag."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Am Wochenende ___ ich Zeit.",
+     "answer": "Am Wochenende habe ich Zeit."
+    },
+    {
+     "type": "cloze",
+     "prompt": "Ich arbeite ___ neun ___ sechs.",
+     "answer": "Ich arbeite von neun bis sechs."
+    },
+    {
+     "type": "cloze",
+     "prompt": "___ Mai.",
+     "answer": "Im Mai."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, когда она придёт",
+     "answer": "Wann kommst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Ответь: в понедельник",
+     "answer": "Am Montag."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в выходные у тебя есть время, начиная с выходных",
+     "answer": "Am Wochenende habe ich Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что работаешь с девяти до шести",
+     "answer": "Ich arbeite von neun bis sechs."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в пятницу ты не работаешь, начиная с пятницы",
+     "answer": "Am Freitag arbeite ich nicht."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что курс идёт с понедельника до пятницы: «курс с понедельника до пятницы»",
+     "answer": "Der Kurs ist von Montag bis Freitag."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в понедельник",
+     "answer": "Am Montag."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в выходные есть время",
+     "answer": "Am Wochenende habe ich Zeit."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в субботу не работаю",
+     "answer": "Am Samstag arbeite ich nicht."
+    },
+    {
+     "type": "carousel",
+     "prompt": "с девяти до пяти",
+     "answer": "Von neun bis fünf."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в мае",
+     "answer": "Im Mai."
+    },
+    {
+     "type": "carousel",
+     "prompt": "во вторник курс",
+     "answer": "Am Dienstag habe ich Kurs."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в воскресенье сплю",
+     "answer": "Am Sonntag schlafe ich."
+    },
+    {
+     "type": "carousel",
+     "prompt": "с понедельника до пятницы работаю",
+     "answer": "Von Montag bis Freitag arbeite ich."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в среду есть запись",
+     "answer": "Am Mittwoch habe ich einen Termin."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в июле",
+     "answer": "Im Juli."
+    },
+    {
+     "type": "label",
+     "text": "Трансформации"
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси подругу, когда она работает",
+     "answer": "Wann arbeitest du?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Am Wochenende habe ich Zeit. Спроси подругу: есть ли у неё время в выходные",
+     "answer": "Hast du am Wochenende Zeit?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Ich arbeite von neun bis sechs. Скажи про мужа",
+     "answer": "Mein Mann arbeitet von neun bis sechs."
+    },
+    {
+     "type": "transform",
+     "prompt": "Спроси взрослого, когда курс",
+     "answer": "Wann ist der Kurs?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Am Montag komme ich. Скажи, что нет: в понедельник не придёшь",
+     "answer": "Am Montag komme ich nicht."
+    },
+    {
+     "type": "reverse",
+     "de": "Am Freitag habe ich keine Zeit."
+    },
+    {
+     "type": "reverse",
+     "de": "Wann arbeiten Sie?"
+    },
+    {
+     "type": "reverse",
+     "de": "Der Kurs ist von Montag bis Mittwoch."
+    },
+    {
+     "type": "heading",
+     "text": "Части дня"
+    },
+    {
+     "type": "label",
+     "text": "Показ"
+    },
+    {
+     "type": "show",
+     "de": "Am Morgen trinke ich Kaffee.",
+     "ru": "Утром я пью кофе."
+    },
+    {
+     "type": "show",
+     "de": "Am Abend koche ich.",
+     "ru": "Вечером я готовлю."
+    },
+    {
+     "type": "show",
+     "de": "In der Nacht schlafe ich.",
+     "ru": "Ночью я сплю."
+    },
+    {
+     "type": "echo",
+     "text": "Эхо три по три. Что меняется: часть дня с am, и только ночь с in der: in der Nacht как чанк."
+    },
+    {
+     "type": "label",
+     "text": "Целиком"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что утром пьёшь кофе",
+     "answer": "Am Morgen trinke ich Kaffee."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вечером готовишь",
+     "answer": "Am Abend koche ich."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ночью спишь",
+     "answer": "In der Nacht schlafe ich."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что после обеда работаешь",
+     "answer": "Am Nachmittag arbeite ich."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вечером учишь немецкий",
+     "answer": "Am Abend lerne ich Deutsch."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в первой половине дня у тебя курс",
+     "answer": "Am Vormittag habe ich Kurs."
+    },
+    {
+     "type": "carousel",
+     "prompt": "утром кофе",
+     "answer": "Am Morgen trinke ich Kaffee."
+    },
+    {
+     "type": "carousel",
+     "prompt": "вечером готовлю",
+     "answer": "Am Abend koche ich."
+    },
+    {
+     "type": "carousel",
+     "prompt": "ночью сплю",
+     "answer": "In der Nacht schlafe ich."
+    },
+    {
+     "type": "carousel",
+     "prompt": "после обеда работаю",
+     "answer": "Am Nachmittag arbeite ich."
+    },
+    {
+     "type": "carousel",
+     "prompt": "вечером немецкий",
+     "answer": "Am Abend lerne ich Deutsch."
+    },
+    {
+     "type": "carousel",
+     "prompt": "утром иду на работу (zur Arbeit)",
+     "answer": "Am Morgen gehe ich zur Arbeit."
+    },
+    {
+     "type": "carousel",
+     "prompt": "вечером читаю",
+     "answer": "Am Abend lese ich."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в первой половине дня курс",
+     "answer": "Am Vormittag habe ich Kurs."
+    },
+    {
+     "type": "carousel",
+     "prompt": "в обед ем",
+     "answer": "Am Mittag esse ich."
+    },
+    {
+     "type": "carousel",
+     "prompt": "вечером есть время",
+     "answer": "Am Abend habe ich Zeit."
+    },
+    {
+     "type": "note",
+     "text": "Zur Arbeit как чанк: идти на работу. Разбора нет."
+    },
+    {
+     "type": "heading",
+     "text": "Ответы на вопросы"
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Wann hast du Zeit?",
+     "answer": "Am Wochenende habe ich Zeit. / Am Abend habe ich Zeit."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Wann arbeitest du?",
+     "answer": "Ich arbeite von Montag bis Freitag. / Ich arbeite von neun bis sechs."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Wann lernst du Deutsch?",
+     "answer": "Am Abend lerne ich Deutsch."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Arbeitest du am Samstag?",
+     "answer": "Ja, am Samstag arbeite ich. / Nein, am Samstag arbeite ich nicht."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Wann ist der Deutschkurs?",
+     "answer": "Der Kurs ist am Montag und am Mittwoch."
+    },
+    {
+     "type": "answer_question",
+     "prompt": "Wann kochst du?",
+     "answer": "Am Abend koche ich."
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что работаешь с девяти до шести и вечером устаёшь",
+     "answer": "Ich arbeite von neun bis sechs. Am Abend bin ich müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, есть ли у неё время в субботу",
+     "answer": "Hast du am Samstag Zeit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в выходные ты любишь готовить, начиная с выходных",
+     "answer": "Am Wochenende koche ich gern."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что курс в понедельник в шесть",
+     "answer": "Der Kurs ist am Montag um sechs Uhr."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в мае ты путешествуешь, начиная с мая",
+     "answer": "Im Mai reise ich."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи про мужа, что он работает в субботу",
+     "answer": "Mein Mann arbeitet am Samstag."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что утром пьёшь кофе, а вечером чай: два предложения",
+     "answer": "Am Morgen trinke ich Kaffee. Am Abend trinke ich Tee."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, когда у него есть время",
+     "answer": "Wann haben Sie Zeit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в среду у тебя запись в десять",
+     "answer": "Am Mittwoch habe ich um zehn Uhr einen Termin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что в воскресенье ты не работаешь и спишь: два предложения",
+     "answer": "Am Sonntag arbeite ich nicht. Ich schlafe."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что дети в первой половине дня в школе: «в школе» как чанк in der Schule",
+     "answer": "Am Vormittag sind meine Kinder in der Schule."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что вечером у тебя нет времени, но в выходные есть",
+     "answer": "Am Abend habe ich keine Zeit, aber am Wochenende habe ich Zeit."
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: запись на курс, расписание, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Тьютор играет сотрудницу языковой школы."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудница",
+     "text": "Guten Tag! Sie möchten einen Deutschkurs?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "да, спроси, когда курс",
+     "answer": "Ja. Wann ist der Kurs?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудница",
+     "text": "Am Montag und am Mittwoch, von achtzehn bis zwanzig Uhr."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "в понедельник ты работаешь до семи; скажи это",
+     "answer": "Am Montag arbeite ich bis sieben Uhr."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудница",
+     "text": "Es gibt auch einen Kurs am Dienstag und am Donnerstag."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, во сколько",
+     "answer": "Um wie viel Uhr?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудница",
+     "text": "Von neun bis elf, am Vormittag."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "в первой половине дня у тебя есть время; хорошо",
+     "answer": "Am Vormittag habe ich Zeit. Gut!"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудница",
+     "text": "Und am Samstag gibt es einen Kurs von zehn bis dreizehn Uhr."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "в субботу ты не хочешь; ты хочешь курс во вторник",
+     "answer": "Am Samstag möchte ich nicht. Ich möchte den Kurs am Dienstag."
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудница",
+     "text": "Sehr gut. Der Kurs beginnt im September."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "переспроси: в сентябре?",
+     "answer": "Im September?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Сотрудница",
+     "text": "Ja, am dritten September."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "поблагодари",
+     "answer": "Danke schön!"
+    },
+    {
+     "type": "note",
+     "text": "Es gibt, am dritten на понимание. Es gibt будет в уроке 20."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Wann kommst du? Am Montag. Am Wochenende habe ich Zeit.\nIch arbeite von neun bis sechs. Von Montag bis Freitag.\nAm Morgen trinke ich Kaffee. Am Abend koche ich. Im Mai reise ich."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+# docker compose up          →  http://localhost:8091
+# другой порт: LWK_PORT=9000 docker compose up
+# docker compose up --build  после правок Dockerfile или nginx.conf
+#
+# Папки player и lessons примонтированы с диска: после правки
+# урока (tools/lessons-to-json.py, потом tools/lessons-index.py)
+# достаточно обновить страницу. index.html копируется в образ,
+# а не монтируется: одиночный файл после замены редактором теряет
+# привязку и nginx отдаёт 403; после правки index.html нужен --build.
+services:
+  player:
+    build: .
+    image: lwk-player
+    container_name: lwk-player
+    ports:
+      - "${LWK_PORT:-8091}:80"
+    volumes:
+      - ./player:/usr/share/nginx/html/player:ro
+      - ./lessons:/usr/share/nginx/html/lessons:ro

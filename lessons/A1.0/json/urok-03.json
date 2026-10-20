@@ -1,0 +1,636 @@
+{
+ "lesson": 3,
+ "title": "Вопросы",
+ "intro": "",
+ "blocks": [
+  {
+   "title": "Вступление",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Новое: движок Д3, вопросы на du и на Sie ко всему выученному; остальные формулы ремонта Б1. Слов: 11. Ничего не заучивается как новый паттерн: новое здесь операция."
+    }
+   ]
+  },
+  {
+   "title": "1. Слова урока, 10 минут",
+   "cards": [
+    {
+     "type": "word",
+     "de": "der Freund, die Freundin",
+     "ru": "друг, подруга",
+     "example": "Das ist mein Freund."
+    },
+    {
+     "type": "word",
+     "de": "der Kollege, die Kollegin",
+     "ru": "коллега",
+     "example": "Das ist meine Kollegin."
+    },
+    {
+     "type": "word",
+     "de": "die Tochter",
+     "ru": "дочь",
+     "example": "Das ist meine Tochter."
+    },
+    {
+     "type": "word",
+     "de": "das Auto",
+     "ru": "машина",
+     "example": "Ich habe ein Auto."
+    },
+    {
+     "type": "word",
+     "de": "das Handy",
+     "ru": "мобильный телефон",
+     "example": "Ich habe kein Handy."
+    },
+    {
+     "type": "word",
+     "de": "die Arbeit",
+     "ru": "работа",
+     "example": "Ich habe Arbeit."
+    },
+    {
+     "type": "word",
+     "de": "der Tag",
+     "ru": "день",
+     "example": "Guten Tag."
+    },
+    {
+     "type": "word",
+     "de": "heute",
+     "ru": "сегодня",
+     "example": "Ich bin heute müde."
+    },
+    {
+     "type": "word",
+     "de": "morgen",
+     "ru": "завтра",
+     "example": "Bis morgen."
+    },
+    {
+     "type": "word",
+     "de": "bedeuten: das bedeutet",
+     "ru": "значить",
+     "example": "Was bedeutet das?"
+    },
+    {
+     "type": "word",
+     "de": "wiederholen",
+     "ru": "повторять",
+     "example": "Noch einmal, bitte."
+    },
+    {
+     "type": "word",
+     "de": "wo, woher, wann, wie",
+     "ru": "где, откуда, когда, как",
+     "example": "Wo wohnst du?"
+    },
+    {
+     "type": "word",
+     "de": "die Kinder",
+     "ru": "дети",
+     "example": "Ich habe Kinder."
+    },
+    {
+     "type": "note",
+     "text": "Быстрый круг: подруга, коллега, дочь, машина, телефон, работа, сегодня, завтра, где, откуда."
+    },
+    {
+     "type": "label",
+     "text": "Формулы Б1, показ и эхо"
+    },
+    {
+     "type": "formula",
+     "de": "Was bedeutet „Termin“?",
+     "when": "услышала незнакомое слово"
+    },
+    {
+     "type": "formula",
+     "de": "Wie sagt man „стол“ auf Deutsch?",
+     "when": "не знаешь, как сказать"
+    },
+    {
+     "type": "formula",
+     "de": "Können Sie das buchstabieren?",
+     "when": "не поняла имя, попроси по буквам"
+    },
+    {
+     "type": "formula",
+     "de": "Moment, bitte.",
+     "when": "нужна секунда"
+    }
+   ]
+  },
+  {
+   "title": "2. Разогрев, 10 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты устала",
+     "answer": "Ich bin müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть вопрос",
+     "answer": "Ich habe eine Frage."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь мужа",
+     "answer": "Das ist mein Mann."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, что это",
+     "answer": "Was ist das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет времени",
+     "answer": "Ich habe keine Zeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты закончила",
+     "answer": "Ich bin fertig."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, кто это",
+     "answer": "Wer ist das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя проблема",
+     "answer": "Ich habe ein Problem."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что ты больна",
+     "answer": "Ich bin krank."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет денег",
+     "answer": "Ich habe kein Geld."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь сына",
+     "answer": "Das ist mein Sohn."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, откуда ты",
+     "answer": "Ich komme aus {страна}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, где теперь живёшь",
+     "answer": "Ich wohne jetzt in {город}."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что говоришь по-русски и немного по-немецки",
+     "answer": "Ich spreche Russisch und ein bisschen Deutsch."
+    },
+    {
+     "type": "task",
+     "prompt": "Назовись",
+     "answer": "Ich heiße {имя}."
+    },
+    {
+     "type": "task",
+     "prompt": "Тебе говорят слишком быстро",
+     "answer": "Langsamer, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Ты не расслышала",
+     "answer": "Wie bitte?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что живёшь здесь",
+     "answer": "Ich wohne hier."
+    },
+    {
+     "type": "task",
+     "prompt": "Попрощайся вежливо со взрослым",
+     "answer": "Auf Wiedersehen."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть ребёнок",
+     "answer": "Ich habe ein Kind."
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: деньги",
+     "answer": "das Geld"
+    },
+    {
+     "type": "task",
+     "prompt": "Слово: проблема",
+     "answer": "das Problem"
+    }
+   ]
+  },
+  {
+   "title": "3. Новое: движок Д3, вопросы, 20 минут",
+   "cards": [
+    {
+     "type": "heading",
+     "text": "Показ"
+    },
+    {
+     "type": "note",
+     "text": "Тьютор читает пары, ученица слушает. Что двигается: в вопросе «да или нет» глагол встаёт вперёд; в вопросе со словом сначала слово, потом глагол. Форма du: глагол на -st. Форма Sie: как инфинитив."
+    },
+    {
+     "type": "show_pair",
+     "from": "Du wohnst in Bremen.",
+     "to": "Wohnst du in Bremen?"
+    },
+    {
+     "type": "show_pair",
+     "from": "Sie kommen aus Polen.",
+     "to": "Kommen Sie aus Polen?"
+    },
+    {
+     "type": "show_pair",
+     "from": "Du wohnst in Bremen.",
+     "to": "Wo wohnst du?"
+    },
+    {
+     "type": "show_pair",
+     "from": "Sie heißen Anna.",
+     "to": "Wie heißen Sie?"
+    },
+    {
+     "type": "echo",
+     "text": "Эхо: обе версии каждой пары."
+    },
+    {
+     "type": "label",
+     "text": "Таблица форм для тьютора, на экране не показывать"
+    },
+    {
+     "type": "note",
+     "tutorOnly": true,
+     "text": "Формы: heißen: du heißt, Sie heißen; kommen: du kommst, Sie kommen; wohnen: du wohnst, Sie wohnen; sprechen: du sprichst, чанк, Sie sprechen; sein: du bist, Sie sind; haben: du hast, Sie haben"
+    },
+    {
+     "type": "heading",
+     "text": "С опорой, предложение показано"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Du wohnst in Berlin. Спроси",
+     "answer": "Wohnst du in Berlin?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Sie kommen aus Russland. Спроси",
+     "answer": "Kommen Sie aus Russland?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Du bist müde. Спроси",
+     "answer": "Bist du müde?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Sie haben Zeit. Спроси",
+     "answer": "Haben Sie Zeit?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Du heißt Anna. Спроси",
+     "answer": "Heißt du Anna?"
+    },
+    {
+     "type": "transform",
+     "prompt": "★ Sie sprechen Englisch. Спроси",
+     "answer": "Sprechen Sie Englisch?"
+    },
+    {
+     "type": "heading",
+     "text": "Смешанно, вопросы со словом и без"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, как её зовут",
+     "answer": "Wie heißt du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси преподавателя, как его зовут",
+     "answer": "Wie heißen Sie?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, откуда она",
+     "answer": "Woher kommst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, откуда он",
+     "answer": "Woher kommen Sie?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, где она живёт",
+     "answer": "Wo wohnst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, где он живёт",
+     "answer": "Wo wohnen Sie?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, говорит ли она по-английски",
+     "answer": "Sprichst du Englisch?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, говорит ли он по-русски",
+     "answer": "Sprechen Sie Russisch?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, устала ли она",
+     "answer": "Bist du müde?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, есть ли у него время",
+     "answer": "Haben Sie Zeit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, есть ли у неё дети",
+     "answer": "Hast du Kinder?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, есть ли у неё машина",
+     "answer": "Hast du ein Auto?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, больна ли она",
+     "answer": "Sind Sie krank?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси, кто это",
+     "answer": "Wer ist das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, живёт ли она здесь",
+     "answer": "Wohnst du hier?"
+    },
+    {
+     "type": "heading",
+     "text": "Без опоры, только смысл"
+    },
+    {
+     "type": "task",
+     "prompt": "Познакомься с соседкой по парте: спроси имя",
+     "answer": "Wie heißt du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси её, откуда она",
+     "answer": "Woher kommst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси её, есть ли у неё телефон",
+     "answer": "Hast du ein Handy?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси преподавателя, из Германии ли он",
+     "answer": "Kommen Sie aus Deutschland?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, придёт ли она завтра",
+     "answer": "Kommst du morgen?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, когда она придёт",
+     "answer": "Wann kommst du?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, есть ли у него дети",
+     "answer": "Haben Sie Kinder?"
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, закончила ли она",
+     "answer": "Bist du fertig?"
+    },
+    {
+     "type": "heading",
+     "text": "Обратно"
+    },
+    {
+     "type": "reverse",
+     "de": "Wo wohnen Sie?"
+    },
+    {
+     "type": "reverse",
+     "de": "Hast du Zeit?"
+    },
+    {
+     "type": "reverse",
+     "de": "Kommst du aus Moskau?"
+    },
+    {
+     "type": "reverse",
+     "de": "Sind Sie müde?"
+    }
+   ]
+  },
+  {
+   "title": "4. Скрещивание, 8 минут",
+   "cards": [
+    {
+     "type": "task",
+     "prompt": "Представь коллегу",
+     "answer": "Das ist meine Kollegin."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть работа",
+     "answer": "Ich habe Arbeit."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси подругу, есть ли у неё работа",
+     "answer": "Hast du Arbeit?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя нет телефона",
+     "answer": "Ich habe kein Handy."
+    },
+    {
+     "type": "task",
+     "prompt": "Представь дочь и спроси, кто это на фото",
+     "answer": "Das ist meine Tochter. Wer ist das?"
+    },
+    {
+     "type": "task",
+     "prompt": "Услышала слово «Termin». Спроси, что оно значит",
+     "answer": "Was bedeutet „Termin“?"
+    },
+    {
+     "type": "task",
+     "prompt": "Не знаешь, как по-немецки «стол». Спроси",
+     "answer": "Wie sagt man „стол“ auf Deutsch?"
+    },
+    {
+     "type": "task",
+     "prompt": "Не поняла фамилию. Попроси по буквам",
+     "answer": "Können Sie das buchstabieren?"
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что сегодня ты устала",
+     "answer": "Ich bin heute müde."
+    },
+    {
+     "type": "task",
+     "prompt": "Спроси взрослого, есть ли у него машина",
+     "answer": "Haben Sie ein Auto?"
+    },
+    {
+     "type": "task",
+     "prompt": "Тебе нужна секунда подумать",
+     "answer": "Moment, bitte."
+    },
+    {
+     "type": "task",
+     "prompt": "Скажи, что у тебя есть друг, и спроси подругу, есть ли у неё друг",
+     "answer": "Ich habe einen Freund. Hast du einen Freund?"
+    }
+   ]
+  },
+  {
+   "title": "5. Сцена: знакомство на курсе, 7 минут",
+   "cards": [
+    {
+     "type": "note",
+     "text": "Ученица задаёт вопросы, тьютор играет соседку по парте и отвечает; потом преподавателя."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "поздоровайся и спроси имя",
+     "answer": "Hallo! Wie heißt du?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Ich heiße Lena. Und du?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "назовись",
+     "answer": "Ich heiße {имя}."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, откуда она",
+     "answer": "Woher kommst du?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Ich komme aus Polen."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, где она живёт",
+     "answer": "Wo wohnst du?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Ich wohne hier, in {город}."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, есть ли у неё дети",
+     "answer": "Hast du Kinder?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Ja, eine Tochter. Und du?"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "ответь про свою семью",
+     "answer": "{Ich habe … / Ich habe keine Kinder.}"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, придёт ли она завтра",
+     "answer": "Kommst du morgen?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Соседка",
+     "text": "Ja!"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Преподаватель",
+     "text": "Wir machen jetzt einen Test."
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "спроси, что значит слово «Test»",
+     "answer": "Was bedeutet „Test“?"
+    },
+    {
+     "type": "scene_line",
+     "speaker": "Преподаватель",
+     "text": "Ein Test ist … (объясняет)"
+    },
+    {
+     "type": "scene_turn",
+     "prompt": "попроси повторить, потом «понятно, спасибо»",
+     "answer": "Noch einmal, bitte. … Okay, danke."
+    },
+    {
+     "type": "note",
+     "text": "Ответ про семью тьютор подбирает под факты ученицы заранее: Ich habe keine Kinder или Ich habe einen Sohn."
+    }
+   ]
+  },
+  {
+   "title": "6. Повтор, 5 минут",
+   "cards": []
+  },
+  {
+   "title": "7. Итог",
+   "cards": [
+    {
+     "type": "summary",
+     "text": "Wie heißt du? Woher kommst du? Wo wohnst du? Hast du Kinder?\nWie heißen Sie? Wo wohnen Sie? Sprechen Sie Englisch?\nWas bedeutet „…“? Wie sagt man „…“ auf Deutsch?"
+    }
+   ]
+  }
+ ]
+}

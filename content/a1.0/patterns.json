@@ -1,0 +1,202 @@
+[
+{"id":"П1","module":"M01","functionRu":"Представиться","engines":["Д3","Д4"],
+ "variants":[
+  {"id":"П1a","templateDe":"Ich heiße {name}.","slot":"name","fillerIds":["f_mila","f_anna","f_max","f_tom"],
+   "cues":[{"voice":"neutral","text":"Скажи, что тебя зовут {ru}"},{"voice":"neutral","text":"Назовись: {ru}"},{"voice":"neutral","text":"Тебя спросили, как тебя зовут. Ответь: {ru}"},{"voice":"story","text":"Фрау Вебер спрашивает, как тебя зовут. Ответь","fillerId":"f_mila"},{"voice":"story","text":"Учительница спрашивает твоё имя. Скажи","fillerId":"f_mila"}]},
+  {"id":"П1b","templateDe":"Ich bin {name}.","slot":"name","fillerIds":["f_mila","f_anna","f_max","f_tom"],
+   "cues":[{"voice":"neutral","text":"Скажи коротко «я {ru}»"},{"voice":"neutral","text":"Представься одним словом: {ru}"},{"voice":"neutral","text":"Кто ты? Ответь: {ru}"},{"voice":"story","text":"Назовись мальчику у двери","fillerId":"f_mila"},{"voice":"story","text":"Эмма спрашивает, кто ты. Скажи","fillerId":"f_mila"}]}
+ ],
+ "fixed":[],
+ "examples":[{"de":"Ich heiße Mila.","ru":"Меня зовут Мила."},{"de":"Ich bin Mila.","ru":"Я Мила."},{"de":"Ich heiße Anna.","ru":"Меня зовут Анна."}],
+ "alternatives":[{"forVariant":"П1a","de":"Ich bin {name}.","grade":"green","when":"всегда"},{"forVariant":"П1b","de":"Ich heiße {name}.","grade":"green","when":"всегда"}],
+ "notes":"Обе формы равноправны."},
+
+{"id":"П2","module":"M01","functionRu":"Откуда","engines":["Д3","Д4"],
+ "variants":[
+  {"id":"П2a","templateDe":"Ich komme aus {country}.","slot":"country","fillerIds":["f_russland","f_deutschland","f_polen","f_moskau","f_bremen","f_berlin","f_hamburg"],
+   "cues":[{"voice":"neutral","text":"Скажи, что ты {ruFrom}"},{"voice":"neutral","text":"Тебя спросили, откуда ты. Ответь: {ruFrom}"},{"voice":"neutral","text":"Скажи, откуда приехала: {ruFrom}"},{"voice":"story","text":"Фрау Вебер спрашивает, откуда вы приехали. Ответь","fillerId":"f_russland"},{"voice":"story","text":"Она не расслышала страну. Назови город","fillerId":"f_moskau"},{"voice":"story","text":"Том спрашивает, откуда ты. Скажи","fillerId":"f_russland"}]}
+ ],
+ "fixed":[],
+ "examples":[{"de":"Ich komme aus Russland.","ru":"Я из России."},{"de":"Ich komme aus Moskau.","ru":"Я из Москвы."},{"de":"Ich komme aus Deutschland.","ru":"Я из Германии."}],
+ "alternatives":[{"forVariant":"П2a","de":"Ich bin aus {country}.","grade":"yellow","when":"разговорная форма, паттерн не тот"}],
+ "notes":"Страны и города без артикля."},
+
+{"id":"П3","module":"M01","functionRu":"Где живу","engines":["Д3","Д4"],
+ "variants":[
+  {"id":"П3a","templateDe":"Ich wohne in {city}.","slot":"city","fillerIds":["f_bremen","f_moskau","f_berlin","f_hamburg"],
+   "cues":[{"voice":"neutral","text":"Скажи, что живёшь в {ruIn}"},{"voice":"neutral","text":"Тебя спросили, где ты живёшь. Ответь: в {ruIn}"},{"voice":"neutral","text":"Назови город, где живёшь: {ru}"},{"voice":"story","text":"Эмма спрашивает, где ты живёшь. Ответь","fillerId":"f_bremen"},{"voice":"story","text":"Бабушка по видео спрашивает, где вы живёте. Скажи","fillerId":"f_bremen"}]},
+  {"id":"П3b","templateDe":"Ich wohne jetzt in {city}.","slot":"city","fillerIds":["f_bremen","f_berlin","f_hamburg"],
+   "cues":[{"voice":"neutral","text":"Скажи, что теперь живёшь в {ruIn}"},{"voice":"neutral","text":"Ты переехала. Скажи, что теперь живёшь в {ruIn}"},{"voice":"neutral","text":"Раньше ты жила в другом городе. Скажи, что теперь живёшь в {ruIn}"},{"voice":"story","text":"Скажи фрау Вебер, что теперь живёшь в Бремене","fillerId":"f_bremen"}]}
+ ],
+ "fixed":[
+  {"id":"П3f1","de":"Ich wohne hier.","cues":[{"voice":"neutral","text":"Скажи, что живёшь здесь"},{"voice":"story","text":"Покажи на дверь и скажи, что живёшь здесь"}]},
+  {"id":"П3f2","de":"Ich wohne jetzt hier.","cues":[{"voice":"neutral","text":"Скажи, что теперь живёшь здесь"},{"voice":"story","text":"Фрау Вебер спрашивает, живёшь ли ты теперь здесь. Подтверди"}]}
+ ],
+ "examples":[{"de":"Ich wohne in Bremen.","ru":"Я живу в Бремене."},{"de":"Ich wohne jetzt in Bremen.","ru":"Я теперь живу в Бремене."},{"de":"Ich wohne hier.","ru":"Я живу здесь."}],
+ "alternatives":[],
+ "notes":""},
+
+{"id":"П4","module":"M01","functionRu":"Языки","engines":["Д3","Д4"],
+ "variants":[
+  {"id":"П4a","templateDe":"Ich spreche {lang}.","slot":"lang","fillerIds":["w_russisch","w_deutsch","w_englisch"],
+   "cues":[{"voice":"neutral","text":"Скажи, что говоришь {ruSpeak}"},{"voice":"neutral","text":"Тебя спросили про языки. Скажи, что говоришь {ruSpeak}"},{"voice":"neutral","text":"Назови язык, на котором говоришь: {ru}"},{"voice":"story","text":"Том спрашивает, говоришь ли ты {ruSpeak}. Скажи, что говоришь"}]},
+  {"id":"П4b","templateDe":"Ich spreche ein bisschen {lang}.","slot":"lang","fillerIds":["w_deutsch","w_englisch"],
+   "cues":[{"voice":"neutral","text":"Скажи, что немного говоришь {ruSpeak}"},{"voice":"neutral","text":"Ты знаешь язык чуть-чуть. Скажи, что немного говоришь {ruSpeak}"},{"voice":"neutral","text":"Честно скажи: говоришь {ruSpeak}, но немного"},{"voice":"story","text":"Фрау Вебер спрашивает, говоришь ли ты по-немецки. Скажи, что немного","fillerId":"w_deutsch"}]}
+ ],
+ "fixed":[
+  {"id":"П4f1","de":"Ich spreche Russisch und ein bisschen Deutsch.","cues":[{"voice":"neutral","text":"Скажи, что говоришь по-русски и немного по-немецки"},{"voice":"story","text":"Скажи учительнице, на каких языках говоришь"}]}
+ ],
+ "examples":[{"de":"Ich spreche Russisch.","ru":"Я говорю по-русски."},{"de":"Ich spreche ein bisschen Deutsch.","ru":"Я немного говорю по-немецки."},{"de":"Ich spreche Russisch und ein bisschen Deutsch.","ru":"Я говорю по-русски и немного по-немецки."}],
+ "alternatives":[],
+ "notes":"Языки без артикля, с большой буквы."},
+
+{"id":"П5","module":"M02","functionRu":"Состояние","engines":["Д3","Д4"],
+ "variants":[
+  {"id":"П5a","templateDe":"Ich bin {adj}.","slot":"adj","fillerIds":["w_muede","w_krank","w_fertig","w_neu"],
+   "cues":[{"voice":"neutral","text":"Скажи, что ты {ruState}"},{"voice":"neutral","text":"Как ты? Скажи: {ruState}"},{"voice":"neutral","text":"Тебя спросили, как ты себя чувствуешь. Ответь: {ruState}"},{"voice":"story","text":"Мама спрашивает, как ты. Скажи, что {ruState}"},{"voice":"story","text":"Скажи Тому, что ты {ruState}"}]}
+ ],
+ "fixed":[],
+ "examples":[{"de":"Ich bin müde.","ru":"Я устала."},{"de":"Ich bin krank.","ru":"Я больна."},{"de":"Ich bin fertig.","ru":"Я закончила."}],
+ "alternatives":[],
+ "notes":"neu появляется как заполнитель с M06."},
+
+{"id":"П6","module":"M02","functionRu":"Иметь и не иметь","engines":["Д3","Д4"],
+ "variants":[
+  {"id":"П6a","templateDe":"Ich habe {akkIndef}.","slot":"akkIndef","fillerIds":["w_frage","w_zeit","w_geld","w_problem","w_handy","w_auto","w_freund","w_freundin","w_hausaufgabe"],
+   "cues":[{"voice":"neutral","text":"Скажи, что у тебя есть {ru}"},{"voice":"neutral","text":"У тебя есть {ru}. Скажи это"},{"voice":"neutral","text":"Скажи «у меня {ru}»"},{"voice":"story","text":"Скажи маме, что у тебя есть вопрос","fillerId":"w_frage"},{"voice":"story","text":"Скажи Эмме, что у тебя есть {ru}"}]},
+  {"id":"П6b","templateDe":"Ich habe {akkNeg}.","slot":"akkNeg","fillerIds":["w_zeit","w_geld","w_problem","w_frage","w_handy","w_auto","w_hausaufgabe"],
+   "cues":[{"voice":"neutral","text":"Скажи, что у тебя нет {ruGen}"},{"voice":"neutral","text":"У тебя нет {ruGen}. Скажи это"},{"voice":"neutral","text":"Скажи «у меня нет {ruGen}»"},{"voice":"story","text":"Мама говорит, что у неё нет времени. Скажи то же про себя","fillerId":"w_zeit"},{"voice":"story","text":"Эмма спрашивает про телефон. Скажи, что у тебя нет телефона","fillerId":"w_handy"}]}
+ ],
+ "fixed":[],
+ "examples":[{"de":"Ich habe eine Frage.","ru":"У меня есть вопрос."},{"de":"Ich habe keine Zeit.","ru":"У меня нет времени."},{"de":"Ich habe ein Problem.","ru":"У меня проблема."}],
+ "alternatives":[],
+ "notes":"kein до Д4 живёт как чанк с тремя существительными: keine Zeit, kein Geld, kein Problem. Формы einen, eine, ein берутся готовыми из words.json."},
+
+{"id":"П13","module":"M02","functionRu":"Что это, кто это","engines":["Д3","Д4"],
+ "variants":[
+  {"id":"П13c","templateDe":"Das ist {nom}.","slot":"nom",
+   "fillers":[{"id":"w_mama","form":"poss","ru":"моя мама"},{"id":"w_papa","form":"poss","ru":"мой папа"},{"id":"w_oma","form":"poss","ru":"моя бабушка"},{"id":"f_tom","form":"de","ru":"Том"},{"id":"f_frau_weber","form":"de","ru":"фрау Вебер"},{"id":"w_problem","form":"nomIndef","ru":"проблема"},{"id":"w_frage","form":"nomIndef","ru":"вопрос"},{"id":"w_kind","form":"nomIndef","ru":"ребёнок"},{"id":"w_freund","form":"poss","ru":"мой друг"},{"id":"w_freundin","form":"poss","ru":"моя подруга"},{"id":"w_lehrerin","form":"poss","ru":"моя учительница"},{"id":"f_frau_braun","form":"de","ru":"фрау Браун"},{"id":"f_emma","form":"de","ru":"Эмма"},{"id":"w_handy","form":"poss","ru":"мой телефон"},{"id":"w_auto","form":"nomIndef","ru":"машина"},{"id":"w_schule","form":"poss","ru":"моя школа"}],
+   "cues":[{"voice":"neutral","text":"Скажи, что это {ru}"},{"voice":"neutral","text":"Тебя спросили, кто это или что это. Ответь: {ru}"},{"voice":"neutral","text":"Покажи и скажи: это {ru}"},{"voice":"story","text":"Представь маму фрау Вебер","fillerId":"w_mama"},{"voice":"story","text":"Том спрашивает, кто это на фото. Скажи: {ru}"}]},
+  {"id":"П13d","templateDe":"Das ist {nom}.","slot":"nom",
+   "fillers":[{"id":"w_gut","form":"de","ru":"хорошо"},{"id":"w_richtig","form":"de","ru":"правильно"},{"id":"w_teuer","form":"de","ru":"дорого"},{"id":"w_neu","form":"de","ru":"новое"},{"id":"w_schlecht","form":"de","ru":"плохо"}],
+   "cues":[{"voice":"neutral","text":"Скажи, что это {ru}"},{"voice":"neutral","text":"Оцени одним словом: это {ru}"},{"voice":"neutral","text":"Скажи своё мнение: это {ru}"},{"voice":"story","text":"В магазине. Скажи маме, что это дорого","fillerId":"w_teuer"},{"voice":"story","text":"Том показал свой рисунок. Скажи, что это хорошо","fillerId":"w_gut"}]}
+ ],
+ "fixed":[
+  {"id":"П13f1","de":"Was ist das?","cues":[{"voice":"neutral","text":"Спроси, что это"},{"voice":"neutral","text":"Ты видишь незнакомую вещь. Спроси, что это"},{"voice":"story","text":"Покажи на вещь Тома и спроси, что это"}]},
+  {"id":"П13f2","de":"Wer ist das?","cues":[{"voice":"neutral","text":"Спроси, кто это"},{"voice":"neutral","text":"В дверь стучат. Спроси маму, кто это"},{"voice":"story","text":"На фото незнакомая женщина. Спроси, кто это"}]},
+  {"id":"П13f3","de":"Das ist mein Freund Tom.","cues":[{"voice":"neutral","text":"Представь Тома как своего друга"},{"voice":"story","text":"Бабушка спрашивает, кто этот мальчик. Скажи, что это твой друг Том"}]}
+ ],
+ "examples":[{"de":"Das ist meine Mama.","ru":"Это моя мама."},{"de":"Das ist ein Problem.","ru":"Это проблема."},{"de":"Das ist Tom.","ru":"Это Том."}],
+ "alternatives":[],
+ "notes":"Вариант П13d с прилагательными активен с M06, фиксированное предложение про друга с M03."},
+
+{"id":"П7","module":"M04","functionRu":"Желание","engines":["Д2","Д3","Д4"],
+ "variants":[
+  {"id":"П7a","templateDe":"Ich möchte {akkIndef}.","slot":"akkIndef","fillerIds":["w_saft","w_kuchen","w_wasser","w_tee","w_kaffee","w_brot","w_milch"],
+   "cues":[{"voice":"neutral","text":"Скажи, что хочешь {ruAkk}"},{"voice":"neutral","text":"Тебе хочется {ruAkk}. Скажи это"},{"voice":"neutral","text":"Попроси вежливо: ты хотела бы {ruAkk}"},{"voice":"story","text":"Официант ждёт. Скажи, что хочешь {ruAkk}"},{"voice":"story","text":"Мама спрашивает, что ты хочешь. Ответь: {ruAkk}"}]},
+  {"id":"П7b","templateDe":"Ich möchte {inf}.","slot":"inf","fillerIds":["w_schlafen","w_essen","w_trinken","w_spielen","w_lernen","w_gehen","p_nach_hause_gehen","p_deutsch_lernen","p_wasser_trinken","p_kuchen_essen","p_hausaufgaben_machen"],
+   "cues":[{"voice":"neutral","text":"Скажи, что хочешь {ruInf}"},{"voice":"neutral","text":"Ты хочешь {ruInf}. Скажи"},{"voice":"neutral","text":"Скажи, чего тебе хочется: {ruInf}"},{"voice":"story","text":"Мама спрашивает, что будешь делать. Скажи, что хочешь {ruInf}"},{"voice":"story","text":"Скажи Тому, что хочешь {ruInf}"}]}
+ ],
+ "fixed":[],
+ "examples":[{"de":"Ich möchte einen Saft.","ru":"Я хочу сок."},{"de":"Ich möchte schlafen.","ru":"Я хочу спать."},{"de":"Ich möchte nach Hause gehen.","ru":"Я хочу пойти домой."}],
+ "alternatives":[{"forVariant":"П7a","de":"Ich hätte gern {akkIndef}.","grade":"green","when":"если ученица знает форму; в A1.0 не требуется"}],
+ "notes":"einen Saft как чанк, Akkusativ объясняется в A1.1. Д2 вводится внутри шага 1: глагол уезжает в конец."},
+
+{"id":"П8","module":"M04","functionRu":"Потребность","engines":["Д3","Д4"],
+ "variants":[
+  {"id":"П8a","templateDe":"Ich brauche {akkIndef}.","slot":"akkIndef","fillerIds":["w_hilfe","w_wasser","w_zeit","w_geld","w_handy","w_arzt","w_brot","w_milch"],
+   "cues":[{"voice":"neutral","text":"Скажи, что тебе нужно: {ru}"},{"voice":"neutral","text":"Тебе не хватает: {ru}. Скажи, что тебе это нужно"},{"voice":"neutral","text":"Попроси то, что тебе нужно: {ru}"},{"voice":"story","text":"Ты разлила воду. Скажи официанту, что тебе нужна помощь","fillerId":"w_hilfe"},{"voice":"story","text":"Скажи маме, что тебе нужно: {ru}"}]}
+ ],
+ "fixed":[],
+ "examples":[{"de":"Ich brauche Hilfe.","ru":"Мне нужна помощь."},{"de":"Ich brauche Wasser.","ru":"Мне нужна вода."},{"de":"Ich brauche Zeit.","ru":"Мне нужно время."}],
+ "alternatives":[],
+ "notes":""},
+
+{"id":"П9","module":"M05","functionRu":"Умение, возможность","engines":["Д2","Д3","Д4"],
+ "variants":[
+  {"id":"П9a","templateDe":"Ich kann {inf}.","slot":"inf","fillerIds":["p_deutsch_sprechen","w_spielen","w_helfen","p_das_machen","w_kommen","w_gehen","w_lernen","p_hausaufgaben_machen"],
+   "cues":[{"voice":"neutral","text":"Скажи, что можешь {ruInf}"},{"voice":"neutral","text":"Скажи, что умеешь {ruInf}"},{"voice":"neutral","text":"Тебя спросили, можешь ли ты. Скажи, что можешь {ruInf}"},{"voice":"story","text":"Том не верит. Скажи, что можешь {ruInf}"},{"voice":"story","text":"Скажи учительнице, что можешь {ruInf}"}]},
+  {"id":"П9b","templateDe":"Ich kann nicht {inf}.","slot":"inf","fillerIds":["p_deutsch_sprechen","w_spielen","w_helfen","p_das_machen","w_kommen","w_schlafen"],
+   "cues":[{"voice":"neutral","text":"Скажи, что не можешь {ruInf}"},{"voice":"neutral","text":"Скажи, что не умеешь {ruInf}"},{"voice":"neutral","text":"Тебе не удаётся {ruInf}. Скажи, что не можешь"},{"voice":"story","text":"Том зовёт играть, а ты не можешь. Скажи, что не можешь играть","fillerId":"w_spielen"}]}
+ ],
+ "fixed":[
+  {"id":"П9f1","de":"Ich kann das nicht.","cues":[{"voice":"neutral","text":"Скажи, что не можешь это"},{"voice":"story","text":"Задание слишком трудное. Скажи, что не можешь это"}]},
+  {"id":"П9f2","de":"Ich kann heute nicht kommen.","cues":[{"voice":"neutral","text":"Скажи, что сегодня не можешь прийти"},{"voice":"story","text":"Эмма зовёт во двор, а ты не можешь. Скажи, что сегодня не можешь прийти"}]}
+ ],
+ "examples":[{"de":"Ich kann Deutsch sprechen.","ru":"Я могу говорить по-немецки."},{"de":"Ich kann das nicht.","ru":"Я не могу это."},{"de":"Ich kann nicht spielen.","ru":"Я не могу играть."}],
+ "alternatives":[],
+ "notes":"kann nicht как чанк до Д4."},
+
+{"id":"П10","module":"M05","functionRu":"Необходимость","engines":["Д2","Д3","Д4"],
+ "variants":[
+  {"id":"П10a","templateDe":"Ich muss {inf}.","slot":"inf","fillerIds":["w_lernen","p_nach_hause_gehen","p_hausaufgaben_machen","w_schlafen","w_essen","p_jetzt_gehen","p_deutsch_lernen","p_brot_kaufen","p_milch_kaufen"],
+   "cues":[{"voice":"neutral","text":"Скажи, что должна {ruInf}"},{"voice":"neutral","text":"Тебе надо {ruInf}. Скажи"},{"voice":"neutral","text":"Объясни, почему уходишь: ты должна {ruInf}"},{"voice":"story","text":"Мама зовёт домой. Скажи Тому, что должна {ruInf}"},{"voice":"story","text":"Скажи учительнице, что должна {ruInf}"}]}
+ ],
+ "fixed":[],
+ "examples":[{"de":"Ich muss Hausaufgaben machen.","ru":"Я должна сделать домашнее задание."},{"de":"Ich muss nach Hause gehen.","ru":"Я должна пойти домой."},{"de":"Ich muss jetzt gehen.","ru":"Мне надо сейчас идти."}],
+ "alternatives":[],
+ "notes":""},
+
+{"id":"П11","module":"M05","functionRu":"Просьба и разрешение","engines":[],
+ "variants":[
+  {"id":"П11a","templateDe":"Kann ich {inf}?","slot":"inf","fillerIds":["p_hier_sitzen","w_spielen","w_gehen","p_nach_hause_gehen","p_wasser_trinken","p_das_machen"],
+   "cues":[{"voice":"neutral","text":"Спроси, можно ли тебе {ruInf}"},{"voice":"neutral","text":"Попроси разрешения {ruInf}"},{"voice":"neutral","text":"Ты не уверена, что можно. Спроси, можно ли {ruInf}"},{"voice":"story","text":"В классе одно свободное место. Спроси, можно ли сесть здесь","fillerId":"p_hier_sitzen"},{"voice":"story","text":"Спроси маму, можно ли {ruInf}"}]}
+ ],
+ "fixed":[
+  {"id":"П11f1","de":"Kannst du mir helfen?","cues":[{"voice":"neutral","text":"Попроси друга (на ты) помочь тебе"},{"voice":"story","text":"Ты не понимаешь задание. Попроси Тома помочь"}]},
+  {"id":"П11f2","de":"Können Sie mir helfen?","cues":[{"voice":"neutral","text":"Попроси взрослого (на Вы) помочь тебе"},{"voice":"story","text":"Попроси фрау Браун помочь"}]},
+  {"id":"П11f3","de":"Können Sie das wiederholen?","cues":[{"voice":"neutral","text":"Попроси взрослого повторить"},{"voice":"story","text":"Учительница сказала слишком быстро. Попроси повторить"}]},
+  {"id":"П11f4","de":"Kannst du das wiederholen?","cues":[{"voice":"neutral","text":"Попроси друга повторить"},{"voice":"story","text":"Том сказал слишком быстро. Попроси повторить"}]}
+ ],
+ "examples":[{"de":"Kann ich hier sitzen?","ru":"Можно мне здесь сесть?"},{"de":"Kannst du mir helfen?","ru":"Ты можешь мне помочь?"},{"de":"Können Sie das wiederholen?","ru":"Вы можете это повторить?"}],
+ "alternatives":[],
+ "notes":"mir helfen запоминается целиком; дательный не объясняется. Сам паттерн уже вопрос, поэтому Д3 к нему не применяется."},
+
+{"id":"П12","module":"M07","functionRu":"Где?","engines":[],
+ "variants":[
+  {"id":"П12a","templateDe":"Wo ist {nom}?","slot":"nom",
+   "fillers":[{"id":"w_toilette","form":"nomDef","ru":"туалет"},{"id":"w_bahnhof","form":"nomDef","ru":"вокзал"},{"id":"w_supermarkt","form":"nomDef","ru":"супермаркет"},{"id":"w_schule","form":"nomDef","ru":"школа"},{"id":"w_brot","form":"nomDef","ru":"хлеб"},{"id":"w_milch","form":"nomDef","ru":"молоко"},{"id":"w_saft","form":"nomDef","ru":"сок"},{"id":"w_handy","form":"poss","ru":"мой телефон"},{"id":"w_mama","form":"nomDef","ru":"мама"},{"id":"f_tom","form":"de","ru":"Том"}],
+   "cues":[{"voice":"neutral","text":"Спроси, где {ru}"},{"voice":"neutral","text":"Ты не можешь найти. Спроси, где {ru}"},{"voice":"neutral","text":"Спроси прохожего, где {ru}"},{"voice":"story","text":"В супермаркете. Спроси кассира, где хлеб","fillerId":"w_brot"},{"voice":"story","text":"Тебе очень нужно. Спроси, где туалет","fillerId":"w_toilette"}]},
+  {"id":"П12b","templateDe":"{nom} ist dort.","slot":"nom",
+   "fillers":[{"id":"w_toilette","form":"nomDef","ru":"туалет"},{"id":"w_supermarkt","form":"nomDef","ru":"супермаркет"},{"id":"w_schule","form":"nomDef","ru":"школа"},{"id":"w_brot","form":"nomDef","ru":"хлеб"},{"id":"w_milch","form":"nomDef","ru":"молоко"},{"id":"w_mama","form":"nomDef","ru":"мама"},{"id":"f_tom","form":"de","ru":"Том"}],
+   "cues":[{"voice":"neutral","text":"Скажи, что {ru} там"},{"voice":"neutral","text":"Покажи рукой и скажи, что {ru} там"},{"voice":"neutral","text":"Ответь на вопрос «где»: {ru} там"},{"voice":"story","text":"Эмма ищет Тома. Скажи, что Том там","fillerId":"f_tom"}]},
+  {"id":"П12c","templateDe":"{nom} ist hier.","slot":"nom",
+   "fillers":[{"id":"w_toilette","form":"nomDef","ru":"туалет"},{"id":"w_brot","form":"nomDef","ru":"хлеб"},{"id":"w_milch","form":"nomDef","ru":"молоко"},{"id":"w_mama","form":"nomDef","ru":"мама"},{"id":"w_handy","form":"poss","ru":"мой телефон"},{"id":"f_tom","form":"de","ru":"Том"}],
+   "cues":[{"voice":"neutral","text":"Скажи, что {ru} здесь"},{"voice":"neutral","text":"Ответь: {ru} здесь"},{"voice":"neutral","text":"Покажи и скажи: {ru} здесь"},{"voice":"story","text":"Бабушка спрашивает, где мама. Скажи, что мама здесь","fillerId":"w_mama"}]}
+ ],
+ "fixed":[
+  {"id":"П12f1","de":"Dort.","cues":[{"voice":"neutral","text":"Ответь коротко: там"},{"voice":"story","text":"Том ищет мяч. Покажи и скажи: там"}]},
+  {"id":"П12f2","de":"Hier.","cues":[{"voice":"neutral","text":"Ответь коротко: здесь"},{"voice":"story","text":"Мама ищет ключи. Покажи и скажи: здесь"}]}
+ ],
+ "examples":[{"de":"Wo ist die Toilette?","ru":"Где туалет?"},{"de":"Wo ist das Brot?","ru":"Где хлеб?"},{"de":"Mama ist hier.","ru":"Мама здесь."}],
+ "alternatives":[],
+ "notes":"Существительное всегда с определённым артиклем."},
+
+{"id":"П14","module":"M07","functionRu":"Цена","engines":[],
+ "variants":[
+  {"id":"П14b","templateDe":"Wie viel kostet {nom}?","slot":"nom",
+   "fillers":[{"id":"w_brot","form":"nomDef","ru":"хлеб"},{"id":"w_milch","form":"nomDef","ru":"молоко"},{"id":"w_saft","form":"nomDef","ru":"сок"},{"id":"w_kuchen","form":"nomDef","ru":"пирог"},{"id":"w_kaffee","form":"nomDef","ru":"кофе"},{"id":"w_tee","form":"nomDef","ru":"чай"},{"id":"w_wasser","form":"nomDef","ru":"вода"},{"id":"w_handy","form":"nomDef","ru":"телефон"}],
+   "cues":[{"voice":"neutral","text":"Спроси, сколько стоит {ru}"},{"voice":"neutral","text":"Узнай цену: {ru}"},{"voice":"neutral","text":"Спроси продавца, сколько стоит {ru}"},{"voice":"story","text":"Мама дала десять евро. Спроси, сколько стоит хлеб","fillerId":"w_brot"},{"voice":"story","text":"Спроси официанта, сколько стоит сок","fillerId":"w_saft"}]},
+  {"id":"П14c","templateDe":"Das kostet {n} Euro.","slot":"n","fillerIds":["numbers"],
+   "cues":[{"voice":"neutral","text":"Скажи, что это стоит {ru} евро"},{"voice":"neutral","text":"Назови цену: {ru} евро"},{"voice":"neutral","text":"Ответь на вопрос о цене: {ru} евро"},{"voice":"story","text":"Том спрашивает, сколько стоил сок. Скажи: {ru} евро"}]}
+ ],
+ "fixed":[
+  {"id":"П14f1","de":"Was kostet das?","cues":[{"voice":"neutral","text":"Спроси, сколько это стоит"},{"voice":"neutral","text":"Покажи на товар и спроси, сколько стоит"},{"voice":"story","text":"На кассе. Спроси, сколько это стоит"}]},
+  {"id":"П14f2","de":"Ein Euro.","cues":[{"voice":"neutral","text":"Скажи: один евро"},{"voice":"story","text":"Кассир спрашивает, сколько стоит молоко. Ты видела цену: один евро"}]}
+ ],
+ "examples":[{"de":"Was kostet das?","ru":"Сколько это стоит?"},{"de":"Wie viel kostet das Brot?","ru":"Сколько стоит хлеб?"},{"de":"Das kostet zwei Euro.","ru":"Это стоит два евро."}],
+ "alternatives":[{"forVariant":"П14b","de":"Was kostet {nom}?","grade":"green","when":"всегда"}],
+ "notes":"Числа из numbers.json. eins перед Euro превращается в ein."},
+
+{"id":"П15","module":"M06","functionRu":"Не знаю, не понимаю","engines":["Д3"],
+ "variants":[],
+ "fixed":[
+  {"id":"П15f1","de":"Ich weiß nicht.","cues":[{"voice":"neutral","text":"Скажи, что не знаешь"},{"voice":"neutral","text":"Тебя спросили, а ты не знаешь. Скажи"},{"voice":"story","text":"Фрау Вебер спрашивает, где мама. Ты не знаешь. Скажи"}]},
+  {"id":"П15f2","de":"Ich weiß es nicht.","cues":[{"voice":"neutral","text":"Скажи, что не знаешь этого"},{"voice":"story","text":"Том спрашивает, сколько это стоит. Скажи, что не знаешь этого"}]},
+  {"id":"П15f3","de":"Ich verstehe das nicht.","cues":[{"voice":"neutral","text":"Скажи, что не понимаешь этого"},{"voice":"neutral","text":"Тебе объясняют, а ты не понимаешь. Скажи"},{"voice":"story","text":"Учительница объясняет, а ты не понимаешь. Скажи"}]},
+  {"id":"П15f4","de":"Ich verstehe die Frage nicht.","cues":[{"voice":"neutral","text":"Скажи, что не понимаешь вопрос"},{"voice":"story","text":"Фрау Вебер задала вопрос, а ты не поняла его. Скажи"}]}
+ ],
+ "examples":[{"de":"Ich weiß nicht.","ru":"Я не знаю."},{"de":"Ich verstehe das nicht.","ru":"Я этого не понимаю."},{"de":"Ich verstehe die Frage nicht.","ru":"Я не понимаю вопрос."}],
+ "alternatives":[],
+ "notes":"Ich verstehe nicht как формула Б1 известно с M01; здесь добавляются объект и es."}
+]
